@@ -63,13 +63,15 @@ SOURCES = [
     ("Google News: ベンダー学生", gnews("(%s) 学生 無料" % VENDORS)),
     ("Google News: student free plan", gnews('"free for students" OR "student plan" OR "student discount" (AI OR software OR developer)', "en")),
     ("Google News: student pack", gnews('"student developer pack" OR "free student license" OR "students get free"', "en")),
+    ("Google News: 東大", gnews("(東京大学 OR 大学生協) 学生 (無償 OR 無料 OR ライセンス)")),
     ("はてブ: 学生 無料", hatena("学生 無料")),
     ("はてブ: 学割", hatena("学割")),
 ]
 
 # 「学生」×「無料」×「ソフト/サービス」の3条件が揃ったものだけキャンペーン扱いにする。
 # Google ニュース検索は学食やライブの学割まで拾うので、この3点を要求しないとカレンダーが埋まる。
-STUDENT_RE = re.compile(r"学生|学割|大学生|高専生|高校生|在学|教育機関|student|academic|campus|university|college", re.I)
+# 「大学」も入れる。tenbin.ai のような大学単位の無料開放は「学生」と書かずに大学名だけで報じられる。
+STUDENT_RE = re.compile(r"学生|学割|大学|高専|高校生|在学|教育機関|student|academic|campus|university|college", re.I)
 OFFER_RE = re.compile(r"無料|無償|タダ|学割|割引|プレゼント|開放|free|no cost|discount|giveaway|credits?|waiv", re.I)
 TECH_RE = re.compile(  # 「プラン」単体は入れない。ライフプラン/宿泊プランで旅行・セミナーが大量に紛れ込む。
     r"AI|LLM|ソフト|アプリ|ツール|ライセンス|サブスク|アカウント|API|クラウド|開発|エディタ|"
@@ -283,8 +285,23 @@ def ensure_subscribed(feed_url):
         return False
 
 
+PROFILE = """読者は日本在住で、東京大学に在学中の学部生（同じ大学の友人も読む）。
+u-tokyo.ac.jp のメールアドレス、学生証、ECCS アカウントを持ち、ISIC も取得できる。
+プログラミングと自作ハードが趣味。"""
+
 RESEARCH_PROMPT = """あなたはギーク向けニュースレターの編集者です。今日（{today} JST）時点で、次の2種類を
 ウェブ検索で調べ、JSON 配列だけを出力してください。説明文やコードフェンスは不要です。
+
+読者像:
+""" + PROFILE + """
+したがって:
+- 日本から申し込めるものを優先する。米国限定など日本の学生が使えないものは、大きな話題でなければ落とす。
+  載せる場合は summary の冒頭に「日本は対象外」と明記する。
+- 認証方法（大学メール / 学生証 / SheerID / ISIC / GitHub Student Pack 経由）を summary に必ず書く。
+- 東京大学が包括契約で既に配っているもの（例: Microsoft 365、MATLAB、一部の学内ライセンス）は、
+  「東大は包括契約で配布済み」と書く。学内の無償提供・配布ページの新着があれば1〜2件入れてよい。
+- **特定の大学だけに開放されるもの**（GMO の tenbin.ai が東大生限定で使える類）は見落としやすいので、
+  毎回ひととおり探して、東大が対象なら必ず入れる。対象大学を summary に列挙する。
 
 1. kind="deal": 学生・教育機関向けの無料/無償提供・学割キャンペーン。開発者やクリエイターが実際に使う
    ソフト・AI・クラウド・ハード・学習サービスに限る（例: https://elevenlabs.io/ja/blog/ai-student-pack の
@@ -481,7 +498,8 @@ def write_index(items, path):
 <link rel="alternate" type="application/rss+xml" title="geekfeed" href="feed.xml">
 <style>%s</style><main>
 <h1>geekfeed</h1>
-<p class="sub">ギーク情報と、学生向けの無料・学割キャンペーンを自動収集。%s 更新</p>
+<p class="sub">ギーク情報と、学生向けの無料・学割キャンペーンを自動収集。日本から申し込めるもの中心、
+東京大学の学生が対象のものを優先。%s 更新</p>
 <p class="subs"><a href="feed.xml">RSS を購読</a><a href="events.ics">カレンダーを購読 (ICS)</a></p>
 <h2>学生向け 無料・学割 (%d)</h2><ul>%s</ul>
 <h2>ギーク情報</h2><ul>%s</ul>
@@ -524,7 +542,9 @@ def selftest():
     # 3条件そろったものだけ deal。Google ニュースが混ぜてくる学食・ライブ・就活は news に落とす。
     assert classify("AWS、大学生にAI開発ツール「Kiro」を1年間無料提供") == "deal"
     assert classify("students get free access to the AI coding tool") == "deal"
+    assert classify("GMOのtenbin.ai、東京大学に無料開放 複数AIを比較できるツール") == "deal"  # 大学単位の開放
     assert classify("弁当一律500円の学割あり、長岡市に新店オープン") == "news"
+    assert classify("○○大学の入試説明会を無料開催") == "news"
     assert classify("星野リゾートが学割、朝食込みの学生限定プランが無料抽選") == "news"  # 宿泊プランは通さない
     assert classify("新卒採用力ランキング 学生が評価したポイント") == "news"
     assert classify("大塚愛 LIVE ツアー 学割チケット無料抽選 アプリ先行") == "news"  # ライブは blocklist
