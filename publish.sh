@@ -2,7 +2,8 @@
 # Collect, regenerate public/, and push. Cloudflare Pages builds from the pushed commit.
 set -e
 cd "$(dirname "$0")"
-export PATH=/run/current-system/sw/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.local/bin
+# launchd は素の PATH で来るので、git と gh のある nix プロファイルを明示的に足す。
+export PATH=/etc/profiles/per-user/$USER/bin:/run/current-system/sw/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.local/bin
 
 [ -f "$HOME/.config/geekfeed/claude.token" ] &&
   CLAUDE_CODE_OAUTH_TOKEN=$(cat "$HOME/.config/geekfeed/claude.token") && export CLAUDE_CODE_OAUTH_TOKEN
