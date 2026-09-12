@@ -1,0 +1,282 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//gapul//geekfeed//JA
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:学生無料キャンペーン
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:f7c7013f3926f2bf9f714890886e8087c70e3adc@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:GitHub Student Developer Packが継続提供中
+DESCRIPTION:学位・修了証を出す教育機関に在籍する13歳
+ 以上の学生が対象で、学校発行の身分証明書等で認証
+ すると90以上の開発者向けサービスをまとめて無料利
+ 用できる。JetBrains全IDEやクラウドクレジットなどが含
+ まれるが、GitHub Copilotの新規学生特典は2026年4月から一
+ 時停止中で、既認証の学生のみ継続利用できる。\n調
+ 査: GitHub Education\nhttps://education.github.com/pack
+URL:https://education.github.com/pack
+END:VEVENT
+BEGIN:VEVENT
+UID:2cf36778b3cbad6dbdbcf7f3480f7c24f1747876@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:JetBrains学生向け無料教育ライセンス
+DESCRIPTION:教育機関メールや在学証明書で認証した学生
+ ・教職員は、IntelliJ IDEA UltimateなどJetBrains全IDEとJetBrains
+  AIを1年間無料で利用でき、在学中は毎年更新できる。
+ GitHub Student Developer Pack経由でも同じ特典を申請可能。\n
+ 調査: JetBrains\nhttps://www.jetbrains.com/community/education
+URL:https://www.jetbrains.com/community/education
+END:VEVENT
+BEGIN:VEVENT
+UID:dda5b35ae60b8c98cbde006f35ebab65f7dc0514@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Figma EducationでProプラン相当を無料提供
+DESCRIPTION:学校メールやSheerID認証を行った高等教育の学
+ 生・教職員はFigma Professionalプラン相当を1年間無料で利
+ 用でき、高校生・教育者はEnterpriseプラン相当が対象に
+ なる。在学中であれば335日ごとに再申請して更新でき
+ る。\n調査: Figma\nhttps://www.figma.com/education
+URL:https://www.figma.com/education
+END:VEVENT
+BEGIN:VEVENT
+UID:ecf01ccb5b9aba497af7edf15673e135c9bf026a@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Notion「Education Plus」で学生がPlusプラン無料
+DESCRIPTION:在学中の教育機関メールアドレス（.ac.jp等）
+ で認証した学生・教職員は、通常有料のPlusプラン相当
+ 機能を無料で利用でき、ゲスト招待数増加やファイル
+ 無制限アップロードなどが解放される。認証は年1回の
+ 再確認が必要。\n調査: Notion\nhttps://www.notion.com/product/not
+ ion-for-education
+URL:https://www.notion.com/product/notion-for-education
+END:VEVENT
+BEGIN:VEVENT
+UID:cf671f96e2a439e51fa81adc391eb5d1155d79fb@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:締切 Googleが学生向けAI Pro/Plusを1年間無料提供
+DESCRIPTION:SheerIDで学生認証した18歳以上の大学生は、米
+ 国ならGoogle AI Proを、対象140以上の国・地域ならGoogle AI
+  Plusを12か月間無料で利用でき、Gemini上位機能やNotebookL
+ M、ストレージ増量が付く。支払い方法の登録が必須で
+ 無料期間後は自動課金に切り替わり、申込期限は2026年
+ 12月31日。\n調査: Google\nhttps://gemini.google/students
+URL:https://gemini.google/students
+END:VEVENT
+BEGIN:VEVENT
+UID:eb039fd71c34c8921a16accb82fc9a41ef17f52b@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Adobe Creative Cloudが学生・教職員向けに大幅割引
+DESCRIPTION:在学確認ができる学生・教職員は、Photoshop・I
+ llustratorなど全アプリを使えるCreative Cloud Proプランを通
+ 常価格から最大75%割引の年間契約で利用できる。無料
+ ではなく割引だが、2年目以降は割引率が下がる点に注
+ 意が必要。\n調査: Adobe\nhttps://www.adobe.com/jp/education/studen
+ ts/creativecloud.html
+URL:https://www.adobe.com/jp/education/students/creativecloud.html
+END:VEVENT
+BEGIN:VEVENT
+UID:7623562dc21d1f77658ef6c29c978eacf9404ffd@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Canva EducationがK-12の教員・生徒に完全無料
+DESCRIPTION:K-12の認定教員とその生徒はCanva Pro相当の全機
+ 能を100%無料で利用でき、教員が生徒を招待する仕組み
+ になっている。大学生・大学教職員は対象外だが、大
+ 学が契約するCanva for Campus経由なら無料アクセスできる
+ 。\n調査: Canva\nhttps://www.canva.com/education
+URL:https://www.canva.com/education
+END:VEVENT
+BEGIN:VEVENT
+UID:201169f197328a634dbf81a04c550b1ee743adca@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Azure for Studentsでクレカ不要の$100クレジット
+DESCRIPTION:学位授与プログラムに在籍するフルタイム学
+ 生は、クレジットカード登録なしで$100分のAzureクレジ
+ ットと一部無料サービスを12か月間利用でき、在学中
+ は毎年更新して追加$100を受け取れる。学校メールがな
+ くてもGitHub Student Developer Pack経由の認証で申請可能。\n
+ 調査: Microsoft Azure\nhttps://azure.microsoft.com/en-us/free/students
+URL:https://azure.microsoft.com/en-us/free/students
+END:VEVENT
+BEGIN:VEVENT
+UID:da68579f0856117aa6e471dce6627039db571f6e@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:ElevenLabsが学生向けAIパックと1年無料特典を提供
+DESCRIPTION:認定教育機関に在籍する学生・教員は学校メ
+ ールで認証するとElevenReader Ultraが1年間無料になるほか
+ 、Notion等16のAIツールと合計約1\,500ドル相当のクレジッ
+ トが得られる「AI Student Pack」に応募できる。特典内容
+ は募集回（Volume）ごとに変わるため公式ページでの最
+ 新確認が必要。\n調査: ElevenLabs\nhttps://elevenlabs.io/students
+URL:https://elevenlabs.io/students
+END:VEVENT
+BEGIN:VEVENT
+UID:324dfd0bddec8e96877ca5e381e8c83a555a71fd@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Perplexity Cometが学生向けに初月無料
+DESCRIPTION:学生はSheerID認証によりComet AIブラウザとPerplex
+ ity Proを1ヶ月無料で試せ、以降は学生向けEducation Pro（
+ 月額約10ドル）へ移行する仕組みに変わっている。以
+ 前あった「学生は1年無料」特典は終了しており、完全
+ 無料なのは初月のみである点に注意。\n調査: Perplexity\n
+ https://www.perplexity.ai/students
+URL:https://www.perplexity.ai/students
+END:VEVENT
+BEGIN:VEVENT
+UID:b51bdcf7c4f9ef20e116d348fb5e3cf6b2c1718c@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:AWS、大学生にAI開発ツール「Kiro」を1年間無料提
+ 供…Seoul National University・Yonsei University・国民大学校を
+ 含む - BigGo ファイナンス
+DESCRIPTION:AWS、大学生にAI開発ツール「Kiro」を1年間無料
+ 提供…Seoul National University・Yonsei University・国民大学校
+ を含む BigGo ファイナンス\nGoogle News: 学生無料ツール\nh
+ ttps://news.google.com/rss/articles/CBMidEFVX3lxTFBxTDJRVmRyWmNjcDVUZGtUM
+ 1dUUzh4SktGOUlpbmZheVU5UjZBX1c0dm9sTXJlb2FkRVpRRUdzd05FdXZXdUZsblV3bVczMy
+ 1GbmZHQ0ltdzYzWktiMzhDVEw2bmxTTnZuMEJfaU9SNTBINnBS?oc=5
+URL:https://news.google.com/rss/articles/CBMidEFVX3lxTFBxTDJRVmRyWmNjcDVU
+ ZGtUM1dUUzh4SktGOUlpbmZheVU5UjZBX1c0dm9sTXJlb2FkRVpRRUdzd05FdXZXdUZsblV3b
+ VczMy1GbmZHQ0ltdzYzWktiMzhDVEw2bmxTTnZuMEJfaU9SNTBINnBS?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:235684ddbc03b1aba28d10d615625a9b6f7646da@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:アマゾンウェブサービス(AWS)はAI基盤開発ツール
+ のキロ(Kiro)を大学生が1年間無料で利用できる「キロス
+ チューデント(Kiro Students)」プログラムを全世界に拡大
+ し、国内ではソウル·延.. - 매일경제
+DESCRIPTION:アマゾンウェブサービス(AWS)はAI基盤開発ツー
+ ルのキロ(Kiro)を大学生が1年間無料で利用できる「キロ
+ スチューデント(Kiro Students)」プログラムを全世界に拡
+ 大し、国内ではソウル·延.. 매일경제\nGoogle News: 学生
+ 無料ツール\nhttps://news.google.com/rss/articles/CBMiS0FVX3lxTE1EOHp
+ BYnZyWEVHRks2dXcwWm5ZMElpMGFnLWJ3ZVp3UHFQeTFfX2paM3I3bjBiRmVkOTh3UnZDUXNx
+ SU9tZmkteEVROA?oc=5
+URL:https://news.google.com/rss/articles/CBMiS0FVX3lxTE1EOHpBYnZyWEVHRks2
+ dXcwWm5ZMElpMGFnLWJ3ZVp3UHFQeTFfX2paM3I3bjBiRmVkOTh3UnZDUXNxSU9tZmkteEVRO
+ A?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:5b08eedadcfb7547284f4be263e68fefedf986c0@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:College students can get a year of Google AI Plus for free - Inqu
+ irer Technology
+DESCRIPTION:College students can get a year of Google AI Plus for free In
+ quirer Technology\nGoogle News: student free plan\nhttps://news.google.co
+ m/rss/articles/CBMingFBVV95cUxNWERPOVh1Znhqalkxd0NjZXRYX0JSdExOVmVfdXJyVl
+ 9fZWhwMHJVcE1IX0g4XzhOSkgxNnRHcEduQXljR0lyTW0wVkYtMEhvdzZIRXRhOVgwLWlCZnV
+ JMjIzUEpnNkdRYVBhZFRNaXdCcjF3c3IycDhvOHdRTTlkZUNXa1BhR0h4YXNWamdRVFJVQkRw
+ TGQ0Ty1veVRGZ9IBowFBVV95cUxOczY2THZKcWJtQS1pRGdUZGYxbWNFY0tBLUp4ell1UmR1U
+ kxjcGVwRmJiMjFxdDhOMktEby05VVI2S0lmR3lBVHV1bDhaT1V2RnlQcGROcjNlSnE5cGJkOV
+ lPSFRPT2IxcmNDTmp1eDlvbUpUaWJMUUxmZ21ZTHloaEFyTTFDRklzTnVJN3VxTzRPTDVhZXJ
+ IR1dpNWlFaWdlWVF3?oc=5
+URL:https://news.google.com/rss/articles/CBMingFBVV95cUxNWERPOVh1Znhqalkx
+ d0NjZXRYX0JSdExOVmVfdXJyVl9fZWhwMHJVcE1IX0g4XzhOSkgxNnRHcEduQXljR0lyTW0wV
+ kYtMEhvdzZIRXRhOVgwLWlCZnVJMjIzUEpnNkdRYVBhZFRNaXdCcjF3c3IycDhvOHdRTTlkZU
+ NXa1BhR0h4YXNWamdRVFJVQkRwTGQ0Ty1veVRGZ9IBowFBVV95cUxOczY2THZKcWJtQS1pRGd
+ UZGYxbWNFY0tBLUp4ell1UmR1UkxjcGVwRmJiMjFxdDhOMktEby05VVI2S0lmR3lBVHV1bDha
+ T1V2RnlQcGROcjNlSnE5cGJkOVlPSFRPT2IxcmNDTmp1eDlvbUpUaWJMUUxmZ21ZTHloaEFyT
+ TFDRklzTnVJN3VxTzRPTDVhZXJIR1dpNWlFaWdlWVF3?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:223666ccf92a78513cd645547af788ea5f4db7b7@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:ハノイ建築大学とベントレーシステムズの戦略
+ 的提携：学生限定の無料ライセンスソフトウェアエコ
+ システムへのアクセス機会。 - vietnam.vn
+DESCRIPTION:ハノイ建築大学とベントレーシステムズの戦
+ 略的提携：学生限定の無料ライセンスソフトウェアエ
+ コシステムへのアクセス機会。 vietnam.vn\nGoogle News: 学
+ 生無料ツール\nhttps://news.google.com/rss/articles/CBMimwJBVV95cUxO
+ UHlMYTRiNkw1WE1ORlR5b2tnVTF0LTRhZUo1UGNRNlFoUWhKSEUxNTg1Z0hMMEFXLVZ3Z3BGS
+ GlvV3lPNFNYcmxZZS1SWTNsc1RLa2c1YmdoZ3BKb2hkSGc2dURzVC1tamNfYkM0QzdSbWNGRm
+ 8yVFJZQTZVRUlLdTRubl9hbjkzMWlqejVDeXYzVGpVSTBJemVtZjl1cGZJVUJrRXBfOTFhdVl
+ pXzM0VTNJUTZ1TmZmN1otbmUxNWs4YTdURWZCT0xQUHNFclEwdnFteVdjM3kyQjZFTGNRSWlO
+ bHFXVzc4OUZ6QlliWndEYlRGVHVFandUeEV4alRHU0tYQV9lQ3FxZjZnRkVfN0VPellkNzMwd
+ lhr?oc=5
+URL:https://news.google.com/rss/articles/CBMimwJBVV95cUxOUHlMYTRiNkw1WE1O
+ RlR5b2tnVTF0LTRhZUo1UGNRNlFoUWhKSEUxNTg1Z0hMMEFXLVZ3Z3BGSGlvV3lPNFNYcmxZZ
+ S1SWTNsc1RLa2c1YmdoZ3BKb2hkSGc2dURzVC1tamNfYkM0QzdSbWNGRm8yVFJZQTZVRUlLdT
+ Rubl9hbjkzMWlqejVDeXYzVGpVSTBJemVtZjl1cGZJVUJrRXBfOTFhdVlpXzM0VTNJUTZ1TmZ
+ mN1otbmUxNWs4YTdURWZCT0xQUHNFclEwdnFteVdjM3kyQjZFTGNRSWlObHFXVzc4OUZ6Qlli
+ WndEYlRGVHVFandUeEV4alRHU0tYQV9lQ3FxZjZnRkVfN0VPellkNzMwdlhr?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:ba934536d9d76e5362ef02f6b98e3cc224a775a3@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Google offers Filipino college students one year of AI Plus for f
+ ree - adobo Magazine
+DESCRIPTION:Google offers Filipino college students one year of AI Plus f
+ or free adobo Magazine\nGoogle News: student free plan\nhttps://news.goog
+ le.com/rss/articles/CBMirwFBVV95cUxOWk1TYm1WMUdXaE0wbnRoSmN3bUpRZjF3RElfV
+ E5iMG5PWUFOM2hvOEdlQk1qNi1VTVhDbjRuX3RjQ0hiVHJqN28yc0RadjItaXBRcEVrRjRZLT
+ h3N2VaZ2ZrSmxpanJUYzdhS2V3U0YxOEJONndWS2dPRGltc25VQW9nSjk0cXlyM1puZ1ZsZF9
+ veDVjOGVjejhnb0JDUlk4bktsdXpDc2xtOFpTY0FF?oc=5
+URL:https://news.google.com/rss/articles/CBMirwFBVV95cUxOWk1TYm1WMUdXaE0w
+ bnRoSmN3bUpRZjF3RElfVE5iMG5PWUFOM2hvOEdlQk1qNi1VTVhDbjRuX3RjQ0hiVHJqN28yc
+ 0RadjItaXBRcEVrRjRZLTh3N2VaZ2ZrSmxpanJUYzdhS2V3U0YxOEJONndWS2dPRGltc25VQW
+ 9nSjk0cXlyM1puZ1ZsZF9veDVjOGVjejhnb0JDUlk4bktsdXpDc2xtOFpTY0FF?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:3244b6c850eed57857c60f7530780b2722b0278a@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:学生さん必見！音楽アプリの学割プラン比較 - DI
+ GLE MAGAZINE
+DESCRIPTION:学生さん必見！音楽アプリの学割プラン比較 
+ DIGLE MAGAZINE\nGoogle News: 学生無料ツール\nhttps://news.google.c
+ om/rss/articles/CBMiR0FVX3lxTE8za2RKM0NPMko4ZEFJQnUwSEdzUWNVX0U3RXRzejRZM
+ VFoXzJDOHlGLTlndERuOVQxT0JjN0VqR3pOUGh2bkkw?oc=5
+URL:https://news.google.com/rss/articles/CBMiR0FVX3lxTE8za2RKM0NPMko4ZEFJ
+ QnUwSEdzUWNVX0U3RXRzejRZMVFoXzJDOHlGLTlndERuOVQxT0JjN0VqR3pOUGh2bkkw?oc=5
+END:VEVENT
+BEGIN:VEVENT
+UID:63c3f2291b507ba0c8f90da088a5219c383cc531@geekfeed
+DTSTAMP:20260912T103243Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Saudi Arabia Gives 1M Students Free Google AI [2026] - shattered.
+ io
+DESCRIPTION:Saudi Arabia Gives 1M Students Free Google AI [2026] shattere
+ d.io\nGoogle News: student pack\nhttps://news.google.com/rss/articles/CBM
+ ifkFVX3lxTE9ZVW54Q0FkSEFPOG5fYXMtakliRGM1REdNSjdUamlNQlRqUEx2clBrMzBsX3E2
+ dHlZYTFSdkJkT1kyMUlsbkszYllaMTg1QW1Xbkw1NHAyR0s4U2VsOEQ2WG00ak95eUtJbDZCb
+ XZYT21TOWQ1S1RSN2h6aThJUQ?oc=5
+URL:https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZVW54Q0FkSEFPOG5f
+ YXMtakliRGM1REdNSjdUamlNQlRqUEx2clBrMzBsX3E2dHlZYTFSdkJkT1kyMUlsbkszYllaM
+ Tg1QW1Xbkw1NHAyR0s4U2VsOEQ2WG00ak95eUtJbDZCbXZYT21TOWQ1S1RSN2h6aThJUQ?oc=
+ 5
+END:VEVENT
+END:VCALENDAR
