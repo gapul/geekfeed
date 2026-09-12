@@ -6,8 +6,119 @@ METHOD:PUBLISH
 X-WR-CALNAME:学生無料キャンペーン
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
+UID:eb69c1f7a848975d454763d346fbf16e61641fb5@geekfeed
+DTSTAMP:20260912T144234Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:GMO天秤AI、東大生限定で40種のAI比較を無料提供
+DESCRIPTION:東京大学発行のメールアドレス（u-tokyo.ac.jp）
+ を持つ学生は、ChatGPT・Claude・Geminiなど有料AIを含む40
+ 種類以上を1回の質問で最大6つ同時比較できる「GMO天
+ 秤AI for UTokyo」を在学中無料で使える。認証は東大メー
+ ルのみで、学内アプリ「TIC」経由でもアクセス可能（
+ 東大公認サービスではない旨が明記されている）。\n
+ 調査: GMOインターネットグループ\nhttps://group.gmo/news/arti
+ cle/10171
+URL:https://group.gmo/news/article/10171
+END:VEVENT
+BEGIN:VEVENT
+UID:98f619d3b0681dc98be8290a13a8dfa47d8e2a30@geekfeed
+DTSTAMP:20260912T144234Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:AIコードエディタCursor、学生にPro1年無料
+DESCRIPTION:日本を含む対象国の大学に在籍する学生は、S
+ heerID認証（大学メールまたは在学証明）でCursor Pro（通
+ 常月20ドル）を1年間無料で使える。SheerIDが東大の.ac.jp
+ ドメインを認識しない事例が海外掲示板で報告されて
+ いるため、失敗時は在学証明のアップロードやCursorサ
+ ポートへの問い合わせが必要になる場合がある。\n調
+ 査: Cursor\nhttps://www.cursor.com/students
+URL:https://www.cursor.com/students
+END:VEVENT
+BEGIN:VEVENT
+UID:169a670c492348afee74bba843e0b0086a2d020e@geekfeed
+DTSTAMP:20260912T144234Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:AWS Educate、学生個人に$100クレジット
+DESCRIPTION:学校メールでの登録により、学習用のAWS Educat
+ eアカウント限定で$100クレジットと600時間超のクラウ
+ ド学習コンテンツが使える。2023年の制度縮小により機
+ 関単位の付与は廃止され、通常のAWSアカウントには移
+ 行できない点に注意。\n調査: AWS\nhttps://aws.amazon.com/educa
+ tion/awseducate
+URL:https://aws.amazon.com/education/awseducate
+END:VEVENT
+BEGIN:VEVENT
+UID:5e05ecea865f106d180e7b483982eaea92e9b5bc@geekfeed
+DTSTAMP:20260912T144234Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:東大、LinkedIn Learningの全学提供を開始
+DESCRIPTION:東京大学は2026年7月1日よりオンライン学習プ
+ ラットフォーム「LinkedIn Learning」の提供を開始した（
+ 東大は包括契約で配布済み）。UTokyo Accountでサインイ
+ ンでき、プログラミング系コースも含まれるため学部
+ 生のスキルアップに使える。\n調査: utelecon（東京大学
+ ）\nhttps://utelecon.adm.u-tokyo.ac.jp/notice/2026/0701-linkedinlearning
+ -goeslive
+URL:https://utelecon.adm.u-tokyo.ac.jp/notice/2026/0701-linkedinlearning-
+ goeslive
+END:VEVENT
+BEGIN:VEVENT
+UID:7e7512d03b67c00be2b947a75aa7bebdd27edf35@geekfeed
+DTSTAMP:20260912T144234Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:東大の新GPUクラスタ「SYNKA」、学内利用が可能に
+DESCRIPTION:東京大学情報基盤センターと生産技術研究所
+ が運用するNVIDIA H200搭載GPUクラスタ「SYNKA」（東大は包
+ 括契約で配布済みの学内計算基盤）が、学内の教員・
+ 学生の研究や学習向けに利用できる。共有パーティシ
+ ョンではGPU利用時間の購入制のため、自作AIモデルの
+ 学習・推論を試したい学部生にも使いやすい。\n調査: 
+ utelecon（東京大学）\nhttps://utelecon.adm.u-tokyo.ac.jp/research_c
+ omputing
+URL:https://utelecon.adm.u-tokyo.ac.jp/research_computing
+END:VEVENT
+BEGIN:VEVENT
+UID:e424add9d209d1f8200cf1e11df27fd3eca4ba0d@geekfeed
+DTSTAMP:20260912T144234Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:さくらインターネット、クラウド学習環境を月
+ 次無償提供
+DESCRIPTION:さくらのクラウド検定の学習者は、zero to one
+ での学生登録により配布される専用クーポンで「さく
+ らのクラウド検定ラボ」（学習用クラウド環境）を1か
+ 月間無償利用できる（毎月募集、応募多数の場合は調
+ 整あり）。サーバー構築・運用を自作ハード的に触っ
+ てみたい学生に向く国内発の特典。\n調査: さくらイン
+ ターネット\nhttps://www.sakura.ad.jp/certification/news/certificatio
+ n-lab-2025-12
+URL:https://www.sakura.ad.jp/certification/news/certification-lab-2025-12
+END:VEVENT
+BEGIN:VEVENT
+UID:c67ad77e2f95c51c19da9bb234e2838c6d97a10a@geekfeed
+DTSTAMP:20260912T144234Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:締切 日本は対象外：ChatGPT Plusが米学生に4か月無
+ 料
+DESCRIPTION:日本は対象外。米国の学位授与機関にフルタ
+ イム/パートタイムで在籍する学生限定で、SheerID認証
+ によりChatGPT Plusが4か月無料になるキャンペーン（東大
+ 生を含む米国外の学生は対象外で、無料プラン自体は
+ どこの国でも従来通り利用可能）。\n調査: OpenAI\nhttps:/
+ /help.openai.com/en/articles/20001493-chatgpt-back-to-school-offer-for-st
+ udents
+URL:https://help.openai.com/en/articles/20001493-chatgpt-back-to-school-o
+ ffer-for-students
+END:VEVENT
+BEGIN:VEVENT
 UID:2cd65b93e2a06a0cd6a830ca275b95632e4bc61f@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:締切 Google、大学生に「Google AI Pro/Plus」を1年間無
@@ -23,7 +134,7 @@ URL:https://blog.google/innovation-and-ai/products/gemini-app/student-off
 END:VEVENT
 BEGIN:VEVENT
 UID:536c04e25e93a219c83a5d46ca4890a6dff6ab80@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:GitHub Copilot、学生プランなど個人プランの新規登
@@ -41,7 +152,7 @@ URL:https://github.blog/changelog/2026-06-17-copilot-individual-plan-sign
 END:VEVENT
 BEGIN:VEVENT
 UID:3dadbcee447a787757c0986cc3d6727ef5d70f07@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:コードエディタZed、大学生にPro機能を1年間無料
@@ -56,7 +167,7 @@ URL:https://zed.dev/education
 END:VEVENT
 BEGIN:VEVENT
 UID:9f9efa086bbdc7ecf571626c73520f49ccde459a@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:ElevenLabs「AI Student Pack」、学生向けに16のAIツール
@@ -72,7 +183,7 @@ URL:https://elevenlabs.io/blog/ai-student-pack
 END:VEVENT
 BEGIN:VEVENT
 UID:6b7a51e58348cf51bd4334ee7d8e7996aff5b12d@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:JetBrains、在学中の学生にIDE全製品の無償教育ラ
@@ -87,7 +198,7 @@ URL:https://www.jetbrains.com/academy/student-pack
 END:VEVENT
 BEGIN:VEVENT
 UID:b93a3f1f15f3234fc3c0f90b96b03117cf9641f9@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Notion、学生向け「Education Plus」を無料で提供
@@ -102,7 +213,7 @@ URL:https://www.notion.com/help/notion-for-education
 END:VEVENT
 BEGIN:VEVENT
 UID:4d75b4e12e106f936f8b2642f6b0e2412a57587b@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Perplexity「Education Pro」、学生向け提供条件が無料
@@ -118,7 +229,7 @@ URL:https://www.perplexity.ai/help-center/en/articles/12590157-what-is-ed
 END:VEVENT
 BEGIN:VEVENT
 UID:f7c7013f3926f2bf9f714890886e8087c70e3adc@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:GitHub Student Developer Packが継続提供中
@@ -133,7 +244,7 @@ URL:https://education.github.com/pack
 END:VEVENT
 BEGIN:VEVENT
 UID:2cf36778b3cbad6dbdbcf7f3480f7c24f1747876@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:JetBrains学生向け無料教育ライセンス
@@ -146,7 +257,7 @@ URL:https://www.jetbrains.com/community/education
 END:VEVENT
 BEGIN:VEVENT
 UID:dda5b35ae60b8c98cbde006f35ebab65f7dc0514@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Figma EducationでProプラン相当を無料提供
@@ -159,7 +270,7 @@ URL:https://www.figma.com/education
 END:VEVENT
 BEGIN:VEVENT
 UID:ecf01ccb5b9aba497af7edf15673e135c9bf026a@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Notion「Education Plus」で学生がPlusプラン無料
@@ -173,7 +284,7 @@ URL:https://www.notion.com/product/notion-for-education
 END:VEVENT
 BEGIN:VEVENT
 UID:cf671f96e2a439e51fa81adc391eb5d1155d79fb@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:締切 Googleが学生向けAI Pro/Plusを1年間無料提供
@@ -187,7 +298,7 @@ URL:https://gemini.google/students
 END:VEVENT
 BEGIN:VEVENT
 UID:eb039fd71c34c8921a16accb82fc9a41ef17f52b@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Adobe Creative Cloudが学生・教職員向けに大幅割引
@@ -201,7 +312,7 @@ URL:https://www.adobe.com/jp/education/students/creativecloud.html
 END:VEVENT
 BEGIN:VEVENT
 UID:7623562dc21d1f77658ef6c29c978eacf9404ffd@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Canva EducationがK-12の教員・生徒に完全無料
@@ -214,7 +325,7 @@ URL:https://www.canva.com/education
 END:VEVENT
 BEGIN:VEVENT
 UID:201169f197328a634dbf81a04c550b1ee743adca@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Azure for Studentsでクレカ不要の$100クレジット
@@ -228,7 +339,7 @@ URL:https://azure.microsoft.com/en-us/free/students
 END:VEVENT
 BEGIN:VEVENT
 UID:da68579f0856117aa6e471dce6627039db571f6e@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:ElevenLabsが学生向けAIパックと1年無料特典を提供
@@ -242,7 +353,7 @@ URL:https://elevenlabs.io/students
 END:VEVENT
 BEGIN:VEVENT
 UID:324dfd0bddec8e96877ca5e381e8c83a555a71fd@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Perplexity Cometが学生向けに初月無料
@@ -256,7 +367,7 @@ URL:https://www.perplexity.ai/students
 END:VEVENT
 BEGIN:VEVENT
 UID:b51bdcf7c4f9ef20e116d348fb5e3cf6b2c1718c@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:AWS、大学生にAI開発ツール「Kiro」を1年間無料提
@@ -274,7 +385,7 @@ URL:https://news.google.com/rss/articles/CBMidEFVX3lxTFBxTDJRVmRyWmNjcDVU
 END:VEVENT
 BEGIN:VEVENT
 UID:235684ddbc03b1aba28d10d615625a9b6f7646da@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:アマゾンウェブサービス(AWS)はAI基盤開発ツール
@@ -294,7 +405,7 @@ URL:https://news.google.com/rss/articles/CBMiS0FVX3lxTE1EOHpBYnZyWEVHRks2
 END:VEVENT
 BEGIN:VEVENT
 UID:5b08eedadcfb7547284f4be263e68fefedf986c0@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:College students can get a year of Google AI Plus for free - Inqu
@@ -317,8 +428,25 @@ URL:https://news.google.com/rss/articles/CBMingFBVV95cUxNWERPOVh1Znhqalkx
  TFDRklzTnVJN3VxTzRPTDVhZXJIR1dpNWlFaWdlWVF3?oc=5
 END:VEVENT
 BEGIN:VEVENT
+UID:b9568472d1b0a47b231f6e47e8577573854ccd65@geekfeed
+DTSTAMP:20260912T144234Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:最大60％ご優待“学割”も。シルバーウィークの
+ 残暑はアウトドアプールで遊び尽くす！ - news.nicovideo.j
+ p
+DESCRIPTION:最大60％ご優待“学割”も。シルバーウィー
+ クの残暑はアウトドアプールで遊び尽くす！ news.nicovid
+ eo.jp\nGoogle News: 学割サブスク\nhttps://news.google.com/rss/artic
+ les/CBMiVEFVX3lxTE5OQ0lnTXp5dlh6UGxoaWp0bW1GeFpzQUZiOWpQUVExTlJ2dlVvWFZwU
+ mlzWVZUaGxQMEZCVkRmWUxTT1JqUlJrZkh1czc1SHM4LVU3Yw?oc=5
+URL:https://news.google.com/rss/articles/CBMiVEFVX3lxTE5OQ0lnTXp5dlh6UGxo
+ aWp0bW1GeFpzQUZiOWpQUVExTlJ2dlVvWFZwUmlzWVZUaGxQMEZCVkRmWUxTT1JqUlJrZkh1c
+ zc1SHM4LVU3Yw?oc=5
+END:VEVENT
+BEGIN:VEVENT
 UID:223666ccf92a78513cd645547af788ea5f4db7b7@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:ハノイ建築大学とベントレーシステムズの戦略
@@ -343,7 +471,7 @@ URL:https://news.google.com/rss/articles/CBMimwJBVV95cUxOUHlMYTRiNkw1WE1O
 END:VEVENT
 BEGIN:VEVENT
 UID:ba934536d9d76e5362ef02f6b98e3cc224a775a3@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:Google offers Filipino college students one year of AI Plus for f
@@ -361,7 +489,7 @@ URL:https://news.google.com/rss/articles/CBMirwFBVV95cUxOWk1TYm1WMUdXaE0w
 END:VEVENT
 BEGIN:VEVENT
 UID:3244b6c850eed57857c60f7530780b2722b0278a@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:学生さん必見！音楽アプリの学割プラン比較 - DI
@@ -375,7 +503,7 @@ URL:https://news.google.com/rss/articles/CBMiR0FVX3lxTE8za2RKM0NPMko4ZEFJ
 END:VEVENT
 BEGIN:VEVENT
 UID:63c3f2291b507ba0c8f90da088a5219c383cc531@geekfeed
-DTSTAMP:20260912T105332Z
+DTSTAMP:20260912T144234Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:Saudi Arabia Gives 1M Students Free Google AI [2026] - shattered.
