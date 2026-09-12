@@ -14,4 +14,17 @@ git add -A public
 git diff --cached --quiet || {
   git commit -q -m "feed: $(date '+%Y-%m-%d %H:%M')"
   git push -q origin main
+
+  # Cloudflare Pages は GitHub 連携で作ってあるが、CF の GitHub App がこのリポジトリに
+  # 未許可なので push の webhook が来ない。だから push 後に自分でデプロイを叩く。
+  # App にこのリポジトリを許可すれば、この節とトークンは消せる。
+  cf="$HOME/.config/geekfeed/cloudflare.token"   # 1行目: API トークン / 2行目: account id
+  if [ -f "$cf" ]; then
+    curl -fsS -o /dev/null -X POST \
+      -H "Authorization: Bearer $(sed -n 1p "$cf")" \
+      -H "Content-Type: application/json" \
+      --data '{"branch":"main"}' \
+      "https://api.cloudflare.com/client/v4/accounts/$(sed -n 2p "$cf")/pages/projects/geekfeed/deployments" &&
+      echo "pages: deploy triggered"
+  fi
 }
