@@ -16,8 +16,13 @@ macmini (launchd, 1日2回)
        │   ├─ --research なら claude -p にウェブ調査させて公式発表を拾う
        │   ├─ キャンペーンだけ本文を読んで締切日を抽出
        │   └─ public/{feed.xml, events.ics, index.html, items.json} を生成
-       └─ git push → Cloudflare Pages が公開
+       └─ git push → Cloudflare Pages のデプロイを API で叩く
 ```
+
+調査には読者像（日本在住・東京大学の学部生・u-tokyo.ac.jp メールと ECCS アカウントあり）を渡している。
+これで「日本は対象外」の明記、認証方法（大学メール / SheerID / ISIC）の記載、そして
+**大学単位でしか開放されないもの**（GMO 天秤AI for UTokyo、学内の LinkedIn Learning や GPU クラスタなど）
+が拾えるようになる。ここが手で追うと最も漏れる。
 
 判定は「学生」×「無料・学割」×「ソフト/AI/サービス」の3語が揃ったものだけを
 キャンペーン扱いにする。飲食店の学割や就活イベントを落とすためで、ここを緩めると
@@ -37,5 +42,9 @@ python3 geekfeed.py --selftest
 |---|---|
 | `~/.config/geekfeed/miniflux.token` | Miniflux の API キー（購読の読み込みと自動購読に使う） |
 | `~/.config/geekfeed/claude.token` | `CLAUDE_CODE_OAUTH_TOKEN`（`--research` のときだけ） |
+| `~/.config/geekfeed/cloudflare.token` | 1行目に API トークン、2行目に account id（Pages のデプロイを叩くため） |
 
-どちらも無ければその機能だけ黙って飛ばす。Python は標準ライブラリのみ。
+どれも無ければその機能だけ黙って飛ばす。Python は標準ライブラリのみ。
+
+Cloudflare の GitHub App にこのリポジトリを許可すれば push で勝手にデプロイされるので、
+`cloudflare.token` と publish.sh の curl は消せる。
