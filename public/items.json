@@ -9,6 +9,69 @@
   "deadline": null
  },
  {
+  "url": "https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing",
+  "title": "Anthropic CEO calls for immediate slowdown in AI development",
+  "summary": "Article URL: https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing Comments URL: https://news.ycombinator.com/item?id=49673344 Points: 4 # Comments: 1",
+  "source": "HN: student plan",
+  "kind": "news",
+  "published": "2026-09-12T15:30:17+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=49673333",
+  "title": "Is This a New WhatsApp Hack?",
+  "summary": "Today our Whatsapp business account was hacked, but in a method that is new to me. We are a cyber security company, so we have absolutely ensured all gaps are closed, 2FA, SIM card in device, verified account, all of it. Today, we were logged out from the account, and the phone number has changed to a number we don't recognize. We tried everything, and we can't find a way to contact support (considering we have paid 30k to Facebook in the last year and still can't get a human to talk to us is another issue). We honestly can't figure out how this could happen. We didn't receive any code. We don",
+  "source": "HN: student plan",
+  "kind": "news",
+  "published": "2026-09-12T15:29:13+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=49673323",
+  "title": "Reddit Now Blocking Firefox for Android with uBlock Origin",
+  "summary": "I was recently bit by reddit's decision to block usage of old reddit when signed out, which was my normal mode of reading. Now, new this morning, I get this error when trying to sign into Reddit on Firefox w/ uBlock Origin: > An error occurred. Please disable any extensions or try using a different web browser to continue. Is this real life? Comments URL: https://news.ycombinator.com/item?id=49673323 Points: 2 # Comments: 0",
+  "source": "HN: student plan",
+  "kind": "news",
+  "published": "2026-09-12T15:28:53+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.npr.org/2026/09/08/nx-s1-5955618/is-it-time-for-a-luddite-renaissance",
+  "title": "Is it time for a Luddite Renaissance?",
+  "summary": "Article URL: https://www.npr.org/2026/09/08/nx-s1-5955618/is-it-time-for-a-luddite-renaissance Comments URL: https://news.ycombinator.com/item?id=49673281 Points: 2 # Comments: 0",
+  "source": "HN: student plan",
+  "kind": "news",
+  "published": "2026-09-12T15:24:47+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=2PebXEak24M",
+  "title": "Why do companies stop using Haskell?",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-09-12T15:18:31+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://canweship.com/",
+  "title": "Show HN: CanWeShip – will USPS, UPS or FedEx accept my item?",
+  "summary": "Article URL: https://canweship.com/ Comments URL: https://news.ycombinator.com/item?id=49673193 Points: 2 # Comments: 0",
+  "source": "HN: student plan",
+  "kind": "news",
+  "published": "2026-09-12T15:16:27+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://grooved.okat.best/",
+  "title": "Free app to calibrate your turntable by simply playing a song",
+  "summary": "Article URL: https://grooved.okat.best/ Comments URL: https://news.ycombinator.com/item?id=49673189 Points: 1 # Comments: 0",
+  "source": "HN: student plan",
+  "kind": "news",
+  "published": "2026-09-12T15:15:46+00:00",
+  "deadline": null
+ },
+ {
   "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026",
   "title": "AWS Student Rewards、旧Educateの後継開始",
   "summary": "2026年8月20日開始の新プログラムで、18歳以上の大学生がAWS Builder Center上でSheerID認証を通すと、AWS Skill Builder Premiumの12か月無償アクセスに加え、コミュニティ活動のバッジ達成に応じて最大30ドルのAWSクレジットと100ドル相当の認定試験バウチャーを得られる。旧AWS Educateの実質的な後継プログラム。",
@@ -73,6 +136,33 @@
   "deadline": null
  },
  {
+  "url": "https://webrtchacks.com/trickle-ice",
+  "title": "ICE always tastes better when it trickles! (2013)",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-09-12T15:12:38+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://github.com/LuxUmbris/Shaft/tree/bootstrap",
+  "title": "Trying to build a safe and readable language – looking for contributors",
+  "summary": "Article URL: https://github.com/LuxUmbris/Shaft/tree/bootstrap Comments URL: https://news.ycombinator.com/item?id=49673065 Points: 1 # Comments: 0",
+  "source": "HN: student plan",
+  "kind": "news",
+  "published": "2026-09-12T15:05:52+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://github.com/saigkill/machine-consciousness",
+  "title": "Machine Consciousness – Ethical Guidelines for Artificial Consciousness",
+  "summary": "Article URL: https://github.com/saigkill/machine-consciousness Comments URL: https://news.ycombinator.com/item?id=49672974 Points: 1 # Comments: 0",
+  "source": "HN: student plan",
+  "kind": "news",
+  "published": "2026-09-12T14:59:37+00:00",
+  "deadline": null
+ },
+ {
   "url": "https://melondolphin.itch.io/cycle-of-life",
   "title": "Cycle of Life",
   "summary": "",
@@ -97,6 +187,15 @@
   "source": "RSS: itch.io 無料ゲームアセット (新着)",
   "kind": "news",
   "published": "2026-09-12T14:59:04.643283+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.ycombinator.com/item?id=49672966",
+  "title": "Ask HN: What default model do you use and why?",
+  "summary": "I use claude for most of what I do, and Fable is largely overkill for me and frequently burns through my Max plan's session credits in minutes (!) when just doing an initial mobile app planning with 4 agents. After I waited out the timeout period 6 hours later, and I picked up again, the cache had timed out so it burned through 2% of the session in less than a minute. Opus 4.8 is now my goto and I will be avoiding 5 until I see a reason to switch back. 4.8 is 'good enough' for what I need and has been a great value. It mostly gets things right. Most of what I do is web and mobile , largely clo",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-09-12T14:58:44+00:00",
   "deadline": null
  },
  {
@@ -404,6 +503,15 @@
   "deadline": null
  },
  {
+  "url": "https://julesjacobs.com/2024/07/28/you-dont-need-matrix-calculus.html",
+  "title": "You Don't Need Matrix Calculus",
+  "summary": "Article URL: https://julesjacobs.com/2024/07/28/you-dont-need-matrix-calculus.html Comments URL: https://news.ycombinator.com/item?id=49672541 Points: 11 # Comments: 2",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-09-12T14:15:08+00:00",
+  "deadline": null
+ },
+ {
   "url": "https://antonz.org/solod-0.4",
   "title": "Solod 0.4: Better C interop",
   "summary": "Comments",
@@ -572,6 +680,15 @@
   "source": "RSS: Yahoo!News Main",
   "kind": "news",
   "published": "2026-09-12T13:48:09+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://pluralistic.net/2026/09/12/god-in-the-box",
+  "title": "LLMs are real, AI is fake",
+  "summary": "Article URL: https://pluralistic.net/2026/09/12/god-in-the-box/ Comments URL: https://news.ycombinator.com/item?id=49672281 Points: 34 # Comments: 8",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-09-12T13:47:28+00:00",
   "deadline": null
  },
  {
@@ -3433,123 +3550,6 @@
   "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
   "kind": "news",
   "published": "2026-09-12T07:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.lifehacker.jp/article/22609-amazon-comhoma-dts110-adjustabledesk",
-  "title": "椅子に合わせて机を買い直す問題、COMHOMAのゲーミングデスクで解決",
-  "summary": "日本人に最適な45.5〜71.5cmの広い昇降幅で、椅子にデスク側を合わせられるCOMHOMA（コムホーマ）「電動昇降ゲーミングデスク DTS110-White」が、Amazonで過去最安の20％オフです。",
-  "source": "RSS: ライフハッカー・ジャパン",
-  "kind": "news",
-  "published": "2026-09-12T07:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CRkpmdmkyTmI3VlhxVHJwazU1WlFRdWFKWFQwWXplcmdRYzVzWUYwX3FIWkpDQXF3VG5XLXlWZ0twZlp2TlVJSHJudUlUNkRaOE5BQk9wWC04QQ?oc=5",
-  "title": "自分を追い込む自己改善を「卒業」、心身の健康を最大化する6つの小さな習慣 - Forbes JAPAN",
-  "summary": "自分を追い込む自己改善を「卒業」、心身の健康を最大化する6つの小さな習慣 Forbes JAPAN",
-  "source": "RSS: \"site:forbesjapan.com\" - Google ニュース",
-  "kind": "news",
-  "published": "2026-09-12T07:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.androidpolice.com/youtube-protect-your-account-on-shared-tvs",
-  "title": "YouTube just fixed one of its biggest issues on smart TVs",
-  "summary": "YouTube is one of Google's most-downloaded apps on the Google Play Store, and it's also hugely popular on U.S. televisions. In 2025, YouTube CEO Neal Mohanclaimed in a blog post that more people watch YouTube on television than on mobile phones .",
-  "source": "RSS: Android Police",
-  "kind": "news",
-  "published": "2026-09-12T07:29:34+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.timeout.jp/tokyo/ja/news/sello-m-mexican-restaurants-091126",
-  "title": "東京のレストラン7軒がメキシコ政府から「本格的なメキシコ料理」として認定",
-  "summary": "東京のレストラン7軒がメキシコ政府から「本格的なメキシコ料理」として認定 🙌 Awesome, you're subscribed! Thanks for subscribing! Look out for your first newsletter in your inbox soon! Get us in your inbox Sign up to our newsletter for the latest and greatest from your city and beyond",
-  "source": "RSS: はてなブックマーク 総合",
-  "kind": "news",
-  "published": "2026-09-12T07:28:15+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/brianmazique/2026/09/12/gta-6-shootout-lasts-one-second---look-how-much-happens-before-jason-fires",
-  "title": "GTA 6 Shootout Lasts One Second — Look How Much Happens Before Jason Fires",
-  "summary": "GTA 6 Focus mode slows time and marks enemies in red and yellow. Red is a kill, yellow is a non-lethal takedown. Here is the full gunplay breakdown.",
-  "source": "RSS: Forbes - Innovation",
-  "kind": "news",
-  "published": "2026-09-12T07:26:08+00:00",
-  "deadline": null
- },
- {
-  "url": "https://iphone-mania.jp/apple-605777",
-  "title": "Apple、TIME誌の世界で最高の企業ランキングで3位に返り咲き",
-  "summary": "信じがたい話ですが、昨年の 米TIME誌 の「 世界で最高の企業ランキング 」で、Appleは上位どころかトップ100にも名前がないという悲惨な事態になっていたようです。これは2022年〜2024年の業績が振るわなかったためだとされています。しかしながら、今年のランキングで Appleは世界3位に返り咲いた ことが明らかになりました。 サステナビリティに関する取り組みなどが評価か TIME誌 といえば、「世界で最も影響力のある100人（TIME 100）」のランキングで知られていますが、2026年版の「 世界で最高の企業ランキング 」において、 Appleが3位 に輝いたことがわかりました。 TIME誌の評価項目は、従業員の満足度、過去3年間の収益の成長、そしてサステナビリティに関する透明性の3つです。 サステナビリティに関しては、Appleは以前から レアメタルの積極的なリサイクル や、 デバイス解体ロボットDaisyの導入 、 再生可能エネルギーへの積極的な投資 など、さまざまな取り組みを行ってきているので、納得の評価だと言えます。 トップ10の企業は以下のとおりです。 NVIDIA Cigna Apple Meta Platforms AstraZeneca Microsoft Deutsche Telekom Accenture McKesson Advanced Micr",
-  "source": "RSS: iPhone Mania",
-  "kind": "news",
-  "published": "2026-09-12T07:18:43+00:00",
-  "deadline": null
- },
- {
-  "url": "https://k-tai.watch.impress.co.jp/docs/news/2140407.html",
-  "title": "楽天モバイルの「iPhone 18 Pro/Pro Max」価格発表、実質12.8万円/一括25.6万円～",
-  "summary": "楽天モバイルは、「iPhone 18 Pro Max」「iPhone 18 Pro」「Apple Watch Series 12」「Apple Watch Ultra 4」「Apple Watch SE 3（2026年発売）」「AirPods 5」などの販売価格を発表した。",
-  "source": "RSS: ケータイ Watch",
-  "kind": "news",
-  "published": "2026-09-12T07:18:13+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/moritalous/items/2168025729eb840d5143",
-  "title": "Claude Managed AgentsにIaC的に管理する機能が追加されたゾ!!",
-  "summary": "Claude Developer PlatformのantCLIにv1.30.0でapplyコマンドが追加されました。 ドキュメントではこちらに該当します。 クラウド環境はIaCが主流になっていますが、Manged Agents時代のIaC（Infrastruc...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-09-12T07:16:47+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.livedoor.com/article/detail/32307465",
-  "title": "大ケガ事故で一時は打ち切り説まで…テレ東「バス旅」復活の背景",
-  "summary": "記事を読む",
-  "source": "RSS: ライブドアニュース - 主要トピックス",
-  "kind": "news",
-  "published": "2026-09-12T07:15:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/lanceeliot/2026/09/12/exploring-langerian-mindfulness-by-using-ai-personas-to-perform-the-creativity-triangle-task",
-  "title": "Exploring Langerian Mindfulness By Using AI Personas To Perform The Creativity Triangle Task",
-  "summary": "AI personas can be used to explore mindfulness. Langerian Mindfulness Scale (LMS) and the Triangle Task are invoked. Interesting results. AI Insider analysis and scoop.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-09-12T07:15:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://pc.watch.impress.co.jp/docs/topic/readitnow/2140409.html",
-  "title": "【今すぐ読みたい！人気記事】Windowsおじさん、MacBookを使ってみる。そして案外代替アプリがあることを知る - PC Watch",
-  "summary": "Windows一筋30年の筆者の手元に編集部所有のMacBook Proが届いた。しばらくこれで仕事しろと言われたら実際どうなるのか。今回はそんなお話だ。Mac上級者からすれば「そこは設定でなんとかなるぞ」、「こっちのアプリほうが○○に近いぞ」みたいな助言があるかもしれない。ただまあ、そこは生暖かい目で読んでいただければ幸いだ。",
-  "source": "RSS: PC Watch",
-  "kind": "news",
-  "published": "2026-09-12T07:14:15+00:00",
-  "deadline": null
- },
- {
-  "url": "https://pc.watch.impress.co.jp/docs/topic/readitnow/2140408.html",
-  "title": "【今すぐ読みたい！人気記事】ミニPCをそのまま使うなんてもったいない！魅力を120%引き出すガジェットたち - PC Watch",
-  "summary": "コンパクトで置き場所に困らない上、低価格なので購入しやすい小型デスクトップPC「ミニPC」。ユーザーからの注目度も高く、最近は1つのジャンルとして定着した感がある。",
-  "source": "RSS: PC Watch",
-  "kind": "news",
-  "published": "2026-09-12T07:12:18+00:00",
-  "deadline": null
- },
- {
-  "url": "https://slides.yusu.ke/web-frameworks-in-the-ai-era",
-  "title": "AI時代のWebフレームワークはどこへ行く？",
-  "summary": "::title:: AI時代のWebフレームワークはどこへ行く？ Yusuke Wada フロントエンドカンファレンス福岡 2026 ・ September 12, 2026 ::center bg=blue:: マジで ::center bg=blue:: 喉（声帯）がやられて ::center bg=blue:: 声がでない ::center bg=blue size=2:: 😱 ::center bg=blue:: お聞き苦しいところありますがご...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-09-12T07:11:39+00:00",
   "deadline": null
  },
  {
