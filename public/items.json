@@ -9,6 +9,24 @@
   "deadline": null
  },
  {
+  "url": "https://sakana.ai/fugu-max-release",
+  "title": "Sakana AI、新モデル「Fugu Max」「Ultra v2」公開",
+  "summary": "日本のSakana AIは9月11日、複数のAIモデルを指揮する統合管理システムの新版「Fugu Max」と「Fugu Ultra v2」をリリースし、コーディング系ベンチマークでGPT-6 AstraやClaude Fable 5.1を上回るスコアを示したとしている。OpenAI互換APIで同日から提供され、既存ユーザーは設定変更のみで移行できる。",
+  "source": "調査: Sakana AI",
+  "kind": "news",
+  "published": "2026-09-13T01:04:24.348906+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics",
+  "title": "フィールズ賞受賞者25人、AIの数学研究に懸念声明",
+  "summary": "テレンス・タオ氏ら歴代フィールズ賞受賞者25人は9月11日、OpenAIによるナビエ・ストークス方程式「解決」発表などを念頭に、AI企業が査読や研究コミュニティへの共有を経ずに数学の難問の解決を次々発表する動きを「科学に有害」と非難する共同声明を公表した。声明はmathandai.orgでも公開され追加署名を募っている。",
+  "source": "調査: Terence Tao Blog / mathandai.org",
+  "kind": "news",
+  "published": "2026-09-13T01:04:24.348906+00:00",
+  "deadline": null
+ },
+ {
   "url": "https://www.perplexity.com/education",
   "title": "Perplexity、学生向けEducation Proを12ヶ月無料提供",
   "summary": "大学発行の academic メール（.ac.jpも対象）で認証すると、複数モデルへのマルチアクセスや無制限アップロードを含むProプラン相当が1年間無料になる。ドメイン未認識の場合は学生証等の書類提出でサポートに個別認証を依頼できる。",
@@ -2150,6 +2168,15 @@
   "deadline": null
  },
  {
+  "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway",
+  "title": "Make it anyway",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-09-12T17:24:07+00:00",
+  "deadline": null
+ },
+ {
   "url": "https://iphone-mania.jp/ios-605838",
   "title": "iOS27で「ヘルスケア」アプリが大幅刷新！登場予定の新機能と日本市場への影響",
   "summary": "iOS27 の「 ヘルスケア 」アプリでは大幅なデザイン刷新と機能追加が予定されています。本記事ではヘルスケアアプリに追加される新機能を整理するとともに、技術的背景や日本国内での実用性、ユーザーへの影響について解説します。 本記事で紹介する新しいヘルスケアアプリは、年内に米国英語から利用可能になり、その後ほかの言語も追加されるとのことで、iOS27ですぐに使用できるわけではありません。 新開発のセンサーシステムとの連動 今回のヘルスケアアプリの進化は、 Apple Watch Series 12、Ultra 4 に搭載される最新のセンサーシステム「 ヘルスセンシングシステム 」と密接に連動しています。主に以下の3つのハードウェア的進化が図られています。 電極の表面積拡大 ：皮膚との接触面を増やし、心電図（ECG）測定の安定性を向上。 リング状配置のフォトダイオード ：受光効率を高め、光学測定の精度を強化。 省電力なグリーンLED ：1日を通じて効率的な連続心拍測定を実現。 このセンサー刷新により、心拍数は1日を通して5秒ごとに測定され、心拍変動（HRV）の測定頻度も格段に向上します。 日本での医療機器承認と技術的ハードル 高精度な健康データの取得が可能になる一方で、日本国内での実用化や日常的な使用に向けては「 法規制 」と「 技術面 」の2つの課題が存在します。 ECG精度の向上と",
@@ -3378,33 +3405,6 @@
   "source": "RSS: すまほん!!",
   "kind": "news",
   "published": "2026-09-12T13:27:01+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mV0FSZHVJV0JIYXNjTnV6cEVSZHRJZkJDTWpQbGN2eFZIODg1MzYxdXdVNjJQOWdFVUpfRkV4R2tieG5xZTRLSk9CMlI2bWtJYjBTWlZfRFdnUQ?oc=5",
-  "title": "AIが起こす次の波、テクノロジーが旅行業界をどう変えるか - Forbes JAPAN",
-  "summary": "AIが起こす次の波、テクノロジーが旅行業界をどう変えるか Forbes JAPAN",
-  "source": "RSS: \"site:forbesjapan.com\" - Google ニュース",
-  "kind": "news",
-  "published": "2026-09-12T13:27:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.sciencealert.com/scientists-create-a-new-form-of-ice-at-more-than-2000-c",
-  "title": "Scientists Create a New Form of Ice at More Than 2k °C",
-  "summary": "Article URL: https://www.sciencealert.com/scientists-create-a-new-form-of-ice-at-more-than-2000-c Comments URL: https://news.ycombinator.com/item?id=49672098 Points: 1 # Comments: 0",
-  "source": "HN: student plan",
-  "kind": "news",
-  "published": "2026-09-12T13:24:45+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.yomiuri.co.jp/sports/npb/20260912-GYT1T00275",
-  "title": "ソフトバンクが栗原陵矢の２点二塁打で逆転、西武と日本ハムは引き分け…オリックス・エスピノーザはリーグトップに並ぶ１２勝目",
-  "summary": "",
-  "source": "RSS: 読売新聞 新着",
-  "kind": "news",
-  "published": "2026-09-12T13:23:00+00:00",
   "deadline": null
  },
  {
