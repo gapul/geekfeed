@@ -341,13 +341,19 @@ RESEARCH_PROMPT = """あなたはギーク向けニュースレターの編集�
   deadline 応募/申込の締切が明示されていれば "YYYY-MM-DD"、なければ null
   source   提供元やメディア名（短く）
 
-deal を最大15件、news を最大10件。確証のない URL は出さないこと。JSON 配列のみを出力。"""
+deal を最大15件、news を最大10件。確証のない URL は出さないこと。JSON 配列のみを出力。
+{known}"""
 
 
-def research(timeout=900):
+def research(known=(), timeout=900):
     """Claude Code 本体にウェブ調査させて items を得る。未ログイン等で失敗しても致命傷にしない。"""
+    # 既に載っている特典を渡す。毎回同じ常設オファーを拾い直して重複が増えるのを防ぎ、
+    # 調査の手間を「まだ載っていないもの」に向けさせる。
+    seen = "\n既に掲載済みなので、条件が変わった場合を除き出さないでください:\n" + \
+        "\n".join("- " + t for t in list(known)[:45]) if known else ""
     prompt = RESEARCH_PROMPT.format(
-        today=datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d"), persona=persona())
+        today=datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d"),
+        persona=persona(), known=seen)
     cmd = [os.environ.get("CLAUDE_BIN", "claude"), "-p", prompt,
            "--output-format", "json", "--allowed-tools", "WebSearch,WebFetch"]
     try:
@@ -601,7 +607,7 @@ def main():
             store = json.load(f)
     fresh = collect() + from_miniflux()
     if "--research" in sys.argv:  # Claude 自身にウェブ調査させる。フィードが取りこぼす公式発表用。
-        found_by_claude = research()
+        found_by_claude = research([i["title"] for i in store if i["kind"] == "deal"])
         print("research: %d items" % len(found_by_claude))
         fresh = found_by_claude + fresh  # 調査結果を先に入れて、同タイトルのニュース記事に勝たせる
     store, added = merge(store, fresh)
