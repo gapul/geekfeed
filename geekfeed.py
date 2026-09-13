@@ -88,11 +88,20 @@ INELIGIBLE_RE = re.compile(
     r"対象外|K-?12|小中高|中高生限定|高校生限定|教員限定|教職員限定|teachers? only|faculty only", re.I)
 
 
+# 他国の学生向けの話も「学生 × 無料 × AI」で引っかかる。日本を含む気配がなければ捨てる。
+FOREIGN_RE = re.compile(
+    r"サウジ|フィリピン|ベトナム|ハノイ|インドネシア|ソウル|韓国|台湾|ナイジェリア|ブラジル|ケニア|"
+    r"Saudi|Filipino|Philippines|Vietnam|Indonesia|Nigeria|Brazil|Korean?|Taiwan", re.I)
+JAPAN_RE = re.compile(r"日本|国内|東京大学|東大|全世界|世界中|グローバル|対象国|global|worldwide", re.I)
+
+
 def classify(text):
     """news | deal | skip。skip はペルソナの対象外なので保存も配信もしない。"""
     offer = STUDENT_RE.search(text) and OFFER_RE.search(text)
     if offer and INELIGIBLE_RE.search(text):
         return "skip"  # 申し込めない特典は、ニュースとしても出さない
+    if offer and FOREIGN_RE.search(text) and not JAPAN_RE.search(text):
+        return "skip"
     if BLOCK_RE.search(text):
         return "news"
     if offer and TECH_RE.search(text):
@@ -351,8 +360,10 @@ def research(known=(), timeout=900):
     """Claude Code 本体にウェブ調査させて items を得る。未ログイン等で失敗しても致命傷にしない。"""
     # 既に載っている特典を渡す。毎回同じ常設オファーを拾い直して重複が増えるのを防ぎ、
     # 調査の手間を「まだ載っていないもの」に向けさせる。
-    seen = "\n既に掲載済みなので、条件が変わった場合を除き出さないでください:\n" + \
-        "\n".join("- " + t for t in list(known)[:45]) if known else ""
+    seen = ("\n既に掲載済みです。同じものを出し直す必要はありません。ただし\n"
+            "**締切（応募期限・引き換え期限）が判明した場合と、条件が変わった場合だけ**、\n"
+            "同じ URL で deadline を入れて再提出してください:\n" +
+            "\n".join("- " + t for t in list(known)[:45])) if known else ""
     prompt = RESEARCH_PROMPT.format(
         today=datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d"),
         persona=persona(), known=seen)
@@ -436,7 +447,13 @@ def merge(store, fresh):
     added = 0
     for it in fresh:
         url = norm_url(it["link"])
-        if url in by_url or it["title"].lower() in titles:
+        if url in by_url:
+            # 既にある項目でも、後から締切が判明したときだけ上書きする（カレンダーの精度が上がる）。
+            if it.get("deadline") and not by_url[url]["deadline"]:
+                by_url[url]["deadline"] = it["deadline"]
+                by_url[url]["summary"] = it["summary"][:600] or by_url[url]["summary"]
+            continue
+        if it["title"].lower() in titles:
             continue
         when = parse_when(it["published"]) or now
         if when.tzinfo is None:
@@ -635,10 +652,21 @@ def selftest():
     assert classify("大塚愛 LIVE ツアー 学割チケット無料抽選 アプリ先行") == "news"  # ライブは blocklist
     assert classify("Rust 1.99 released") == "news"
 
+    assert classify("Saudi Arabia gives 1M students free Google AI tools") == "skip"  # 日本に関係ない
+    assert classify("ハノイ建築大学の学生に無料ライセンスソフトを提供") == "skip"
+    assert classify("AWS、日本を含む世界の大学生にAI開発ツールを1年間無料提供") == "deal"
+
     items, added = merge([], [dict(a, source="t", kind="deal")])
     assert added == 1 and items[0]["deadline"] == soon.isoformat(), items
     _, again = merge(items, [dict(a, source="t", kind="deal")])
     assert again == 0
+
+    # 締切が後から判明したら上書きする
+    nodl = [{"url": "https://e.x/z", "title": "Zed 学生無料", "summary": "s", "source": "t",
+             "kind": "deal", "published": "2026-09-01T00:00:00+00:00", "deadline": None}]
+    updated, _ = merge(nodl, [{"link": "https://e.x/z", "title": "Zed 学生無料", "summary": "締切判明",
+                               "source": "調査", "kind": "deal", "published": "", "deadline": "2099-01-31"}])
+    assert updated[0]["deadline"] == "2099-01-31" and updated[0]["summary"] == "締切判明", updated
     write_ics(items, "/dev/null")
     write_index(items, "/dev/null")
     print("selftest ok")
