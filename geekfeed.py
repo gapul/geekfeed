@@ -71,7 +71,7 @@ SOURCES = [
 # 「学生」×「無料」×「ソフト/サービス」の3条件が揃ったものだけキャンペーン扱いにする。
 # Google ニュース検索は学食やライブの学割まで拾うので、この3点を要求しないとカレンダーが埋まる。
 # 「大学」も入れる。tenbin.ai のような大学単位の無料開放は「学生」と書かずに大学名だけで報じられる。
-STUDENT_RE = re.compile(r"学生|学割|大学|高専|高校生|在学|教育機関|student|academic|campus|university|college", re.I)
+STUDENT_RE = re.compile(r"学生|学割|大学|高専|高校生|生徒|在学|教育|student|academic|campus|university|college|education", re.I)
 OFFER_RE = re.compile(r"無料|無償|タダ|学割|割引|プレゼント|開放|free|no cost|discount|giveaway|credits?|waiv", re.I)
 TECH_RE = re.compile(  # 「プラン」単体は入れない。ライフプラン/宿泊プランで旅行・セミナーが大量に紛れ込む。
     r"AI|LLM|ソフト|アプリ|ツール|ライセンス|サブスク|アカウント|API|クラウド|開発|エディタ|"
@@ -80,11 +80,20 @@ TECH_RE = re.compile(  # 「プラン」単体は入れない。ライフプラ�
 BLOCK_RE = re.compile(r"求人|採用|新卒|就活|説明会|入試|奨学金|禁止|逮捕|ライブ|ツアー|コンサート|"
                       r"lawsuit|\bban\b|arrest|concert|tour date", re.I)
 
+# persona.md の「載せないもの」に対応する。申し込めないキャンペーンは news に落とさず捨てる。
+INELIGIBLE_RE = re.compile(
+    r"米国(?:の学生|の大学生)?(?:限定|のみ|在住)|アメリカ(?:限定|のみ)|US[-\s]?only|only in the (?:US|United States)|"
+    r"対象外|K-?12|小中高|中高生限定|高校生限定|教員限定|教職員限定|teachers? only|faculty only", re.I)
+
 
 def classify(text):
+    """news | deal | skip。skip はペルソナの対象外なので保存も配信もしない。"""
+    offer = STUDENT_RE.search(text) and OFFER_RE.search(text)
+    if offer and INELIGIBLE_RE.search(text):
+        return "skip"  # 申し込めない特典は、ニュースとしても出さない
     if BLOCK_RE.search(text):
         return "news"
-    if STUDENT_RE.search(text) and OFFER_RE.search(text) and TECH_RE.search(text):
+    if offer and TECH_RE.search(text):
         return "deal"
     return "news"
 
@@ -218,7 +227,8 @@ def collect():
             for it in parsed:
                 it["source"] = name
                 it["kind"] = classify(it["title"] + " " + it["summary"])
-                items.append(it)
+                if it["kind"] != "skip":  # ペルソナの対象外は保存しない
+                    items.append(it)
     for e in errors:
         print("warn: " + e, file=sys.stderr)
     return items
@@ -263,10 +273,12 @@ def from_miniflux(limit=150):
         if not e.get("url") or not e.get("title"):
             continue
         summary = strip_html(e.get("content") or "")[:600]
+        kind = classify(e["title"] + " " + summary)
+        if kind == "skip":
+            continue
         out.append({"title": e["title"], "link": e["url"], "summary": summary,
                     "source": "RSS: " + (e.get("feed") or {}).get("title", "miniflux"),
-                    "published": e.get("published_at", ""),
-                    "kind": classify(e["title"] + " " + summary)})
+                    "published": e.get("published_at", ""), "kind": kind})
     return out
 
 
@@ -285,25 +297,33 @@ def ensure_subscribed(feed_url):
         return False
 
 
-PROFILE = """読者は日本在住で、東京大学に在学中の学部生（同じ大学の友人も読む）。
-u-tokyo.ac.jp のメールアドレス、学生証、ECCS アカウントを持ち、ISIC も取得できる。
-プログラミングと自作ハードが趣味。"""
+PERSONA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "persona.md")
+
+
+def persona():
+    try:
+        with open(PERSONA_FILE, encoding="utf-8") as f:
+            return f.read().strip()
+    except OSError:
+        return "読者は日本在住の大学生。"
+
 
 RESEARCH_PROMPT = """あなたはギーク向けニュースレターの編集者です。今日（{today} JST）時点で、次の2種類を
 ウェブ検索で調べ、JSON 配列だけを出力してください。説明文やコードフェンスは不要です。
 
-読者像:
-""" + PROFILE + """
+読者はこのペルソナです。**ここから外れるものは載せないでください**（「対象外」と注記して載せるのも不可）。
+
+--- persona.md ---
+{persona}
+--- ここまで ---
+
 したがって:
-- 日本から申し込めるものを優先する。米国限定など日本の学生が使えないものは、大きな話題でなければ落とす。
-  載せる場合は summary の冒頭に「日本は対象外」と明記する。
+- 読者が実際に申し込めるかを確かめてから載せる。対象国・対象校・対象学年が条件に合わないものは黙って捨てる。
 - 認証方法（大学メール / 学生証 / SheerID / ISIC / GitHub Student Pack 経由）を summary に必ず書く。
-- 東京大学が包括契約で既に配っているもの（例: Microsoft 365、MATLAB、一部の学内ライセンス）は、
-  「東大は包括契約で配布済み」と書く。学内の無償提供・配布ページの新着があれば1〜2件入れてよい。
 - **特定の大学だけに開放されるもの**は報道が小さく最も見落としやすい。毎回かならず
   「GMO tenbin.ai の大学向け無償提供」「東大の学生向け無償ソフト配布・包括契約の新着」
   「大学生協・学内サービスの学生特典」を検索して確認し、東大が対象なら新着でなくても入れる。
-  対象大学を summary に列挙し、東大が対象外なら出さない。
+  対象大学を summary に列挙する。
 
 1. kind="deal": 学生・教育機関向けの無料/無償提供・学割キャンペーン。開発者やクリエイターが実際に使う
    ソフト・AI・クラウド・ハード・学習サービスに限る（例: https://elevenlabs.io/ja/blog/ai-student-pack の
@@ -326,7 +346,8 @@ deal を最大15件、news を最大10件。確証のない URL は出さない�
 
 def research(timeout=900):
     """Claude Code 本体にウェブ調査させて items を得る。未ログイン等で失敗しても致命傷にしない。"""
-    prompt = RESEARCH_PROMPT.format(today=datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d"))
+    prompt = RESEARCH_PROMPT.format(
+        today=datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d"), persona=persona())
     cmd = [os.environ.get("CLAUDE_BIN", "claude"), "-p", prompt,
            "--output-format", "json", "--allowed-tools", "WebSearch,WebFetch"]
     try:
@@ -340,6 +361,8 @@ def research(timeout=900):
     for r in raw:
         if not isinstance(r, dict) or not r.get("url") or not r.get("title"):
             continue
+        if INELIGIBLE_RE.search(str(r["title"]) + " " + str(r.get("summary") or "")):
+            continue  # 指示しても「日本は対象外」と書いて出してくるので念のため落とす
         out.append({"title": str(r["title"]), "link": str(r["url"]),
                     "summary": str(r.get("summary") or ""),
                     "source": "調査: " + str(r.get("source") or "Claude"),
@@ -393,8 +416,10 @@ def merge(store, fresh):
         added += 1
     today = date.today().isoformat()
     old = (date.today() - timedelta(days=180)).isoformat()
+    # 期限切れ・古すぎる特典と、ペルソナの対象外になったものを保存分からも落とす。
     live = [i for i in by_url.values()
-            if not (i["kind"] == "deal" and ((i["deadline"] or today) < today or i["published"][:10] < old))]
+            if classify(i["title"] + " " + i["summary"]) != "skip"
+            and not (i["kind"] == "deal" and ((i["deadline"] or today) < today or i["published"][:10] < old))]
     ordered = sorted(live, key=lambda i: i["published"], reverse=True)
     # キャンペーンは件数が少なく寿命も長いので、件数上限で押し出されないよう先に確保する。
     deals = [i for i in ordered if i["kind"] == "deal"]
@@ -501,8 +526,8 @@ def write_index(items, path):
 <link rel="alternate" type="application/rss+xml" title="geekfeed" href="feed.xml">
 <style>%s</style><main>
 <h1>geekfeed</h1>
-<p class="sub">ギーク情報と、学生向けの無料・学割キャンペーンを自動収集。日本から申し込めるもの中心、
-東京大学の学生が対象のものを優先。%s 更新</p>
+<p class="sub">ギーク情報と、学生向けの無料・学割キャンペーンを自動収集。東京大学の学生が実際に
+申し込めるものだけを載せています（米国限定などは除外）。%s 更新</p>
 <p class="subs"><a href="feed.xml">RSS を購読</a><a href="events.ics">カレンダーを購読 (ICS)</a></p>
 <h2>学生向け 無料・学割 (%d)</h2><ul>%s</ul>
 <h2>ギーク情報</h2><ul>%s</ul>
@@ -546,6 +571,10 @@ def selftest():
     assert classify("AWS、大学生にAI開発ツール「Kiro」を1年間無料提供") == "deal"
     assert classify("students get free access to the AI coding tool") == "deal"
     assert classify("GMOのtenbin.ai、東京大学に無料開放 複数AIを比較できるツール") == "deal"  # 大学単位の開放
+    # ペルソナの対象外は news にも落とさず捨てる
+    assert classify("日本は対象外。米国の学生にChatGPT Plusを4か月無料で提供") == "skip"
+    assert classify("Canva EducationはK-12の教員・生徒にPro相当を無料提供") == "skip"
+    assert classify("米国限定で学生にAI開発ツールの無料ライセンスを配布") == "skip"
     assert classify("弁当一律500円の学割あり、長岡市に新店オープン") == "news"
     assert classify("○○大学の入試説明会を無料開催") == "news"
     assert classify("星野リゾートが学割、朝食込みの学生限定プランが無料抽選") == "news"  # 宿泊プランは通さない
