@@ -6,6 +6,7 @@ keeps a rolling item store, and regenerates public/feed.xml + public/events.ics.
 """
 
 import concurrent.futures
+import difflib
 import hashlib
 import html
 import json
@@ -78,6 +79,7 @@ TECH_RE = re.compile(  # 「プラン」単体は入れない。ライフプラ�
     r"プログラミング|デベロッパー|software|app\b|license|subscription|developer|premium|"
     r"cloud|coding|IDE|tool|platform|GPU|SaaS", re.I)
 BLOCK_RE = re.compile(r"求人|採用|新卒|就活|説明会|入試|奨学金|禁止|逮捕|ライブ|ツアー|コンサート|"
+                      r"プール|温泉|宿泊|旅館|レジャー|遊園地|"
                       r"lawsuit|\bban\b|arrest|concert|tour date", re.I)
 
 # persona.md の「載せないもの」に対応する。申し込めないキャンペーンは news に落とさず捨てる。
@@ -394,6 +396,39 @@ def enrich_deadlines(items, budget=25):
     return sum(1 for i in todo if i["deadline"])
 
 
+# タイトルの決まり文句を落とすと、残るのはほぼサービス名になる。これを残さないと
+# 「Zed、大学生にPro機能を1年間無料開放」と「Cursor、学生にPro1年無料」が同一視される。
+GENERIC_RE = re.compile(
+    r"学生|大学生|東大生|大学|東大|無料|無償|提供|配布|済み|割引|優待|プラン|ライセンス|教育|限定|開放|"
+    r"年間|1年|全製品|向け|開始|継続|機能|包括契約|コードエディタ|エディタ|クレジット|在学中|"
+    r"students?|education(?:al)?|free|plan|license|premium|pro|plus|offer|discount|for|the|and|with|"
+    r"[はがをにでとのもへやか]", re.I)
+
+
+def title_key(s):
+    return re.sub(r"[^0-9A-Za-z぀-ヿ一-鿿]", "", GENERIC_RE.sub("", s)).lower()
+
+
+def same_offer(a, b):
+    """同じ特典を指すタイトルか。頭のサービス名が一致していれば緩めに、でなければ厳しく見る。"""
+    if not a or not b:
+        return False
+    ratio = difflib.SequenceMatcher(None, a, b).ratio()
+    return ratio > 0.7 or (len(os.path.commonprefix([a, b])) >= 6 and ratio > 0.45)
+
+
+def dedupe_similar(items):
+    """同じ特典を別ソースで二重に載せない。渡された順の先着を残す（締切つき・新しい方を先に渡す）。"""
+    kept, keys = [], []
+    for i in items:
+        k = title_key(i["title"])
+        if any(same_offer(k, seen) for seen in keys):
+            continue
+        kept.append(i)
+        keys.append(k)
+    return kept
+
+
 def merge(store, fresh):
     by_url = {i["url"]: i for i in store}
     titles = {i["title"].lower() for i in store}
@@ -428,7 +463,8 @@ def merge(store, fresh):
             and not (i["kind"] == "deal" and ((i["deadline"] or today) < today or i["published"][:10] < old))]
     ordered = sorted(live, key=lambda i: i["published"], reverse=True)
     # キャンペーンは件数が少なく寿命も長いので、件数上限で押し出されないよう先に確保する。
-    deals = [i for i in ordered if i["kind"] == "deal"]
+    deals = dedupe_similar(sorted((i for i in ordered if i["kind"] == "deal"),
+                                  key=lambda i: (i["deadline"] is not None, i["published"]), reverse=True))
     news = [i for i in ordered if i["kind"] != "deal"][:max(0, KEEP - len(deals))]
     return sorted(deals + news, key=lambda i: i["published"], reverse=True), added
 
@@ -569,6 +605,17 @@ def selftest():
     assert find_deadline("締切は9月1日", today) == date(2027, 9, 1)  # already past -> next year
     assert find_deadline("released on 2026-10-03", today) is None  # no deadline word nearby
     assert find_deadline("expired 2001年1月1日まで", today) is None  # too old
+
+    # 同じ特典は1件に。別サービスや同じ会社の別プログラムは残す。
+    def dd(*titles):
+        return [i["title"] for i in dedupe_similar([{"title": t} for t in titles])]
+
+    assert len(dd("Figma Education、学生はProプラン無料", "Figma EducationでProプラン相当を無料提供")) == 1
+    assert len(dd("JetBrains、在学中の学生にIDE全製品の無償教育ライセンスを提供", "JetBrains学生向け無料教育ライセンス")) == 1
+    assert len(dd("ElevenLabs、学生はElevenReader Ultra等無料", "ElevenLabsが学生向けAIパックと1年無料特典を提供")) == 1
+    assert len(dd("AIコードエディタCursor、学生にPro1年無料", "コードエディタZed、大学生にPro機能を1年間無料開放")) == 2
+    assert len(dd("GitHub Student Developer Packが継続提供中", "GitHub Copilot、学生プランの新規登録を再開")) == 2
+    assert len(dd("AWS Educate、学生個人に$100クレジット", "AWS Student Rewards、旧Educateの後継開始")) == 2
 
     assert ics_escape("a,b;c\\d\ne") == "a\\,b\\;c\\\\d\\ne"
     assert fold("SUMMARY:" + "あ" * 60).startswith("SUMMARY:") and "\r\n " in fold("x" * 200)
