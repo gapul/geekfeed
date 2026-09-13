@@ -91,7 +91,7 @@ INELIGIBLE_RE = re.compile(
 # 他国の学生向けの話も「学生 × 無料 × AI」で引っかかる。日本を含む気配がなければ捨てる。
 FOREIGN_RE = re.compile(
     r"サウジ|フィリピン|ベトナム|ハノイ|インドネシア|ソウル|韓国|台湾|ナイジェリア|ブラジル|ケニア|"
-    r"Saudi|Filipino|Philippines|Vietnam|Indonesia|Nigeria|Brazil|Korean?|Taiwan", re.I)
+    r"Saudi|Filipino|Philippines|Vietnam|Indonesia|Nigeria|Brazil|Korean?|Taiwan|Seoul|Yonsei", re.I)
 JAPAN_RE = re.compile(r"日本|国内|東京大学|東大|全世界|世界中|グローバル|対象国|global|worldwide", re.I)
 
 
@@ -102,6 +102,8 @@ def classify(text):
         return "skip"  # 申し込めない特典は、ニュースとしても出さない
     if offer and FOREIGN_RE.search(text) and not JAPAN_RE.search(text):
         return "skip"
+    if offer and not re.search(r"[぀-ヿ一-鿿]", text) and not JAPAN_RE.search(text):
+        return "news"  # 英語ニュースの特典記事。同じ話は調査側が公式ソースで日本語で入れてくる
     if BLOCK_RE.search(text):
         return "news"
     if offer and TECH_RE.search(text):
@@ -474,6 +476,12 @@ def merge(store, fresh):
         added += 1
     today = date.today().isoformat()
     old = (date.today() - timedelta(days=180)).isoformat()
+    # 判定規則を直したとき、保存済みの古い判定が残らないよう毎回付け直す。
+    # 調査由来は Claude が対象を確認済みなので、キーワード判定で news に落とさない。
+    for i in by_url.values():
+        if not i["source"].startswith("調査"):
+            i["kind"] = classify(i["title"] + " " + i["summary"])
+
     # 期限切れ・古すぎる特典と、ペルソナの対象外になったものを保存分からも落とす。
     live = [i for i in by_url.values()
             if classify(i["title"] + " " + i["summary"]) != "skip"
@@ -639,7 +647,7 @@ def selftest():
 
     # 3条件そろったものだけ deal。Google ニュースが混ぜてくる学食・ライブ・就活は news に落とす。
     assert classify("AWS、大学生にAI開発ツール「Kiro」を1年間無料提供") == "deal"
-    assert classify("students get free access to the AI coding tool") == "deal"
+    assert classify("students get free access to the AI coding tool") == "news"  # 英語記事は調査側に任せる
     assert classify("GMOのtenbin.ai、東京大学に無料開放 複数AIを比較できるツール") == "deal"  # 大学単位の開放
     # ペルソナの対象外は news にも落とさず捨てる
     assert classify("日本は対象外。米国の学生にChatGPT Plusを4か月無料で提供") == "skip"
@@ -655,6 +663,15 @@ def selftest():
     assert classify("Saudi Arabia gives 1M students free Google AI tools") == "skip"  # 日本に関係ない
     assert classify("ハノイ建築大学の学生に無料ライセンスソフトを提供") == "skip"
     assert classify("AWS、日本を含む世界の大学生にAI開発ツールを1年間無料提供") == "deal"
+    assert classify("College students can get a year of Google AI Plus for free") == "news"  # 英語記事
+    assert classify("最大60%ご優待“学割”も。残暑はアウトドアプールで遊び尽くす") == "news"
+
+    # 規則を直したら、保存済みの誤判定も付け直される
+    stale = [{"url": "https://e.x/p", "title": "学割でアウトドアプール", "summary": "アプリ予約で割引",
+              "source": "はてブ: 学割", "kind": "deal", "published": "2026-09-01T00:00:00+00:00",
+              "deadline": None}]
+    fixed, _ = merge(stale, [])
+    assert fixed[0]["kind"] == "news", fixed
 
     items, added = merge([], [dict(a, source="t", kind="deal")])
     assert added == 1 and items[0]["deadline"] == soon.isoformat(), items
