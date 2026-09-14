@@ -6,8 +6,84 @@ METHOD:PUBLISH
 X-WR-CALNAME:学生無料キャンペーン
 X-WR-TIMEZONE:Asia/Tokyo
 BEGIN:VEVENT
+UID:86521933ded7442434d83f5c8aa7c3ff8ccca472@geekfeed
+DTSTAMP:20260914T224229Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:締切 Adobe CC学生向け、期間限定の大幅値引きキ
+ ャンペーン
+DESCRIPTION:2026年7月9日〜10月12日限定で、学生・教職員向
+ けCreative Cloud Pro年間プラン(月々払い)の新規購入者向
+ けに、最初の3カ月980円/月・4カ月目以降2\,180円/月の導
+ 入価格キャンペーンを実施中。直販での新規購入かつ1
+ 人1回限りが条件。\n調査: Adobe Japan\nhttps://www.adobe.com/jp/
+ creativecloud/buy/students.html
+URL:https://www.adobe.com/jp/creativecloud/buy/students.html
+END:VEVENT
+BEGIN:VEVENT
+UID:4f7939ed1c6ba3553ab358756f45fd98cbaa4feb@geekfeed
+DTSTAMP:20260914T224229Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:締切 AWS Student Rewards、8月に正式開始し内容確定
+DESCRIPTION:2026年8月20日にAWS Builder Center上で正式ローンチ
+ し、SheerID認証済みの18歳以上の学生にSkill Builder Premium1
+ 2カ月分・最大30ドルのAWSクレジット・100ドルの認定試
+ 験バウチャー（総額579ドル相当）を提供。クレジット
+ 獲得にはBuilder Center上での記事投稿等のバッジ取得が
+ 条件。\n調査: AWS (about Amazon)\nhttps://www.aboutamazon.com/news/a
+ ws/aws-student-rewards-free-cloud-ai-training
+URL:https://www.aboutamazon.com/news/aws/aws-student-rewards-free-cloud-a
+ i-training
+END:VEVENT
+BEGIN:VEVENT
+UID:dc972b54ca75f7fd8f0bc5002454c21f0529b11f@geekfeed
+DTSTAMP:20260914T224229Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Cursor「学生Pro1年無料」は終了、現在は無料枠の
+ み
+DESCRIPTION:公式ページから1年間Pro無料オファーの案内が
+ 消え、現在は無料のHobbyプランのみが案内されており
+ 、複数メディアも同プログラムの終了を報じている。
+ 東大生も含め、現時点でCursor Proの学生向け無料枠は利
+ 用できない。\n調査: Cursor公式/各種報道\nhttps://cursor.com
+ /students
+URL:https://cursor.com/students
+END:VEVENT
+BEGIN:VEVENT
+UID:f145d1540c72fc27047c3b425042f96c9a66a755@geekfeed
+DTSTAMP:20260914T224229Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:東大GPUクラスタSYNKA、学部生利用は有償・毎月7
+ 日締切
+DESCRIPTION:学部生も利用資格はあるが無償ではなく、専
+ 有パーティションはノード単位、共有パーティション
+ はGPU時間単位で部局間振替/銀行振込による課金制。申
+ 請は毎月7日締切・20日審査結果通知・翌月1日利用開始
+ のサイクル。\n調査: 東京大学SYNKA\nhttps://sites.google.com/g
+ .ecc.u-tokyo.ac.jp/synka/ホーム
+URL:https://sites.google.com/g.ecc.u-tokyo.ac.jp/synka/ホーム
+END:VEVENT
+BEGIN:VEVENT
+UID:2c96f412dd15c042f1269e7a2c6bfdf45c0817c0@geekfeed
+DTSTAMP:20260914T224229Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Framer for Education、学生はProサイト機能が無料
+DESCRIPTION:世界中の認定校に在籍する学生が対象で、学
+ 生証・在籍証明書・学校メールのいずれかをアップロ
+ ードし5営業日以内の審査を受けると、通常年120ドル相
+ 当のBasicプラン機能が無料になる（11カ月ごとに再申請
+ ）。ホスティングやCMS、AIエージェント機能の月1000ク
+ レジットも含む。\n調査: Framer公式\nhttps://www.framer.com/ed
+ ucation
+URL:https://www.framer.com/education
+END:VEVENT
+BEGIN:VEVENT
 UID:e49b945aef62251c17d539a3a02b59c6c22d0550@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:締切 Google AI Plus学生無料、申込締切は2026年12月31
@@ -23,7 +99,7 @@ URL:https://blog.google/intl/ja-jp/company-news/technology/gemini-student
 END:VEVENT
 BEGIN:VEVENT
 UID:e281e9ce746de3adf6294560feb015a7c3475d9a@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
 SUMMARY:東大ECCSメールでGoogle Workspace内Geminiが利用可能に
@@ -37,7 +113,7 @@ URL:https://utelecon.adm.u-tokyo.ac.jp/google/gemini
 END:VEVENT
 BEGIN:VEVENT
 UID:4d75b4e12e106f936f8b2642f6b0e2412a57587b@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
 SUMMARY:Perplexity Education Pro、無料from有料半額プランへ変
@@ -53,7 +129,7 @@ URL:https://www.perplexity.ai/help-center/en/articles/12590157-what-is-ed
 END:VEVENT
 BEGIN:VEVENT
 UID:c51974b30bf777dd2d242497a1485dcac34f1f5b@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
 SUMMARY:GitHub Copilot学生プラン、モデル選択がAuto限定に
@@ -68,7 +144,7 @@ URL:https://github.blog/changelog/2026-06-24-changes-to-model-selection-f
 END:VEVENT
 BEGIN:VEVENT
 UID:fda8423f3f7805a523241aedecd57f4ac4e4d567@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:GMO天秤AI、東大生に40種のAIを無償提供
@@ -82,7 +158,7 @@ URL:https://utokyo.tenbin.ai/service
 END:VEVENT
 BEGIN:VEVENT
 UID:6eb351296b6ff2f05f5fe3ea6a886770913ffb5b@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Figma Education、学生はProプラン無料
@@ -95,7 +171,7 @@ URL:https://www.figma.com/education/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:687e010b45070b27253c1be10ff4086b8e5ea4b1@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:ElevenLabs、学生はElevenReader Ultra等無料
@@ -108,7 +184,7 @@ URL:https://elevenlabs.io/ja/blog/ai-student-pack
 END:VEVENT
 BEGIN:VEVENT
 UID:3459725c7b12db543ec93cbba81f7fef4c9817a8@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:ISIC国際学生証で学生ソフト割引
@@ -120,7 +196,7 @@ URL:https://isicjapan.jp/discounts
 END:VEVENT
 BEGIN:VEVENT
 UID:7d72b97759e380b6dbb9fc7f5fc781fce40d5534@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:東大、Microsoft 365等を包括契約で配布済み
@@ -133,7 +209,7 @@ URL:https://utelecon.adm.u-tokyo.ac.jp/microsoft
 END:VEVENT
 BEGIN:VEVENT
 UID:07376e9620cbbccdb74485070f75d60392fdfbd1@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:東大、MATLABも包括契約で無償配布済み
@@ -146,7 +222,7 @@ URL:https://utelecon.adm.u-tokyo.ac.jp/matlab
 END:VEVENT
 BEGIN:VEVENT
 UID:249e5239955d0661bb6d5afe6ed0fe242ffa96b1@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:東大生協、PC・ソフト購入の組合員特典
@@ -158,26 +234,8 @@ DESCRIPTION:学生証で加入できる東京大学消費生活協同組
 URL:https://www.utcoop.or.jp/en/service/tools/pc-software
 END:VEVENT
 BEGIN:VEVENT
-UID:78955782c94da2237bfc327b56a77e3c81ca60fb@geekfeed
-DTSTAMP:20260913T223634Z
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260913
-SUMMARY:AWS Student Rewards、旧Educateの後継開始
-DESCRIPTION:2026年8月20日開始の新プログラムで、18歳以上
- の大学生がAWS Builder Center上でSheerID認証を通すと、AWS Sk
- ill Builder Premiumの12か月無償アクセスに加え、コミュニ
- ティ活動のバッジ達成に応じて最大30ドルのAWSクレジ
- ットと100ドル相当の認定試験バウチャーを得られる。
- 旧AWS Educateの実質的な後継プログラム。\n調査: Amazon Web
-  Services\nhttps://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-re
- wards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-20
- 26
-URL:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-o
- n-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026
-END:VEVENT
-BEGIN:VEVENT
 UID:98f619d3b0681dc98be8290a13a8dfa47d8e2a30@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:AIコードエディタCursor、学生にPro1年無料
@@ -192,7 +250,7 @@ URL:https://www.cursor.com/students
 END:VEVENT
 BEGIN:VEVENT
 UID:169a670c492348afee74bba843e0b0086a2d020e@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:AWS Educate、学生個人に$100クレジット
@@ -206,7 +264,7 @@ URL:https://aws.amazon.com/education/awseducate
 END:VEVENT
 BEGIN:VEVENT
 UID:5e05ecea865f106d180e7b483982eaea92e9b5bc@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:東大、LinkedIn Learningの全学提供を開始
@@ -222,7 +280,7 @@ URL:https://utelecon.adm.u-tokyo.ac.jp/notice/2026/0701-linkedinlearning-
 END:VEVENT
 BEGIN:VEVENT
 UID:7e7512d03b67c00be2b947a75aa7bebdd27edf35@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:東大の新GPUクラスタ「SYNKA」、学内利用が可能に
@@ -238,7 +296,7 @@ URL:https://utelecon.adm.u-tokyo.ac.jp/research_computing
 END:VEVENT
 BEGIN:VEVENT
 UID:e424add9d209d1f8200cf1e11df27fd3eca4ba0d@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:さくらインターネット、クラウド学習環境を月
@@ -255,7 +313,7 @@ URL:https://www.sakura.ad.jp/certification/news/certification-lab-2025-12
 END:VEVENT
 BEGIN:VEVENT
 UID:3dadbcee447a787757c0986cc3d6727ef5d70f07@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:コードエディタZed、大学生にPro機能を1年間無料
@@ -270,7 +328,7 @@ URL:https://zed.dev/education
 END:VEVENT
 BEGIN:VEVENT
 UID:6b7a51e58348cf51bd4334ee7d8e7996aff5b12d@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:JetBrains、在学中の学生にIDE全製品の無償教育ラ
@@ -284,23 +342,8 @@ DESCRIPTION:大学・専門学校等に1年以上在籍しプログラミ
 URL:https://www.jetbrains.com/academy/student-pack
 END:VEVENT
 BEGIN:VEVENT
-UID:f7c7013f3926f2bf9f714890886e8087c70e3adc@geekfeed
-DTSTAMP:20260913T223634Z
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260913
-SUMMARY:GitHub Student Developer Packが継続提供中
-DESCRIPTION:学位・修了証を出す教育機関に在籍する13歳
- 以上の学生が対象で、学校発行の身分証明書等で認証
- すると90以上の開発者向けサービスをまとめて無料利
- 用できる。JetBrains全IDEやクラウドクレジットなどが含
- まれるが、GitHub Copilotの新規学生特典は2026年4月から一
- 時停止中で、既認証の学生のみ継続利用できる。\n調
- 査: GitHub Education\nhttps://education.github.com/pack
-URL:https://education.github.com/pack
-END:VEVENT
-BEGIN:VEVENT
 UID:ecf01ccb5b9aba497af7edf15673e135c9bf026a@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Notion「Education Plus」で学生がPlusプラン無料
@@ -314,7 +357,7 @@ URL:https://www.notion.com/product/notion-for-education
 END:VEVENT
 BEGIN:VEVENT
 UID:eb039fd71c34c8921a16accb82fc9a41ef17f52b@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Adobe Creative Cloudが学生・教職員向けに大幅割引
@@ -328,7 +371,7 @@ URL:https://www.adobe.com/jp/education/students/creativecloud.html
 END:VEVENT
 BEGIN:VEVENT
 UID:201169f197328a634dbf81a04c550b1ee743adca@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:Azure for Studentsでクレカ不要の$100クレジット
@@ -342,7 +385,7 @@ URL:https://azure.microsoft.com/en-us/free/students
 END:VEVENT
 BEGIN:VEVENT
 UID:235684ddbc03b1aba28d10d615625a9b6f7646da@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:アマゾンウェブサービス(AWS)はAI基盤開発ツール
@@ -362,7 +405,7 @@ URL:https://news.google.com/rss/articles/CBMiS0FVX3lxTE1EOHpBYnZyWEVHRks2
 END:VEVENT
 BEGIN:VEVENT
 UID:3244b6c850eed57857c60f7530780b2722b0278a@geekfeed
-DTSTAMP:20260913T223634Z
+DTSTAMP:20260914T224229Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:学生さん必見！音楽アプリの学割プラン比較 - DI
