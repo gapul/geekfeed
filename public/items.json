@@ -1,5 +1,1752 @@
 [
  {
+  "url": "https://codedex.io/github-students",
+  "title": "Codédex Club、GitHub学生パック経由でプレミアム会員を無料",
+  "summary": "GitHub Student Developer Packで認証された大学などの学生は、プログラミング学習サービスCodédexの有料会員Codédex Clubを無料で使えます。以前は6カ月無料でしたが、11月1日から1カ月に短縮されたとする掲載があるため、期間はPackのオファーページで確認してください。",
+  "source": "調査: Codédex",
+  "kind": "deal",
+  "published": "2026-11-14T22:34:36.458651+00:00",
+  "deadline": null,
+  "checked": true
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+  "title": "OpenAI「ChatGPT Wallet」開始、エージェントが代わりに買い物",
+  "summary": "OpenAIが、AIエージェント「dots」に決済を任せられるChatGPT Walletを公開しました。カード番号の代わりに決済トークンを使い、購入のたびに本人確認を挟みます。現時点で使えるのは米国のPro会員だけです。",
+  "source": "調査: TechCrunch",
+  "kind": "news",
+  "published": "2026-11-14T22:34:36.458651+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension",
+  "title": "Cursorが侵害を公表、Fireworksの鍵漏洩から改ざん版Claude Code配布",
+  "summary": "Fireworks AIが漏らしたアクセスキーを足がかりに、Cursorの拡張マーケットプレイスへ改ざん版のClaude Code拡張が約11時間掲載されていたことが分かりました。Cursorは最大5,000人の開発者が受け取った可能性があるとし、認証情報の更新とマーケットプレイスの再構築を行いました。",
+  "source": "調査: BleepingComputer",
+  "kind": "news",
+  "published": "2026-11-14T22:34:36.458651+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
+  "title": "Rust 1.100リリース、Cargoに依存クレートのクールダウン機能",
+  "summary": "Rust 1.100.0がリリースされ、公開から一定期間たっていない新しいクレート版を依存解決で無視する設定（global-min-publish-age）がCargoに入りました。サプライチェーン攻撃への対策で、Cargo独自のlint機能やnever型の安定化も含まれます。",
+  "source": "調査: rust-lang/rust",
+  "kind": "news",
+  "published": "2026-11-14T22:34:36.458651+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+  "title": "CISA、UnrealIRCdとCheck Pointの脆弱性を悪用確認済みリストに追加",
+  "summary": "米CISAが、実際に悪用されている証拠をもとにUnrealIRCdのCVE-2026-114713とCheck Point製品群のCVE-2026-123039をKEVカタログに追加しました。IRCサーバーを自前で運用している人はすぐ更新したほうがよい内容です。",
+  "source": "調査: CISA",
+  "kind": "news",
+  "published": "2026-11-14T22:34:36.458651+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide",
+  "title": "Microsoft 365の世界的障害が復旧、原因はネットワーク増強時の不具合",
+  "summary": "11月12日から、Outlook、Teams、Copilotなどが世界70カ国以上で使えなくなりましたが、14日までに復旧しました。Microsoftは、以前のネットワーク容量増強で入り込んだ問題が原因で、サイバー攻撃ではないと説明しています。",
+  "source": "調査: BleepingComputer",
+  "kind": "news",
+  "published": "2026-11-14T22:34:36.458651+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo",
+  "title": "NVIDIAのジェンスン・フアンCEOが辞任、CFOのクレスが暫定CEOに",
+  "summary": "NVIDIAの創業者ジェンスン・フアン氏がCEOと取締役を即日退任し、CFOのコレット・クレス氏が暫定CEOに就きました。取締役会は社内外から後任を探しています。",
+  "source": "調査: TechCrunch",
+  "kind": "news",
+  "published": "2026-11-14T22:34:36.458651+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://selfh.st/survey/2026-results",
+  "title": "セルフホスト調査2026、ForgejoがGiteaを抜いて首位に",
+  "summary": "selfh.stの年次調査（回答6,221件）で、セルフホストのGitサーバーとしてForgejoがGiteaを上回り、最も使われるようになりました。Portainerの利用は減ってDockhandと並び、回答者の63%がバイブコーディングで作られたアプリを避けていると答えています。",
+  "source": "調査: selfh.st",
+  "kind": "news",
+  "published": "2026-11-14T22:34:36.458651+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+  "title": "Claude Codeの設定ファイルから大量の秘密情報がGitHubに流出",
+  "summary": "GitHubにコミットされたClaude Codeの設定ファイルから、APIキーなど数千件の秘密情報が見つかったと報じられました。設定ファイルを.gitignoreに入れているか見直したほうがよさそうです。",
+  "source": "調査: Ars Technica",
+  "kind": "news",
+  "published": "2026-11-14T22:34:36.458651+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.home-assistant.io/blog/2026/11/11/no-device-left-behind-home-assistant-connect-aux-2",
+  "title": "Home Assistant Connect AUX-2発表、古い機器をスマート化する小箱",
+  "summary": "Home Assistantが、スマート非対応の既存機器をつなぐ小型デバイスConnect AUX-2を発表しました。音声ストリーミング、シリアル制御、Bluetooth、PoEに対応しています。",
+  "source": "調査: Home Assistant",
+  "kind": "news",
+  "published": "2026-11-14T22:34:36.458651+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+  "title": "SpaceX Catches the Starship to end Flight 15",
+  "summary": "Article URL: https://x.com/i/broadcasts/2brajgZlOKRMka Comments URL: https://news.ycombinator.com/item?id=50500963 Points: 283 # Comments: 147",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T21:22:24+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.mynavi.jp/article/ara50-36",
+  "title": "【漫画】気付けばアラフィフになりまして 第36回 「要精密検査!?」20代長男の健康診断結果、母が心配する一方で…",
+  "summary": "男子2人を育て上げ、子育て終わった～!! と思ったら、気づけばもう50代!? 育児が終わり「第二の人生」をスタートしたイラストレーター・漫画家のよしだゆうこさんによる「アラフィフ」エッセイ漫画です。",
+  "source": "RSS: マイナビニュース",
+  "kind": "news",
+  "published": "2026-11-14T21:10:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oWWhFdW5KUjA3eGhyR2tUeEJXY2dXTEZyT0I4VTdjMUxqRV9SZHlMMXR0Zm9FeTBXZmdSWUliMkp5MUxzUlQ2LVFZQ0hwbW1lZDVCV3U1Si15M2hjVWtObGNRaXQteVlfZkg0UXZXNNIBdEFVX3lxTFBFVnVNZGY0bkJxVlNiQ3o3THhTLW9ieWJ2dHEtR3pCbW5EclNZRTE5aXY5UFNZUXlDbWthbzdwOEJBdy1uZnVtWl9tZVhGTWEzVXZmMktTZExjR3FHb1ZKMV9EQ09nM2NPUXBmNmdJT2pUS0Vl?oc=5",
+  "title": "東京大学・九州大学・明治大学…全国の大学の「鉄研＝鉄道研究会」が一堂に集結 島根県で「てっけんサミット」開催のワケ 「木次線に乗ってここに来て…」学生たちが感じたこととは？ - ｄメニューニュース",
+  "summary": "東京大学・九州大学・明治大学…全国の大学の「鉄研＝鉄道研究会」が一堂に集結 島根県で「てっけんサミット」開催のワケ 「木次線に乗ってここに来て…」学生たちが感じたこととは？ ｄメニューニュース",
+  "source": "Google News: 東大",
+  "kind": "news",
+  "published": "2026-11-14T21:06:25+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://gazyekichi96.com/2026/11/15/japan-should-bring-it-back-too-the-pixel-11-pro-xl-is-already-effectively-half-price",
+  "title": "日本も復活させるべき。Pixel 11 Pro XLが早くも実質「半額」",
+  "summary": "まもなくアメリカは国内のGoogle Storeにおいてブラックフライデーが開催予定となっており、国内ではGoogle Store 表参道においてもセール内容は連動すると思います。 今回Phone Arenaが Pixel 11 とPixel 11 Pro XLのセール情報に言及しているのでまとめたいと思います。 アメリカはおかしい。 今回同サイトがGoogle Pixel 11とGoogle Pixel 11 Pro XLのセール情報に言及しており、まとめると以下のようになります。 項目 Pixel 11 Pixel 11 Pro Pixel 11 Pro XL 1. Mint Mobile 期間限定セール価格一覧（最大$505オフ） 割引額 $500 引き $505 引き（46%オフ） $505 引き 256GBモデル セール価格： $399 （通常定価：$899） セール価格： $594 （通常定価：$1,099） セール価格： $794 （通常定価：$1,299相当） 512GBモデル セール価格： $519 （通常定価：$1,019） ―（記事内記載なし） セール価格： $914 （通常定価：$1,419相当） 2. 通信プラン特典・適用条件 ＆ 注意点 セットプラン ＆ 適用条件 12ヶ月無制限プランが50%オフ： 通常年額$360 → 年額$180（月額換算 約$15",
+  "source": "RSS: │xPeria lEaker",
+  "kind": "news",
+  "published": "2026-11-14T21:00:39+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://president.jp/articles/-/117100",
+  "title": "片山さつき大臣が問題視するわけだ…大量の中国人客が来ても日本人が潤わない\"中国系決済アプリ\"の闇【中国の内実3選】",
+  "summary": "11月18日から19日にかけて、中国・深圳でAPEC首脳会議が開かれます。高市首相の出席に向けた調整が進む一方、台湾有事をめぐる答弁から1年…",
+  "source": "RSS: PRESIDENT Online：プレジデント社の総合情報サイト",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://toyokeizai.net/articles/-/964731",
+  "title": "中国軍100隻超が台湾周辺･西太平洋で｢領域拒否｣の軍事演習を展開､日本が打ち出す新たな｢拒否力｣とは何か | 政治・経済・投資 | 東洋経済オンライン",
+  "summary": "2026年､東アジア情勢が緊迫の度を増す中､ASEANやAPEC首脳会合､台湾統一地方選挙など重要な外交･安全保障イベントが立て続けに開催されます。中国の｢事前通告なし｣の大規模軍事演習は､対米･対…",
+  "source": "RSS: 東洋経済オンライン",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.mynavi.jp/article/20261115-5324960",
+  "title": "「デビューをするということを舐めんな」厳しい言葉に次々涙…＝LOVE、必死に食らいついたデビュー前合宿「厳しさも教わって今がある」",
+  "summary": "「デビューをするということをなめんな」――14日に放送された日本テレビ系バラエティ番組『サクサクヒムヒム ☆推しの降る夜☆』(毎週土曜23:30～)では、アイドルグループ・＝LOVE(イコールラブ)がデビュー前に経験した過酷な合宿の映像を公開。厳しい指導にメンバーが次々と涙を流す中、当時12歳だった齋藤樹愛羅も必死に食らいついた。佐々木舞香は「あそこで教えてもらって厳しさも教わって今がある」と振り返った。",
+  "source": "RSS: マイナビニュース",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://toyokeizai.net/articles/-/964458",
+  "title": "中国の自動運転｢ロボタクシー｣､実証実験から本格商用化へ\"突破\"なるか…焦点は技術開発から収益モデル確立へ | ビジネス | 東洋経済オンライン",
+  "summary": "自動運転技術で世界の先端を走る中国の｢ロボタクシー｣が､実証実験の段階から本格商用化への歩みを進めています。中国最大級の｢実験場｣である広東省広州市では､完全自動運転のロボタクシーが市街地エリアでも…",
+  "source": "RSS: 東洋経済オンライン",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://toyokeizai.net/articles/-/964390",
+  "title": "｢意見不表明｣でもニデックは上場廃止にならない､東芝の事例から見る取引所の論理､守られるのは誰なのか | 政治・経済・投資 | 東洋経済オンライン",
+  "summary": "ニデックの上場廃止が懸念されています。不正会計に伴う経営混乱は続いていますが､制度上すぐに上場廃止となる可能性は低いと思われます。取引所は株主への悪影響を回避しようとするからです。ただ､それが本当に…",
+  "source": "RSS: 東洋経済オンライン",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://toyokeizai.net/articles/-/963967",
+  "title": "高齢者10人のうち3､4人しか救えない時代が来る､｢ハラスメントをする利用者は見捨てられる｣と専門家が直言 | 政治・経済・投資 | 東洋経済オンライン",
+  "summary": "埼玉県川口市で起きたケアマネジャー殺害事件は､介護現場の過酷な実態と｢利用者ファースト｣の限界を突きつけました。相次ぐハラスメントが専門職の離職を加速させる今､私たちは何を変えるべきなのでしょうか。…",
+  "source": "RSS: 東洋経済オンライン",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.mynavi.jp/article/20261115-5324851",
+  "title": "黒島結菜、事実婚の決断に母が「結菜らしい」 一番の相談相手から受け継いだ「自分の人生は自分で決める」生き方",
+  "summary": "「自分の人生は自分で決める」――俳優の黒島結菜が、きょう15日に放送される日本テレビ系トーク番組『おしゃれクリップ』(毎週日曜22:00～)で、事実婚という新たな家族の形を選んだ理由や、母親から受け継いだ生き方について語る。さらに、杏や親友が明かす“男気”あふれる素顔、大学4年生で中退した決断の裏側も明らかになる。",
+  "source": "RSS: マイナビニュース",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://toyokeizai.net/articles/-/964432",
+  "title": "｢医師は信じてくれなかった｣原因不明の頭痛や動悸→実は命を脅かす\"希少がん\"だった…病院回り\"強烈な屈辱\"感じた日々 | ライフ | 東洋経済オンライン",
+  "summary": "｢褐色細胞腫｣という希少がんに3年悩まされた吉岡さん。原因不明の激しい頭痛や動悸は周囲にも理解されず､医師からも｢異常なし｣と繰り返されました。診断確定までの壮絶な道のりとは——。",
+  "source": "RSS: 東洋経済オンライン",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://toyokeizai.net/articles/-/964385",
+  "title": "戦前日本を戦争に向けさせ破滅に導いた｢希望的観測の外交｣､ウクライナ戦争で繰り返される歴史の危険な構図 | 政治・経済・投資 | 東洋経済オンライン",
+  "summary": "かつて世界大戦を引き起こした各国の思惑や外交的な誤算は､現代のウクライナ戦争やポーランド周辺の緊張にも通じる危うさをはらんでいます。日本もまた国際社会の渦中にあり､歴史からどのような教訓を得られるの…",
+  "source": "RSS: 東洋経済オンライン",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://president.jp/articles/-/122078",
+  "title": "政治家は｢消費減税の財源がない｣と言うけれど…経済学者｢増税しなくても税収が増える日本の意外な事情｣",
+  "summary": "消費税の減税をめぐり、財源の確保が議論になっている。だが、税収を増やすには本当に増税が必要なのか。名古屋商科大学ビジネススクール教…",
+  "source": "RSS: PRESIDENT Online：プレジデント社の総合情報サイト",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.mynavi.jp/article/20261115-5325055",
+  "title": "timelesz菊池風磨、絶品グルメつまみ食いでメンバーから抗議",
+  "summary": "「美味そう～!」「ほろほろ!」――きょう15日に放送される日本テレビのバラエティ番組『timelesz ファミリア』(毎週日曜14:00～ ※関東ローカル)では、timeleszが餃子・から揚げ・BBQの達人たちが振る舞う絶品グルメを懸けてゲーム対決に挑む。菊池風磨が思わずつまみ食いしてメンバーから抗議されるほか、松島聡チームへの助っ人参戦で思わぬ波乱を巻き起こす。",
+  "source": "RSS: マイナビニュース",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://toyokeizai.net/articles/-/964866",
+  "title": "ジェンスン･フアンが辞めても相場の暴落が今すぐには始まらない理由…アンソロピックIPOで逃げ場のミニバブルが訪れる | 政治・経済・投資 | 東洋経済オンライン",
+  "summary": "エヌビディアCEO辞任の衝撃が走ったにもかかわらず､株価は暴落しなかった——なぜ市場はこのサプライズを乗り越え､むしろ持ち直したのか。その背後には､投資家心理の動きやアンソロピックのIPOなど､複雑…",
+  "source": "RSS: 東洋経済オンライン",
+  "kind": "news",
+  "published": "2026-11-14T21:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time",
+  "title": "Watch SpaceX attempt to catch the Starship upper stage for the first time",
+  "summary": "While the company has pulled off this trick a few times with Super Heavy boosters, it'll be a first for the Ship.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T20:54:14+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://toyokeizai.net/articles/-/963719",
+  "title": "大阪･阿倍野｢故郷を返してほしい｣の声も…｢インバウンドで復活｣の裏で､再開発が1822億円の大赤字　変貌した街の現在 | ライフ | 東洋経済オンライン",
+  "summary": "大阪･阿倍野地区は､約40年にわたる再開発で美しい街へと生まれ変わりました。しかし､その裏では約1822億円もの巨額の収支不足が見込まれています。街は整備された一方で､何が失われ､何が残されたのか。…",
+  "source": "RSS: 東洋経済オンライン",
+  "kind": "news",
+  "published": "2026-11-14T20:45:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2312189/how-to-clear-cache-xbox-series-x",
+  "title": "How to clear the cache on your Xbox Series X",
+  "summary": "Clearing the cache on your Xbox Series X can help it retain its snappiness while avoiding glitches, or you can perform a console reset if all else fails.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T20:45:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://toyokeizai.net/articles/-/964647",
+  "title": "｢安いのにまるでデパ地下!?｣バロー東京上陸！698円豪華ローストビーフ丼に映えスイーツ､飛騨牛コロッケ､驚きの売場 | ビジネス | 東洋経済オンライン",
+  "summary": "2026年11月､東海地方で高い人気を誇るスーパーマーケット｢バロー｣が東京都内に初進出。岐阜･愛知で培ったノウハウは､都心の競合ひしめく中でどう輝くのか?",
+  "source": "RSS: 東洋経済オンライン",
+  "kind": "news",
+  "published": "2026-11-14T20:30:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2312168/car-location-tracking-how-to-opt-out",
+  "title": "Is your car tracking your location? Here's how to check and opt out",
+  "summary": "Modern cars are great for farming user data, and big tech companies know it. It's important to know how this information is collected and how to opt out.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T20:30:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://9to5mac.com/2026/11/14/indie-app-spotlight-milton-lets-you-turn-your-old-ipad-into-a-home-dashboard",
+  "title": "Indie App Spotlight: ‘Milton’ lets you turn your old iPad into a home dashboard",
+  "summary": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact . Apple finally released its new HomeView this week, a smart display that serves at the center of your home. What if you don’t want to buy a new product though? Milton is an app for older iPads running iPadOS 17 and later that can serve a similar purpose. more…",
+  "source": "RSS: 9to5Mac",
+  "kind": "news",
+  "published": "2026-11-14T20:30:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://game.watch.impress.co.jp/docs/kikaku/2156517.html",
+  "title": "XBOX25周年に寄せて。本社訪問で見えてきた次の25年に向けたXBOXの戦略Project Helixはもう始まっている。ファーストパーティー強化と新規IP創出が今後の鍵に",
+  "summary": "XBOXが本日11月15日、25周年を迎えた。Microsoftはこれに合わせてXBOX25周年を記念したイベントを、Microsoft本社のあるレドモンドと、その隣町であるシアトルにて11月12日に開催した。本稿ではメディアを対象に行われたXBOX25周年記念キャンパス訪問ツアーの模様をお届けしたい。",
+  "source": "RSS: GAME Watch",
+  "kind": "news",
+  "published": "2026-11-14T20:22:46+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.mynavi.jp/article/20261115-5324546",
+  "title": "ジミー大西、初舞台で岡八郎さんを激怒させてしまった出来事を回想　関根勤「それはジミーちゃんが悪いわ」「でも…」",
+  "summary": "お笑い芸人のジミー大西が、YouTubeチャンネル『関根勤チャンネル』で公開された動画「【最恐!?】ジミー大西がやらかしてブチギレさせた師匠たちがマジでヤバすぎました!」に出演。岡八郎さんを激怒させてしまった初舞台でのエピソードを明かした。",
+  "source": "RSS: マイナビニュース",
+  "kind": "news",
+  "published": "2026-11-14T20:15:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2312107/built-in-windows-tool-diagnose-pc-battery-health-powercfg",
+  "title": "This built-in Windows tool can diagnose your PC's battery health",
+  "summary": "If your laptop doesn't seem to hold a charge as well as it used to, start by checking the diagnostics this tool can report. We'll show you how to use it.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T20:15:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee",
+  "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+  "summary": "Even Elon Musk said the monthly fee is \"too high.\"",
+  "source": "RSS: TechCrunch",
+  "kind": "news",
+  "published": "2026-11-14T20:04:44+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.androidpolice.com/replaced-learning-apps-with-gemini-guided-learning-remembers-progress-adapts-to-pace",
+  "title": "I replaced learning apps with Gemini Guided Learning; it remembers my progress and adapts to my pace",
+  "summary": "Learning on my phone used to feel unnecessarily complicated. I'd jump between YouTube videos, articles, notes, and course apps when I wanted to understand something new.",
+  "source": "RSS: Android Police",
+  "kind": "news",
+  "published": "2026-11-14T20:00:10+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.forbes.com/sites/davidphelan/2026/11/14/apple-iphone-18-release-new-later-date-enters-the-schedule",
+  "title": "Apple iPhone 18 Release: New Later Date Enters The Schedule",
+  "summary": "The next iPhones are coming in 2027. As well as the iPhone 18, we’re expecting the iPhone 18e and iPhone Air 2. So, when, exactly?",
+  "source": "RSS: Forbes - Innovation",
+  "kind": "news",
+  "published": "2026-11-14T20:00:08+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUA097I30Z01C26A1000000",
+  "title": "｢メタボ健診必要？｣　医療費削減効果に疑問　日本版DOGE候補にも",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC1289E0S6A111C2000000",
+  "title": "サイバー人材、企業の9割「不足」　攻撃対策の専任者「ゼロ」半数弱",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOCC298IP0Z21C26A0000000",
+  "title": "中学部活動、地域展開に「平日の壁」　埼玉で運営の担い手確保を模索",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOCC067ZY0W6A001C2000000",
+  "title": "1.6万人駆けたおかやまマラソン　職場交流に一役、天満屋は教室人気",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOFD296P50Z20C26A9000000",
+  "title": "豊田通商、「脱炭素への貢献」を事業収益に計上 従業員の意識高める",
+  "summary": "豊田通商 は各営業本部で脱炭素への貢献度を換算し収益に計上する取り組みを始めた。アフリカでは全販売店で太陽光パネル設置を進め、事業部の予算実績に計上する。世界では温暖化ガス（GHG）の排出量に金銭的な価値がつく。全従業員に環境意識を浸透させる狙いだ。 GHGの削減量を取引する「カーボンプライシング（CP）」は世界で活発だ。企業でもCPによる金銭価値を全社収益に反映させる動きは広がっている。だが社内...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC128L90S6A111C2000000",
+  "title": "ポール・スミス再建、売るのは服より「物語」　ヴェンタース会長に聞く",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.mynavi.jp/article/20261115-5323661",
+  "title": "59歳女優、3人の子どもが成人して歌手として約40年ぶりのワンマンライブ　夫とのステージ共演も",
+  "summary": "俳優の安田成美が、16日に放送されるテレビ朝日系トーク番組『徹子の部屋』(毎週月～金曜13:00～)に出演する。",
+  "source": "RSS: マイナビニュース",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUB12CLE0S6A111C2000000",
+  "title": "「脱リフレ」まだ信じ切れぬ市場 言葉より行動、日本買い再開の条件",
+  "summary": "高市早苗政権が「リフレ政策は必要ない」との発信を強めてから1カ月ほどが過ぎた。長期金利は3%超の30年ぶりのピーク水準から下がり、一時の日本国債売りは鎮まったようにみえる。市場は政権の主張を受け入れたのか。 9月下旬、著名投資家のスタンレー・ドラッケンミラー氏が来日した。ヘッジファンド業界の大物で、ベッセント米財務長官や米連邦準備理事会（FRB）のウォーシュ議長との親交も深い同氏。片山さつき財務...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUD026QN0S6A001C2000000",
+  "title": "50超えても「仕事が楽しい！」 回り道で見つけたスポーツ×気象の価値",
+  "summary": "選手の調子、相手との相性、会場――。スポーツの勝敗を分ける要因は1つではない。見落とせないのが天候だ。 緻密な気象情報をチームや大会運営に生かす「スポーツ気象」は今やプロの世界で欠かせぬ要素となっている。その分野を切り開いたのが、民間気象会社ウェザーニューズの浅田佳津雄さん（51）だ。 一直線でたどり着いたわけではない。キャリアの回り道を経て、スポーツと気象を結びつける斬新なアイデアが生まれた。...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC133RD0T11C26A1000000",
+  "title": "ヒット商品番付55年、あのときは 消費を動かしたモノ・コト・ヒト",
+  "summary": "今年も残すところあと2カ月を切った。日経MJは1971年に「日経流通新聞」として創刊し、「ヒット商品番付」を毎年掲載してきた。今回、MJ編集部は70年代から2020年代までを20年ずつに分けて「その後の歴史を動かしたかどうか」という観点で、東西の横綱・大関・関脇に絞って投票を実施。来月に2026年通期のヒット商品番付を公開する前に、55年にわたるヒット商品番付を振り返ってみた。 テレビ・ゲーム、1人余暇に道筋",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC128O90S6A111C2000000",
+  "title": "インドネシア、森林火災が政権批判に飛び火　ジャカルタでデモ拡大",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC068WT0W6A101C2000000",
+  "title": "「田中さん」をとことん研究 全国サミット主催・偉人伝など5冊出版…",
+  "summary": "日本で4番目に多い名字、「田中さん」。出版社を経営する宇野秀史さん（61）は本業の傍ら、「田中氏」研究家として活動している。これまでに意外と知られていない田中姓の偉人をまとめた書籍などを5冊、出版した。10月には全国の田中さんを集めた「田中サミット」を開催。「田中さんって実はすごいと伝えたい」と意気込む。 うの・ひでふみ 熊本県熊本市出身。1990年、京都産業大経営卒。出版社勤務を経て11年、出版社「ビジネス・コミュニケーション」を設立し、経済誌「Bis・Navi（ビス・ナビ）」創刊。本業の傍ら12年から田中氏の研究を開始。24年、「第1回田中サミット」開催...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUF264MM0W6A021C2000000",
+  "title": "住友ゴム工業人事担当役員が求める新卒「信用され約束守れる人」",
+  "summary": "住友ゴム工業 は国内外で自動車用のタイヤやゴルフ、テニスのスポーツ用品などのゴム製品を開発・販売しています。2025年には欧米などで「ダンロップ」ブランドのタイヤ事業を買い戻し、海外事業をさらに広げました。人事管掌の徳毛裕司執行役員に採用の考え方について聞きました。 とくも・ゆうじ 1994年（平6年）大阪府立大経済卒、住友ゴム工業入社。長く人事総務畑を歩みながら工場など生産、販売拠点も経験。25年4月から現職。趣味はゴルフと和気あいあいと話す食事。兵庫県出身、55歳。...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQODH137EU0T11C26A0000000",
+  "title": "スポーツ大会消滅危機？ ボランティア、2050年には半減",
+  "summary": "スポーツ大会に不可欠なボランティアが減っている。審判や運営スタッフとして参加する比率は2024年の5%から50年には2%強に落ち込む見込みだ。余暇は多様になり、高齢化で綱渡りの運営現場もある。一般公募や学生の審判登用といった対策が進まないと、消滅する大会が出てくるかもしれない。 「地元での国際大会をお手伝いしたかった。あまり縁のなかった競技を知るきっかけをもらえた」。9〜10月の愛知・名古屋アジ...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC128V80S6A111C2000000",
+  "title": "マクアケ、ネット販売の壁「さわる」で突破 ガジェット試せる店常設へ",
+  "summary": "3年連続の最終赤字から一転、過去最高益を更新した マクアケ が次の成長へ動き出した。2027年にも常設店を開き、ネットだけでは伝えきれない商品の魅力を「さわれる体験」で届ける。さらに消費者の生の反応を商品改良に生かし、発売後の販路開拓まで支援。リアル店舗を「売れる商品を育てる実験場」に位置づける。 9月下旬、渋谷駅直結の複合施設「渋谷サクラステージ」。相手を認識してしっぽを振るロボット犬や会話を人工...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOGS13CK50T11C26A1000000",
+  "title": "タイ副首相、ミャンマー首脳のASEAN会議参加に慎重 「まだ早い」",
+  "summary": "【マニラ=赤間建哉】タイのシーハサック副首相兼外相は14日、ミャンマー大統領の東南アジア諸国連合（ASEAN）首脳会議への参加について「おそらく本格復帰させる時期にはまだ来ていない」との見方を示した。 フィリピンの首都マニラで14日に開いたASEAN外相会議に出席後、日本経済新聞のインタビューに答えた。 2021年のクーデター以降、ミャンマー首脳はASEAN首脳会議への参加を認められていない。...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC277OU0X21C26A0000000",
+  "title": "物語コーポレーションの担当役員が求める新卒「失敗を認められる人」",
+  "summary": "物語コーポレーション は、「焼肉きんぐ」や「丸源ラーメン」などの飲食店を全国で展開しています。2026年には町中華やうどんの新業態を開くなど、事業の多角化にも積極的です。経営理念推進・人材戦略本部本部長の横浜任上級執行役員に社風や採用の際に重視するポイントを聞きました。 よこはま・つとむ 1989年（平元年）調理師専門学校を卒業。自営業や大手焼き肉チェーンを経て2005年に物語コーポレーション入社。営業企画部室長、丸源事業部事業部長などを経て16年執行役員、25年より現職。趣味はキムチ作り。東京都出身。57歳。...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQODH207R60Q6A021C2000000",
+  "title": "「人生に長い計画はいらないよ」 セルジオ越後さんの生き方に感謝",
+  "summary": "サッカーとアイスホッケーという2つの競技を愛する日本人の一人として特別に感謝したい人がいる。ブラジル出身の81歳、セルジオ越後さんだ。その日本の恩人が今月、重い荷物を一つ下ろした。 アイスホッケーのアジアリーグ、H.C.栃木日光アイスバックスの運営会社が11月1日付で新体制となり、長らく社長を務めたセルジオさんは会長へと退き、チームの元中心選手、土田英二新社長にバトンを託した。 ブラジルでプロサ...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOGR09ACD0Z01C26A1000000",
+  "title": "英国ワイン、熱波で味上がる 有力市場から有力産地に",
+  "summary": "今夏に欧州を襲った熱波の影響でワイン用ブドウの主要産地の一部では収穫が減った。温暖化によって伝統的な生産国が悪影響を受けるなか、ワインが生産しやすくなった英国は有力な市場から有力な産地に変わりつつある。 「過去20年間で英国のワインは大きく進化した」。7日、在英日本人が集う日本クラブがロンドンで開いた英ワインセミナーで、講師のロバートソン眞由美氏が強調した。 約30人の参加者は解説を聞きながら、...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC134HG0T11C26A1000000",
+  "title": "年間入場者数400万人、上野動物園超え　埼玉県日高市のサイボク拠点",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOSG116A40R11C26A1000000",
+  "title": "プラズマが波で自身を加熱する過程を実証　核融合科学研究所など",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC128D00S6A111C2000000",
+  "title": "「泳ぐ宝石」ニシキゴイ、ブラジルに商機 日本産輸入再開に期待",
+  "summary": "【サンパウロ=水口二季】ブラジルで、日本産ニシキゴイの市場開拓が動き始めた。多くの日系人が暮らすブラジルでは古くから鑑賞文化が根付く一方、日本からの輸入は長く途絶えてきた。新潟県などは輸出再開への道筋を探り、富裕層を中心とする愛好家需要の取り込みを狙う。 8月下旬、サンパウロ中心部で開かれた新潟県の輸出促進イベント。米や酒などと並んで、会場でひときわ注目を集めていたのがニシキゴイだ。赤と白の模様...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUA085MC0Y6A900C2000000",
+  "title": "iDeCo加入率1割に満たず　NISAより仕組み難解、金融機関も敬遠",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311860/change-fitbit-edge-settings-better-user-experience",
+  "title": "Change these Fitbit Edge settings for a better experience",
+  "summary": "The Fitbit Edge not only looks good, but packs plenty of features while remaining minimal. To get the most out of it, you only need to tweak a few settings.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOSG114BX0R11C26A1000000",
+  "title": "日本地震学会の学術総会、熊本への関心高く 地表観測の結果報告",
+  "summary": "地震研究について最新の成果を議論する日本地震学会2026年度秋季大会が11月4〜6日、ウインクあいち（名古屋市）で開かれた。7月に発生した熊本地震については現地を観測した結果などが報告された。 今回の学術集会には約800人の研究者や学生が参加した。関心を集めたのが7月28日に最大震度7を記録した熊本地震に関する報告だ。口頭発表の会場では用意された椅子に座れないため、壁際や出入り口付近で立ち見する...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOCB2862U0Y6A021C2000000",
+  "title": "フィンランド、日本の先端技術に照準 国防相「テック企業と協業望む」",
+  "summary": "フィンランドのハッカネン国防相が日本のハイテク企業との防衛協力に意欲を示した。北欧では同国通信大手ノキアなどテック企業が防衛事業に相次ぎ参入しており、日本企業にも連携を広げる。 都内で日本経済新聞の取材に答えた。「日本とフィンランドは世界を非常に似たような視点で捉えている」と指摘し「日本のハイテク産業との協業を望んでいる」と語った。 フィンランドはロシアによるウクライナ侵略を受け、2023年に北...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC125KJ0S6A111C2000000",
+  "title": "大画面「IMAX」急成長　ゴジラやアニメ推し活、映画館の特別さ求め",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOCD282X00Y6A021C2000000",
+  "title": "金利の上がる世界「バブル抑制を」 日銀やIMFの元幹部が警鐘",
+  "summary": "長期金利の上昇が世界経済の課題となっている。先進国のインフレや財政拡張、人工知能（AI）向け投資との資金の奪い合いなどが背景にある。現在の金利上昇局面をいかに捉え、対処するか。市場や金融政策の専門家に聞いた。 ◇ ◇ ◇ バブル抑制へ引き締め 日興リサーチセンター理事長 山口広秀氏 日本を含む先進国で同時に金利が上がっているのは、要因そのものがグローバルだからだろう。政治、外交、安全保障...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUA10AAA0Q6A111C2000000",
+  "title": "訪日客の事前審査、乗り継ぎ客の一部に適用 政府が入国前の管理強化",
+  "summary": "政府は2028年度中に導入する電子渡航認証制度「JESTA（ジェスタ）」の入国審査の対象に航空機や船の乗り継ぎ客の一部を含める。事前に認証を得ないと搭乗できない。過去に入国を拒否した例が多い国・地域などを想定する。 審査の効率を高め、テロや犯罪といった治安上のリスクがある渡航者の不正な上陸を防ぐ。政府は一部の国・地域の乗り継ぎ客に制度を適用する方向で調整している。審査を免除する対象となる国などは...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC134L50T11C26A1000000",
+  "title": "夜の路地裏から「I LOVE 大津」 ちょうちん掲げ大人の隠れ家",
+  "summary": "滋賀県のJR大津駅付近で今春、夜の路地裏かいわいを活気づけようとするプロジェクトが始まった。名付けて「ニューディープ大津」。中心人物の一人がこの路地裏で焼肉店を営む吉原甫さんだ。「I LOVE O2（大津）」というロゴを作成し、昭和テイストのちょうちんとともに一帯を彩る。この動きは路地裏以外の店舗にも広がりつつある。 よしはら・はじめ 1985年神奈川県藤沢市生まれ。関東学院大学を卒業後、飲食業界へ。京都への旅行を機に同市の飲食店で働くようになった。2016年に大津市に移住し、大津駅付近でビールバーを経営するなどした後、25年に現在の路地裏で「焼肉甫」を開店。...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOCD13CZ70T11C26A1000000",
+  "title": "NVIDIAスパイ問題、イスラエル財政に影　継戦支える「1社依存」に死角",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUD118C80R11C26A1000000",
+  "title": "母親たちの東大紛争 キャラメル・ママが詠んだ「君ら悲しき」",
+  "summary": "「昭和萬葉集」の巻十五（1968〜69年）に、「作者未詳（東大正門に貼られた母親の歌より）」と前置きした一首がある。 「いちょう散る静けき大学構内に暴力捨てぬ君ら悲しき」 68年11月21日。安田講堂などのバリケード封鎖が続く東京大学本郷キャンパス正門に現れた東大生の母親らが、看板に張って並べた作品のひとつである。 母親たちは学生にキャラメルの箱を配り、自重を呼びかけた。新聞各紙はこれをさっそく...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://toyokeizai.net/articles/-/964041",
+  "title": "人気ミドルサイズSUVに初のピュアEV追加､メルセデス･ベンツ新型｢GLCエレクトリック｣に見るマルチパスウェイ戦略 | ライフ | 東洋経済オンライン",
+  "summary": "メルセデス･ベンツが満を持して投入するピュアEV｢GLCエレクトリック｣は､従来のGLCとは一線を画す新設計のプラットフォームや最先端デジタル技術を搭載し､最大642kmの航続距離を実現。進化を遂げ…",
+  "source": "RSS: 東洋経済オンライン",
+  "kind": "news",
+  "published": "2026-11-14T20:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+  "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+  "summary": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering , in a video posted yesterday announcing Planeswalker , the animated series heading to Netflix in 2027. An animated Magic: The Gathering series was first teased back in 2019 with Joe and Anthony Russo at the helm. But that fell apart. In 2024, Netflix announced it still planned to make a series based on the game, but it decided to rework it from the ground up. Now fans are finally getting their first glimpse of the show, which will be called Planeswalker . According to",
+  "source": "RSS: The Verge",
+  "kind": "news",
+  "published": "2026-11-14T19:47:40+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311774/home-internet-2001-vs-2026-cost",
+  "title": "How much did home internet cost in 2001 vs 2026?",
+  "summary": "A lot of things have gotten more expensive since the turn of the millennium. Has home internet suffered the same fate? Let's take a trip down memory lane.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T19:45:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2309616/that-key-left-of-1-on-many-keyboards-is-actually-crucial-for-programmers",
+  "title": "That key left of '1' on many keyboards is actually crucial for programmers",
+  "summary": "The humble tilde has many uses.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T19:30:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year",
+  "title": "Dartmouth (Guarini) will not admit math PhD cohort this year",
+  "summary": "Article URL: https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year Comments URL: https://news.ycombinator.com/item?id=50499945 Points: 47 # Comments: 12",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T19:23:40+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2312052/how-to-make-switch-2-battery-last-longer",
+  "title": "How to make your Nintendo Switch 2 battery last longer",
+  "summary": "The Switch 2's battery life varies depending on what game you're playing, but changing some settings can also help you maximize how long it lasts.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T19:15:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.forbes.com/sites/johnwerner/2026/11/14/corporate-perspectives-roi-on-ai",
+  "title": "Corporate Perspectives: ROI On AI",
+  "summary": "Executives from Nvidia, Cisco, SanDisk, and Marvell discuss enterprise AI adoption, autonomous agents, security, and ROI.",
+  "source": "RSS: Forbes - Innovation",
+  "kind": "news",
+  "published": "2026-11-14T19:11:35+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311959/free-apple-watch-apps",
+  "title": "5 excellent free Apple Watch apps every owner should know about",
+  "summary": "You can enjoy great Apple Watch apps without having to shell out for a subscription.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T19:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
+  "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
+  "summary": "Article URL: https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379 Comments URL: https://news.ycombinator.com/item?id=50499723 Points: 134 # Comments: 59",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T18:56:47+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://togetter.com/li/2770529",
+  "title": "夢グループ、20代からすると「これ買う人いるん？」くらいの認識だけど、おばあちゃんがCMを見た途端「電話して！」と即購入→そこからの顧客を取り込む導線がマジで凄い",
+  "summary": "夢グループ、20代からすると「これ買う人いるん？」くらいの認識だけど、おばあちゃんがCMを見た途端「電話して！」と即購入→そこからの顧客を取り込む導線がマジで凄い ゆうれい @yuurei_desuyo 夢グループマジで凄い 20代の俺だと、これ買う人いるん？とかCMが面白い、くらいの認識なんだけど おばあちゃんがCMを見た途端電話して！と即購入 注文すると社長の声でお礼のメッセージが届く 箱や説明書、社長からのお手紙など全部大きな文字 育毛やシワ改善のカタログ、商品券。そりゃ売れる...",
+  "source": "RSS: はてなブックマーク 総合",
+  "kind": "news",
+  "published": "2026-11-14T18:48:33+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311946/apple-airpods-pro-test-hearing-five-minutes-accuracy",
+  "title": "Your Apple AirPods Pro can test your hearing in five minutes, but are they accurate?",
+  "summary": "Apple AirPods use an industry-recognized standard when testing a user's hearing, but there are various factors that can give inaccurate results.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T18:45:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311859/pc-camera-microphone-not-working-common-reasons",
+  "title": "Common reasons your PC's camera and microphone aren't working",
+  "summary": "There's nothing worse than having camera or mic problems right before a video call or meeting. Luckily, the fixes are usually pretty straightforward.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T18:30:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311762/how-to-check-iphone-ios-version",
+  "title": "How to check which iOS version your iPhone is running",
+  "summary": "Not every version of iOS is a home run, but keeping your iPhone up to date is generally a good idea anyway. Here's how to check whether yours is.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T18:15:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.androidpolice.com/google-wallet-now-lets-you-scan-and-track-receipts-heres-how-to-use-it",
+  "title": "Google Wallet now lets you scan and track receipts; here's how to use it",
+  "summary": "From payment cards to transport passes to ID cards, Google Wallet can store a lot. It's a remarkable place to store important documents , but until recently it hasn't been able to store the item that nobody wants to store in their wallets but ends up with anyway.",
+  "source": "RSS: Android Police",
+  "kind": "news",
+  "published": "2026-11-14T18:00:10+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311854/what-is-npu-why-many-laptops-have-them",
+  "title": "What does an NPU do and why do so many laptops have them?",
+  "summary": "Wondering what an NPU actually does and whether you even need it? We've got you covered.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T18:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.forbes.com/sites/krisholt/2026/11/14/quordle-hint-today-sunday-november-15-clues-and-answers",
+  "title": "Quordle Hint Today: Sunday, November 15 Clues And Answers",
+  "summary": "Looking for some help with today’s Quordle words? Some hints and the answers are right here to give you a hand.",
+  "source": "RSS: Forbes - Innovation",
+  "kind": "news",
+  "published": "2026-11-14T18:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use",
+  "title": "Got an iPhone Duo? These 9 settings make it easier to use",
+  "summary": "From Touch ID shortcuts to smarter volume buttons and camera tricks, these tweaks make Apple's foldable iPhone easier to use every day.",
+  "source": "RSS: TechCrunch",
+  "kind": "news",
+  "published": "2026-11-14T18:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://dev.classmethod.jp/articles/cloudflare-workflows-jurisdiction",
+  "title": "Cloudflare Workflowsのjurisdictionでインスタンスの実行と保存をEU内に限定する",
+  "summary": "Cloudflare Workflowsに、インスタンスの実行と保存の場所を限定するjurisdictionが加わりました。Freeプランのアカウントでeuを設定し、作成後に変えようとしたときのエラー、古いWranglerでの扱い、作り直す手順などを確かめました。",
+  "source": "RSS: DevelopersIO",
+  "kind": "news",
+  "published": "2026-11-14T17:54:59+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://github.com/IRS-Public/direct-file",
+  "title": "US IRS free online tax filing open source repo (2025)",
+  "summary": "Article URL: https://github.com/IRS-Public/direct-file Comments URL: https://news.ycombinator.com/item?id=50499083 Points: 122 # Comments: 69",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T17:48:20+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.forbes.com/sites/danfreedman/2026/11/14/mlb-cy-young-winners-provided-more-than-80-million-in-excess-value",
+  "title": "MLB Cy Young Winners Provided More Than $80 Million In Excess Value",
+  "summary": "With two second-year players winning this year’s Cy Young Awards, the Brewers and Yankees reap the benefit of a massive amount of excess value from their contracts.",
+  "source": "RSS: Forbes - Business",
+  "kind": "news",
+  "published": "2026-11-14T17:48:12+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://dev.classmethod.jp/articles/azure-nsg-existing-connections",
+  "title": "Azure NSGの許可規則を削除しても、接続中のSSHは切れない？20分つないだまま確かめた",
+  "summary": "Azure NSGでSSHの許可規則を削除し、接続中のセッションと新しい接続がどうなるかを実機で確かめました。既存のセッションはループが終わって閉じるまでの約20分間切れず、新しい接続はタイムアウトしました。規則変更後の確認観点とflushConnectionの現状も整理します。",
+  "source": "RSS: DevelopersIO",
+  "kind": "news",
+  "published": "2026-11-14T17:47:18+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles",
+  "title": "A Family Tree of Software Job Titles",
+  "summary": "Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/ Comments URL: https://news.ycombinator.com/item?id=50499038 Points: 140 # Comments: 63",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T17:45:19+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide",
+  "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+  "summary": "FAA administrator Bryan Bedford also said there's \"zero evidence of anything AI-related.\"",
+  "source": "RSS: TechCrunch",
+  "kind": "news",
+  "published": "2026-11-14T17:45:04+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311851/how-to-check-apple-watch-battery-health",
+  "title": "Checking your Apple Watch's battery health is easier than you think",
+  "summary": "The Apple Watch's battery life is undoubtedly impressive but you'll need to keep an eye on the health of the battery to keep it working at its best.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T17:45:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+  "title": "Work to replace old copper wire led to the FAA’s ground stop",
+  "summary": "A view of an information board at the Chicago O'Hare International Airport, filled with waiting passengers on November 13, 2026. | Anadolu via Getty Images At a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a \"remote FAA facility.\" The secretary said that this was \"routine maintenance,\" rather than the result of a major modernization effort. He told reporters that it was \"such an old wire that it was being discontinued, meaning that line was g",
+  "source": "RSS: The Verge",
+  "kind": "news",
+  "published": "2026-11-14T17:44:28+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://9to5mac.com/2026/11/14/homeview-ambient-dark-mode-should-come-to-all-devices",
+  "title": "Here’s a HomeView feature that should come to every Apple device",
+  "summary": "This week, Apple started shipping the HomeView , its first display made for the smart home. On the HomeView , there’s one particularly nice feature that I’d love to see make its way to all Apple platforms: Ambient Dark Mode. more…",
+  "source": "RSS: 9to5Mac",
+  "kind": "news",
+  "published": "2026-11-14T17:43:49+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.crissyfield.de/research/lovable-en",
+  "title": "Lovable apps expose passport details and more than 200K private messages",
+  "summary": "Article URL: https://www.crissyfield.de/research/lovable-en/ Comments URL: https://news.ycombinator.com/item?id=50499017 Points: 508 # Comments: 184",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T17:43:10+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.forethought.org/research/will-we-really-put-data-centers-in-space",
+  "title": "Will we put data centers in space?",
+  "summary": "Article URL: https://www.forethought.org/research/will-we-really-put-data-centers-in-space Comments URL: https://news.ycombinator.com/item?id=50498945 Points: 41 # Comments: 120",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T17:35:33+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311763/samsung-one-ui-getting-rid-of-another-feature",
+  "title": "Samsung may be getting rid of another One UI feature",
+  "summary": "Samsung has discontinued Samsung Messages in favor of Google Messages in the US, and it looks like another One UI feature may suffer the same fate.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T17:30:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311827/1tb-storage-xbox-series-x-enough",
+  "title": "Is 1TB enough storage for your Xbox Series X? Here's what gamers should know",
+  "summary": "With games increasingly taking up valuable space on consoles, we take a look at whether going for the extra storage on the Xbox Series X is really worth it.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T17:15:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.androidpolice.com/star-flight-details-door-codes-google-messages-skip-frustrating-search-menus",
+  "title": "I star flight details and door codes in Google Messages to skip frustrating search menus",
+  "summary": "Keeping life organized can be challenging at the best of times. In an ideal world, I'd copy and paste every confirmation and tracking number I receive into Google Keep .",
+  "source": "RSS: Android Police",
+  "kind": "news",
+  "published": "2026-11-14T17:00:10+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.androidpolice.com/bose-noise-cancelling-wired-earbuds-review",
+  "title": "Bose's Noise Cancelling Wired Earbuds made me miss simple tech",
+  "summary": "I'm someone who's perpetually wearing earbuds or headphones. Whether I need a good jam session, to catch up on reels, or to shut out the chaos that is my home, these ears need covering.",
+  "source": "RSS: Android Police",
+  "kind": "news",
+  "published": "2026-11-14T17:00:10+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOCD072CW0X01C26A1000000",
+  "title": "クマ被害減らすには森づくりから　広葉樹増やし緩衝帯に",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUE1296A0S6A111C2000000",
+  "title": "農地転用とは 用途の変更、2つの法律で厳しく制限",
+  "summary": "▼農地転用 農地を住宅や工場、商業施設など、ほかの用途に変えること。過度な開発を防ぐため、農地法と農業振興地域の整備に関する法律（農振法）の2つの法律によって厳しく規制されている。 高度成長期の1973年にピークを迎え、住宅や工場のほか、道路や水路、鉄道用地にも農地が転用された。開発需要が高まったバブル期に再び増加に転じ、その後減少したものの、近年は横ばいが続く。農地法4条と5条に基づく許可・届け出による転用は毎年100平方キロメートル前後で推移し、直近の23年は98平方キロメートルだった。最近は駐車場や太陽光発電所の敷地などへの転用もみられる。 国は転用による農地の減少を懸念し、規制を強化してきた。国や都道府県による学校や病院といった一定の公共施設への農地転用はそれまで許可が不要だったものの、09年の農地法改正で都道府県などとの協議が必要になった。不適切な転用を防ぐため、24年の同法改正では、転用許可を受けた者に事業の進捗状況などを定期的に報告することを義務付けた。 【関連記事】 ・ 農地がホテルや住宅に変わる 312市町村で1割超消失、細る食料基盤 ・ 隣の農家は外国人 国内の農地取得面積が過去最多、食の多様化支える ・ 北海道の「十勝AI農業特区」指定 ロボトラ公道走行へ実証 ・ 都市農園が持つ可能性、災害対策や街づくりの原動力に 専門家に聞く",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUA094SO0Z01C26A1000000",
+  "title": "介護報酬を段階引き上げ 厚労省検討、インフレと賃上げで27年度から",
+  "summary": "厚生労働省は2027年度に予定する3年に1度の介護報酬の改定で、段階的な引き上げを検討する。物価と賃金の上昇が続くことを前提に、事業者が職員の賃上げの原資を確保しやすくする。 介護報酬は事業者が公的介護サービスの対価として受け取る収入を指す。事業者が資機材の値上がりや職員の賃上げに対応できるように改定率を上げる。 改定対象は27〜29年度の3年間の報酬だ。26年度を基準とした上昇率が前年度の水準...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2315651/why-nvidia-rtx-3060-most-popular-steam-gpu",
+  "title": "Why is the NVIDIA RTX 3060 still the most popular GPU on Steam?",
+  "summary": "You'd think that gamers would always run the latest and greatest GPUs in their rigs, but NVIDIA's RTX 3060 proves that isn't quite the case.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOCB060620W6A101C2000000",
+  "title": "スリランカ、難路の中立外交 米国と友好国イランの板挟みに",
+  "summary": "インド洋で地政学的緊張が高まるなか、スリランカの中立路線に厳しい目が注がれている。米国によるイランへの軍事攻撃で、戦略的要衝であるスリランカに対し、どちらかの側につくよう圧力が強まっている。 発端は米政府の制裁対象となっているイランの石油タンカー約20隻が食料や水などの物資の支援をスリランカ政府に求めたことだ。 タンカーは米国の海上封鎖でイランの港に戻れず、スリランカ南西沖約15カイリ（約28キ...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOGN060340W6A101C2000000",
+  "title": "米上院議員選出のタラリコさん　「愛の政治」掲げ共和党の牙城崩す",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQODH12BQV0S6A111C2000000",
+  "title": "エリザベス女王杯など競馬予想 15日の有力馬",
+  "summary": "日経競馬担当記者、野元賢一と関根慶太郎の15日の中央競馬予想は以下の通りです。東京競馬全レース（野元記者）、京都競馬全レース（関根記者）の予想を掲載しています。出走馬、頭数、騎手などに関する情報は前日14日夕現在のものです。 エリザベス女王杯 関根慶太郎 6月に3歳馬と年長馬の混合戦が始まって以降、3歳世代の重賞での成績が振るわない。8日までの連対率（障害戦を除く）は10.0%で、4歳の14.4...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC020CL0S6A101C2000000",
+  "title": "サッポロ黒ラベルCM、2本柱に 「格好いい」に加え「飲みたい」訴求",
+  "summary": "サッポロビール は2026年10月5日から、サッポロ黒ラベルの新CM「大人トレイン」を放映している。吉高由里子を起用した新作を投入しつつも、長寿シリーズ「大人エレベーター」の出稿も従来通り続け、26年10月の広告投資は前年同月比で約2倍に増加させる見通しだ。すでに人気シリーズを持つ中、なぜ今このタイミングで「2本柱」のコミュニケーションへ舵（かじ）を切ったのか。新CMの内容や狙いとともに解説する。...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOGN115KS0R11C26A1000000",
+  "title": "NVIDIA17日決算、ファン氏辞任の衝撃 カリスマなき成長に懸念",
+  "summary": "米 エヌビディア は米国時間11月17日午後、2026年8〜10月期の決算を発表する。共同創業者のジェンスン・ファン氏が12日、中国のスパイ疑惑がある女性などとの不倫を受けて最高経営責任者（CEO）職を退任した。カリスマなき成長に市場の懸念が広がっている。 エヌビディアはファン氏の退任を発表した12日、8〜10月期の決算発表の日程は17日で変わらず、決算説明会も行うと明らかにしている。暫定CEOに就...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC137PC0T11C26A1000000",
+  "title": "BBQは秋冬に　猛暑で夏敬遠、忘新年会需要掘り起こす",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUE216VA0R21C26A0000000",
+  "title": "農地がホテルや住宅に変わる 312市町村で1割超消失、細る食料基盤",
+  "summary": "日本の食料生産基盤が細っている。日本経済新聞が全国の農地転用の状況を調べると、過去15年間に312市町村で農地の1割超が転用されていた。担い手不足も重なり、安い田畑がホテルや住宅に姿を変えている。食料生産力を高めるには、国や自治体が過度な転用の防止策を講じる必要が出てきた。 「開発業者3社から話」 富士山を間近に望む山梨県富士河口湖町。10月、河口湖駅前は外国人客で混雑していた。膨らむ観光需要を...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUE027UY0S6A101C2000000",
+  "title": "続く農地縮小、50年で新潟県超える面積消失 国の目標「黄信号」",
+  "summary": "農地の縮小に歯止めがかからない。国内では半世紀で田畑の面積が2割強減った。このペースが続けば、国が目標とする農地面積の維持も危ぶまれる。地域の発展と食料生産を支える農地の確保の両立が課題となっている。 農地の担い手も激減 農林水産省によると、1976年に5万5300平方キロメートルあった日本の農地は、2026年に4万2100平方キロメートルとなり、50年間で24%減った。新潟県を超える面積の農地...",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.forbes.com/sites/melissacristinamarquez/2026/11/14/this-glowing-shark-may-use-its-bioluminescence-as-a-biological-searchlight",
+  "title": "This Glowing Shark May Use Its Bioluminescence As A Biological Searchlight",
+  "summary": "The kitefin shark may be turning one of the ocean’s best-known camouflage tricks into a hunting tool.",
+  "source": "RSS: Forbes - Innovation",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOSG090YD0Z01C26A1000000",
+  "title": "宇宙に「ト音記号」、ブラックホールの活動などで形成か 国際研究",
+  "summary": "宇宙に浮かぶ「ト音記号」に似た電波構造=NASAなど提供 イタリア国立宇宙物理学研究所（INAF）などは宇宙空間で観測した「ト音記号」に似た電波構造が形成された仕組みを明らかにした。ブラックホールの活動で噴出した電荷を帯びた粒子が、銀河団同士の衝突によって再びエネルギーを得てできた可能性が高い。 電波構造は高エネルギーの荷電粒子が磁場の中で放つ電波を電波望遠鏡で捉えたものだ。今回の国際研究グループがその形から「ト音記号」と名付けた。地球から見ると天の川銀河の円盤のほぼ真後ろに位置するため、手前の星やガス、ちりに遮られて詳しい実態は分かっていなかった。 INAFをはじめとする研究グループは、米航空宇宙局（NASA）のX線観測衛星「チャンドラ」や欧州の電波望遠鏡群「LOFAR」などの観測データを分析した。 その結果、ト音記号の周辺には数百万度に達する高温のガスが広がり、2つの銀河団が合体する過程にあることが分かった。銀河団は多数の銀河や大量の高温ガスなどが集まった宇宙で最大級の構造の一つだ。 研究グループはト音記号が2段階の過程で形成されたと推定した。まず銀河団の中心にある超大質量のブラックホールの活動によって荷電粒子と磁場が宇宙空間へ放出された。その後、荷電粒子が発する電波は粒子がエネルギーを失うにつれて弱くなった。 そこに銀河団同士の衝突によって粒子の雲が圧縮されたり、衝撃波などで",
+  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUD136X90T11C26A1000000",
+  "title": "受刑者投票禁止の公選法規定、最高裁どう判断　18日に判決言い渡し",
+  "summary": "",
+  "source": "RSS: 日経新聞 速報",
+  "kind": "news",
+  "published": "2026-11-14T17:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.forbes.com/sites/petersuciu/2026/11/14/the-united-states-navy-is-scuttling-the-long-worn-peacoat-next-year",
+  "title": "The United States Navy Is Scuttling The Long-Worn Peacoat Next Year",
+  "summary": "The iconic peacoat is among several items being retired as part of the ongoing “seabag reduction” effort that will also phase out the acrylic V-neck sweater.",
+  "source": "RSS: Forbes - Business",
+  "kind": "news",
+  "published": "2026-11-14T16:50:30+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.yomiuri.co.jp/national/20261115-GYT1T00070",
+  "title": "駐露大使に宇山氏　政府方針",
+  "summary": "",
+  "source": "RSS: 読売新聞 新着",
+  "kind": "news",
+  "published": "2026-11-14T16:49:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2316881/uber-drivers-information-stolen-in-a-third-party-hack",
+  "title": "Uber drivers' information stolen in a third-party hack",
+  "summary": "Uber sends warning to drivers whose information was stolen in a data breach.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T16:47:44+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311725/new-tech-stick-in-year-1970-unix-time-explained",
+  "title": "Your new tech is still stuck in the year 1970 — here's why",
+  "summary": "If you've ever seen an arbitrary date in 1970 on your non-Windows device, don't worry, it's not glitching. It was chosen during the development process.",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T16:45:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.yomiuri.co.jp/national/20261115-GYT1T00051",
+  "title": "青森県南部町で女性死亡のひき逃げ、７６歳会社員の男逮捕…「白い袋のようなものを踏んだ」と容疑否認",
+  "summary": "",
+  "source": "RSS: 読売新聞 新着",
+  "kind": "news",
+  "published": "2026-11-14T16:37:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+  "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+  "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+  "source": "RSS: TechCrunch",
+  "kind": "news",
+  "published": "2026-11-14T16:34:15+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.forbes.com/sites/omerawan/2026/11/14/new-prostate-cancer-screening-guidelines-heres-what-you-need-to-know",
+  "title": "New Prostate Cancer Screening Guidelines—Here’s What You Need To Know",
+  "summary": "A doctor explains the new prostate cancer screening guidelines, why they were updated, and why they are important.",
+  "source": "RSS: Forbes - Innovation",
+  "kind": "news",
+  "published": "2026-11-14T16:31:39+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.engadget.com/2311715/apple-airpods-2016-vs-2026-how-much-they-cost",
+  "title": "Here's how much Apple AirPods cost in 2016 vs. 2026",
+  "summary": "First introduced in 2016, AirPods have improved in quality, offering a bevy of new features, but how has that impacted the cost to the consumer today?",
+  "source": "RSS: Engadget - Technology News & Expert Reviews",
+  "kind": "news",
+  "published": "2026-11-14T16:30:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.willett.io/posts/data",
+  "title": "Let Me Let You Own Your Data",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-11-14T16:08:27+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://speakerdeck.com/minorun365/jouji-kadou-ejento-no-tsukurikata",
+  "title": "常時稼働エージェントの作り方（Claude公式ブログを資料化）",
+  "summary": "以下のURLを私のClaude Codeに渡して、スライドをポン出しする実験です。 https://claude.com/ja/resources/articles/building-always-on-agents",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T16:06:17+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol",
+  "title": "How to Create Your Own Decentralized Messenger Protocol",
+  "summary": "Article URL: https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol Comments URL: https://news.ycombinator.com/item?id=50498073 Points: 47 # Comments: 9",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T16:01:04+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete",
+  "title": "PyPI's redesigned project pages with clearer security signals are now live",
+  "summary": "Article URL: https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/ Comments URL: https://news.ycombinator.com/item?id=50497892 Points: 175 # Comments: 81",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T15:40:52+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+  "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+  "summary": "Article URL: https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax Comments URL: https://news.ycombinator.com/item?id=50497589 Points: 119 # Comments: 7",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T15:04:15+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.47news.jp/15231027.html",
+  "title": "AI悪用の攻撃拠点、千台発見 サイトの弱点探索、不正侵入疑い",
+  "summary": "高性能な人工知能（AI）を悪用したサイバー攻撃の拠点と疑われるサーバーが10月以降、世界のインターネット上に少なくとも千台前後存在していることが14日、分かった。日本の情報セキュリティー専門機関が海外企業と連携した国際的調査で判明した。国内外のウェブサイトを標的としてAIを使って弱点を探索し、不正侵入を...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T14:55:47+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview",
+  "title": "Demystifying phone unlocking tools: A technical overview",
+  "summary": "Article URL: https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview/ Comments URL: https://news.ycombinator.com/item?id=50497416 Points: 51 # Comments: 1",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T14:44:28+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://github.com/paul-nameless/agweb",
+  "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+  "summary": "Article URL: https://github.com/paul-nameless/agweb Comments URL: https://news.ycombinator.com/item?id=50497147 Points: 79 # Comments: 21",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T14:08:12+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://github.com/FURSOY/fursoy-cpu",
+  "title": "Show HN: Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)",
+  "summary": "Article URL: https://github.com/FURSOY/fursoy-cpu Comments URL: https://news.ycombinator.com/item?id=50497137 Points: 61 # Comments: 20",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T14:06:34+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://gitlab.com/snipedbywifi/terminactory",
+  "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+  "summary": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features / fixing some minor flaws (like adding claude code hooks so you recieve \"telegr",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T14:05:54+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14",
+  "title": "Italy fines Meta $887M over Android users' data access",
+  "summary": "Article URL: https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/ Comments URL: https://news.ycombinator.com/item?id=50497009 Points: 284 # Comments: 191",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T13:48:06+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+  "title": "KDE: The documentary [video]",
+  "summary": "Article URL: https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c Comments URL: https://news.ycombinator.com/item?id=50496976 Points: 325 # Comments: 70",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T13:43:28+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://aatishb.com/myriad/how-brains-learn",
+  "title": "A visual explanation of reinforcement learning",
+  "summary": "Article URL: https://aatishb.com/myriad/how-brains-learn/ Comments URL: https://news.ycombinator.com/item?id=50496885 Points: 94 # Comments: 6",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T13:31:06+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature",
+  "title": "Advancing science and engineering with Antigravity's /teamwork",
+  "summary": "Article URL: https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/ Comments URL: https://news.ycombinator.com/item?id=50496811 Points: 138 # Comments: 33",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T13:20:43+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://togetter.com/li/2770437",
+  "title": "「すげぇ！教科書とかで見たフロッピーや！！これで容量どれくらいあるんですか？」若者のほのぼのとした感想がぶっ刺さるネット民",
+  "summary": "しー@園芸博NEXT！ @Sh_i0916 すげぇ！！！ フロッピーや！！ フロッピーや！！！ 教科書とかで見たフロッピーや！！ 初めて触ったかも！！ うっす！！！！ かるっ！！！！！ すげぇ！！ これで容量どれくらいあるんですか？ #フロッピー #富士通 pic.x.com/Ofx3uVhKaf 2026-11-14 09:04:15",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T12:54:13+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://dev.classmethod.jp/articles/cognito-self-signup-agentic-attack",
+  "title": "Cognitoの自己サインアップが有効だと、誰でもAWSの一時認証情報を取得できる：AI攻撃ツールARTEXの事例と確認したい設定3点 | DevelopersIO",
+  "summary": "どうも！オペ部の西村祐二です！ S3 にフロントエンドを置き、Amazon Cognito のユーザープールでログインさせ、ID プールで AWS の一時認証情報を渡す。AWS で SPA を作るときによく見る構成です。この構成が攻撃用の AI エージェントにどう使われたかを、Datadog Security Labs が2026年11月9日の記事「On the hunt fo...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T12:48:25+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+  "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+  "summary": "Article URL: https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again Comments URL: https://news.ycombinator.com/item?id=50496602 Points: 403 # Comments: 152",
+  "source": "Hacker News",
+  "kind": "news",
+  "published": "2026-11-14T12:45:45+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/BaspisKawaE/items/933b883e4585ebd59299",
+  "title": "あなたのAIはまだ、「ものの調べ方」を知らない。──調査スキル「imozuru」を作ってバズった話",
+  "summary": "株式会社パレットリンクの@BaspisKawaEです。 今回は、AIに調べものをさせるスキルを公開したら反応を多くいただいたので、なぜわざわざ調べものをスキルにしたのかを解説します。 よろしくお願いします! 対象読者：AIに調べものを任せていて、答えが物足りないと...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T12:14:20+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/licux/items/cd639f2ae807b35b6697",
+  "title": "agentgatewayで始めるMCP管理",
+  "summary": "agentgateway AIエージェントが様々なタスクをこなすためには、様々なMCPサーバーやAIエージェントと接続して機能を拡張する必要があります。数が少なければ、MCPサーバーやAIエージェントとの通信の監視やトラフィックを制御できますが、接続数が増えると管理が煩雑...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T10:49:51+00:00",
+  "deadline": null
+ },
+ {
+  "url": "http://blog.sesse.net/blog/tech/2026-11-13-19-51_solving_the_fox_game.html",
+  "title": "Solving the fox game",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-11-14T10:32:33+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.ms.u-tokyo.ac.jp/~konno/grad_ai.html",
+  "title": "AIについての追記",
+  "summary": "Associate Professor, Graduate School of Mathematical Sciences 私のところで大学院入学を希望する方へ―AIについての追記 この文章は2026年11月に書いています．この年は，AIが数学にもたらした影響がある閾値を超えた年として記憶されるでしょう．大学院教育にも当然多大な影響があります．学生さんから，AIについて...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T10:13:39+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://zenn.dev/caphtech/articles/qwen38-zh-ban",
+  "title": "Qwen3.8 Flash Nextに混ざる中国語を、出力層の書き換えで消した: 27%→0%、他の重みは1バイトも変えずに",
+  "summary": "同じ問いに対する書き換えたモデルの答えでは、「誤って攻撃してしまう病気」「ビール: 最も注意」と書かれていました（サンプリングなので、文全体は元と同じではありません）。 測った条件 モデル: Qwen3.8-Flash-Next。mlx-serveの変換で作った4ビットのMLX版で、出力層だけ8ビットです。 問い: 医療の問い60問。JMML...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T10:07:16+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://goliath32.com/blog/ziphead.html",
+  "title": "Creating a self booting ZIP archive",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-11-14T10:01:58+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://statmodeling.stat.columbia.edu/2026/11/13/when-is-a-class-a-commodity-and-when-does-it-depend-on-the-instructor",
+  "title": "When is a class a “commodity” and when does it depend on the instructor?",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-11-14T09:57:57+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOWJJLUtZaXdQSzBfci1zaFVtSjctaFpOdGh5Q3R1ajNMODJIMkxKTVg5ZHhWSElMNUxydzY3M3JtemRReTRDcUhxaEtXLWNIOURENGhZTlZzNUdrVF9VSjJIUUlpZzBxYXNrUm5ZcXp5TW1HTGhMQUt4TzhobzVJcmVaUzRlVWQ1RDVPVjBB?oc=5",
+  "title": "ホーチミン市は、学生向けに食事、英語研修、STEM教育、AIなどの分野で財政支援を提供する計画だ。 - Vietnam.vn",
+  "summary": "ホーチミン市は、学生向けに食事、英語研修、STEM教育、AIなどの分野で財政支援を提供する計画だ。 Vietnam.vn",
+  "source": "Google News: 学生無料ツール",
+  "kind": "news",
+  "published": "2026-11-14T09:15:23+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.infoq.com/news/2026/11/nodejs-debounce-throttle",
+  "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
+  "summary": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends the experimental Virtual File System to node:ffi. The additions reduce the need for some userland dependencies. Node.js 26 is now Active LTS. By Daniel Curtis",
+  "source": "InfoQ",
+  "kind": "news",
+  "published": "2026-11-14T08:03:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://theupdate.coffee/episodes/0J7UP7922ZXV6NBTt7w9Jl",
+  "title": "AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 | The Update",
+  "summary": "2026年11月14日|21分 AIチームを率いるとは、どういうこと？ with プログラマー・起業家 amachang Part1 ゲスト: 天野仁史（多摩川機構エンジニアリング株式会社 代表） 一人の会社に、開発チームがいくつもある。 コードを書くAI、デザインするAI、それらを束ねるAI。スマートニュースでiOS・Android・Webの3チームを率...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T07:45:30+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/moyomoyomoyo/items/522ba880ff37971aa969",
+  "title": "AWS Emulatorが一般提供されたので、ローカルでS3バケットを作成してみた",
+  "summary": "はじめに 本記事は2026年11月14日時点の情報です。最新の提供条件や料金は、公式ドキュメントを確認してください。 2026年11月11日、AWSがローカルで動かせるエミュレーター「AWS Emulator」を発表しました。エミュレーターとは、本物のサービスの代...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T07:41:30+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/Nana_777/items/6be40f2779bb25e69484",
+  "title": "【AWS】AWS EmulatorでPRごとのCI（結合テスト）を回す【GitHubActions】",
+  "summary": "はじめに 2026年11月11日に、AWS Emulator が公式にリリースされました。AWS SDK や AWS CLI の呼び出しを、AWS アカウントなしで、ローカルや CI 上のエミュレーターに向けられるツールです。公式ドキュメントは、ユースケースのひとつに C...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T07:28:23+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning",
+  "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
+  "summary": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a header or query parameter. New versions can change defaults, error formats, and IAM checks without touching /v1 callers, a model Azure Resource Manager and Stripe have used for years. By Steef-Jan Wiggers",
+  "source": "InfoQ",
+  "kind": "news",
+  "published": "2026-11-14T07:27:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://zenn.dev/takesako/articles/e9b10360d889ca",
+  "title": "1時間で作るPerlOS: Yet Another Perl Computer",
+  "summary": "PerlOS を作って低レイヤーを学ぼう 普段書いているC言語のプログラムで疑問に思ったことはないでしょうか？ #include <stdio.h>で使われる標準ライブラリの実体は、どこにあるのか？ main関数が呼ばれるまで、誰がどんなことをしているのか？ printf関数は、どうやって文字を画面に出しているのか？ この記事では、組み込み用のPerl言語処理系「microperl」を自作OSに組み込み、起動するとPerlのシェルが使える「PerlOS」を作る手順を解説します。 最初はC言語で自作OSの数十行のコードを書いて、仮想環境QEMUを用いてシリアルコン...",
+  "source": "Zenn",
+  "kind": "news",
+  "published": "2026-11-14T07:09:37+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SSHBKNUZfQjVlWEJDUnluVjBWRzR6S3BEM3RFMmxxMG1fU0JmbzlMeTdMU09WcEhGT2QwTDV2TFBKNkN5Y1NjakhpNmkxRVpNWnZqc3JoQnprSEM4MkNrTnBNN0d6WVFpel9vV1ZvMXE?oc=5",
+  "title": "【きょうから】ナイトプール「子ども初解禁」＆「学割で半額以下」 ホテルニューオータニ幕張でスタート - 山陽新聞",
+  "summary": "【きょうから】ナイトプール「子ども初解禁」＆「学割で半額以下」 ホテルニューオータニ幕張でスタート 山陽新聞",
+  "source": "Google News: 学割サブスク",
+  "kind": "news",
+  "published": "2026-11-14T06:39:02+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb",
+  "title": "Open Source DocumentDB 1.0 Reaches General Availability",
+  "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio",
+  "source": "InfoQ",
+  "kind": "news",
+  "published": "2026-11-14T06:37:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/moritalous/items/9e7c02b749037238b2bc",
+  "title": "ちょっと見ない間にClaude APIが進化してた！",
+  "summary": "ClaudeのAPI、ただモデル呼び出すだけでしょと思ってたんですが、どんどん進化してました！ 環境 Pythonのプロジェクトを作成し、Anthropicの公式SDKをインストールします。 uv init app --python 3.13 --no-package c...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T06:32:07+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC141CH0U6A111C2000000",
+  "title": "マイクロソフトの障害が全面復旧 メールやAI、ほぼ1日半経て - 日本経済新聞",
+  "summary": "米マイクロソフトは14日、業務ソフト「マイクロソフト365」で起きた大規模な障害についてサービスが全面復旧したと発表した。日本時間14日午後2時半すぎに接続状況ページで復旧を報告した。メールソフト「Outlook（アウトルック）」や人工知能（AI）支援機能「Copilot（コパイロット）」などが利用できない影響が出てい...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T06:07:53+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/J-T_ky2g/items/757b73893b5fde454b83",
+  "title": "「Error: Expected key descriptor but found \"\" in \"\"」 RTLでinput type=\"number\"のデフォルト値0を消す",
+  "summary": "はじめに input type=\"number\"のデフォルト値0を消して未入力のバリデーションテストをしたかった 問題 値を触らないと0になり未入力でなくなる 解決 userEventを使う場合 await userEvent.clear(timeInput...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T05:59:42+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/lab8010/items/b23816de04b60ebb9a9a",
+  "title": "Dell Technologies Forum 2026 参加レポート：仮想化の熱量は今も健在だった件",
+  "summary": "2026年11月13日、ザ・プリンス パークタワー東京で開催された「Dell Technologies Forum 2026」に参加してきました。1年ぶりの参加です。 先に結論を書くと、AI推しのイベントのはずが、展示会場で一番熱を感じたのは「仮想化基盤の移行」でした。 ...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T05:51:49+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://dfarq.homeip.net/what-happened-to-3com",
+  "title": "What happened to 3com?",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-11-14T05:46:40+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.29713",
+  "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-11-14T04:51:14+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://alexwang.ai/posts/associative-memory",
+  "title": "You could have invented transformers from memory",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-11-14T04:49:47+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1NjYwaGZiYm85TDNFV0IwWk5RT1hJS1U5SXRvXzRkVGZia0FEREN0VzVJd283YlZsZFJEd25RczhsYjBHdlB2ZjJxbzVfc1dhSTNZNWplbXhJa1BGZ0w1dks4dVo?oc=5",
+  "title": "Apple MusicとYouTube Musicを比較｜どっちがいい？料金・音質・iPhoneとYouTube Premiumで選ぶ - SoundZoo",
+  "summary": "Apple MusicとYouTube Musicを比較｜どっちがいい？料金・音質・iPhoneとYouTube Premiumで選ぶ SoundZoo",
+  "source": "Google News: 学割サブスク",
+  "kind": "news",
+  "published": "2026-11-14T04:33:57+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://gigazine.net/news/20261114-developers-games-industry-using-generative-ai",
+  "title": "ゲーム開発者の40％が生成AIを使用しているもののそれ以上に多くの人が生成AIは有害だと考えている",
+  "summary": "ゲーム開発にAIを活用することに対しては賛否両論ありますが、世界最大級のゲーム開発者会議であるGDCの最新レポートから、業界で活躍する開発者の40％が生成AIを利用していることが明らかになりました。 A new report reckons 40% of developers in the video games industry are using generative AI - but even more ...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T04:02:46+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://zenn.dev/kinuuu/articles/hackathon-team-dev-preparation",
+  "title": "ハッカソン初心者に伝えたい、失敗から学んだチーム開発前の3つの準備",
+  "summary": "ハッカソンで開発を始める前に、チームで確認しておきたいことが3つあります。 全員が同じアプリを起動できるか Gitで変更を共有し、取り込めるか 担当するタスクの内容と、完了条件が伝わっているか これまでに20回ほどハッカソンに参加し、主にチームの取りまとめ役として、企画から開発・デプロイまでを担当してきました。その中で、開発を始めるときの流れや初心者向けの説明をドキュメントにまとめたり、PRテンプレートやAIによるPRレビューを取り入れたりして、チーム開発の進め方を改善してきました。 ! この記事の対象読者 これからハッカソンに参加する人 個人開発の経験はあるが、Gitを使ったチー...",
+  "source": "Zenn",
+  "kind": "news",
+  "published": "2026-11-14T04:01:19+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/duelist2020jp/items/af21a54cb3726f1a323f",
+  "title": "RHEL 10.2から10.3へのリリースアップ作業纏め",
+  "summary": "はじめに 11/11にRed Hat Enterprise Linux(以下、RHEL)の10.3がリリースされました。同日に9.9もリリースされています。 私は個人の検証環境としてRHEL9環境とRHEL10環境の両方を維持しています。本日RHEL10.2から10...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T03:58:54+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://togetter.com/li/2770282",
+  "title": "「なんでお前は重要なデータを任されるほど信用されてんの？」と上司に聞かれたセキュリティ担当者の回答、信頼に値する妙な説得力がある「情報って武器だなぁ」",
+  "summary": "沖田 丈11 @vjoe 俺、会社のかなり重要なデータを扱ってんのね そんで、他社から入社してきた上司から 「なんで沖田は重要なデータ任されてる程に信用されてんの？」 って聞かれて 「セキュリティ兼内部監査として、取締役の誰が休日に会社PCで熟女AV観てたか把握しているけどバラしてないから」 で納得してもらえた 202...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T03:49:42+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/duelist2020jp/items/9b1da0b932afce1a888f",
+  "title": "RHEL9.8から9.9へのリリースアップ作業纏め",
+  "summary": "はじめに 11/11にRed Hat Enterprise Linux(以下、RHEL)の9.9がリリースされました。同日に10.3もリリースされています。 本日、個人のRHEL9.8環境を9.9にリリースアップしましたので、備忘録として纏めました。 更新作業 私...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T03:39:16+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://gigazine.net/news/20261114-software-used-to-be-horrible",
+  "title": "現代のソフトウェアは劣化しているかもしれないが昔のソフトウェアはもっとひどかったという指摘",
+  "summary": "ソフトウェアの肥大化や動作の遅さ、バグの増加などを理由に「昔のソフトウェアの方が品質が高かった」と主張する人もいます。しかし、1990年からコンピューターを使い続けてきたソフトウェアエンジニアのジェイク・ヴォイトコ氏は過去のソフトウェアが抱えていた問題を振り返り、現代のソフトウェアがいかに改善されて...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T03:09:31+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://gihyo.jp/article/2026/11/llama.cpp-v1.0.0",
+  "title": "llama.cpp 1.0.0リリース ——API・ABIの非互換変更をメジャーバージョンの更新で明示へ",
+  "summary": "llama.cppの開発チームは2026年11月13日、初のメジャー版となる1.0.0をリリースした。llama.cppは、大規模言語モデル（LLM）の推論を実行するC/C++製ライブラリで、計算を支えるテンソルライブラリggmlも同時に1.0.0となった。",
+  "source": "gihyo.jp",
+  "kind": "news",
+  "published": "2026-11-14T03:09:14+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://blog.janestreet.com/writing-a-dsl-for-high-performance-parallel-programming-in-oxcaml",
+  "title": "Writing a DSL for high performance parallel programming in OxCaml",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-11-14T02:57:49+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://cursor.com/blog/security-incident-update",
+  "title": "An update on our recent security incident · Cursor",
+  "summary": "On October 29, we shared that we were investigating a security incident and a malicious, unauthorized copy of Anthropic's Claude Code extension that appeared in the Cursor VS Code extension marketplace. After an extensive investigation over the past two weeks, we want to share more context on the...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T02:05:25+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfVnFXTnRVWWpMSVNsbjhKbV82Q282ODY0MVFOOHNxbEl3TnMzWHlCb1NjUDJTNTRvMGpXWXlTZUhrQTJFUWFXYXJ0aFJSWlY3Vlh1WlEtaFJScV82cDM4?oc=5",
+  "title": "【東大受験】求める学生像に変化！？最新の入試傾向と3つの特徴【放送版/円卓コンフィデンシャル】 - テレ東BIZ",
+  "summary": "【東大受験】求める学生像に変化！？最新の入試傾向と3つの特徴【放送版/円卓コンフィデンシャル】 テレ東BIZ",
+  "source": "Google News: 東大",
+  "kind": "news",
+  "published": "2026-11-14T02:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE05dVlobndVVE14Yld1SG5hRF9BUWxHa2gxUURvYWhXamRlWFd5ZU94QkNJd21WaXVjRExXYXJCN2g3cnowd25tZEdydmMwVlA4eEd3?oc=5",
+  "title": "Google for Education 「Googleで実現する教育向けセキュリティセミナー〜今すぐできる基本とこれからの対策〜」を11/27にオンラインで開催｜KKS Web:教育家庭新聞ニュース - 教育家庭新聞社",
+  "summary": "Google for Education 「Googleで実現する教育向けセキュリティセミナー〜今すぐできる基本とこれからの対策〜」を11/27にオンラインで開催｜KKS Web:教育家庭新聞ニュース 教育家庭新聞社",
+  "source": "Google News: 教育無償提供",
+  "kind": "news",
+  "published": "2026-11-14T01:56:51+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82bTktU0prNGZjazRYUnFaRjItS05vSndEZFhoS0RsN2gzYmdzRDlaWk1WV3pZdEd1bV9pMmIwOFdlaFZURGItMnpSa3gwRHkzTzFZ?oc=5",
+  "title": "横須賀市、生成AI活用相談サービス「よこすかAIフレンド AIちゃん」をこども性暴力防止法に対応する相談窓口として活用へ - 教育家庭新聞社",
+  "summary": "横須賀市、生成AI活用相談サービス「よこすかAIフレンド AIちゃん」をこども性暴力防止法に対応する相談窓口として活用へ 教育家庭新聞社",
+  "source": "Google News: 教育無償提供",
+  "kind": "news",
+  "published": "2026-11-14T01:56:51+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/ktdatascience/items/b129d5eee1bc9077f085",
+  "title": "AI駆動開発で実装が速くなったら、CI待ちが一番長くなった——品質を落とさずCIを軽くする",
+  "summary": "はじめに AIにコードを書いてもらっていると、大抵1時間以内にアウトプットがあがってきます。 変更を頼んで、出てきたコードを確認して、テストを動かす。 このサイクルが以前より早くなりました。 その一方で、気になってきたのがCIの待ち時間です。修正はできたのに、チェックが終...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T01:15:36+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/maskot1977/items/dcd3c5a7ed7d0bcc0dc7",
+  "title": "「利上げできない」も「利上げしすぎる」も日本では成立しない——金利チャネル神話とDomar条件 : システム設計視点の行動経済学 (62)",
+  "summary": "user: 「システム設計視点の行動経済学」、第62回を始めましょう。その前に、まず前回の復習として、 財源幻想はなぜ生き残るのか——三層防衛構造という設計バグ : システム設計視点の行動経済学 (61) https://qiita.com/maskot1977/item...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-14T01:10:55+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://togetter.com/li/2770247",
+  "title": "かつて、noteのようなブログもTwitterのような短文投稿もDiscordのようなコミュニティ運営もすべてまとめてできる、夢のようなサービスがあったのじゃ",
+  "summary": "HPPS＠平和荘 @HPPS_HEIWASOU 若い人には想像できんかもしれんが、その昔、 noteのようなブログも、 Twitterのような短文投稿も、 Discordのようなコミュニティ運営も、 ジョルテのようなカレンダー共有も、 TwiPlaのようなイベント参加者管理も、 すべてまとめてできる、夢のようなサービスがあったのじゃ。 そして当時...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T01:06:19+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9GRFNrRmcxZUpqQkpOVThLNlRHZ0txbDFXc0E5NjV4ZnBQM0JhV3FrQXVUNmItTXZyTHl1WU92YXFoR0xib1B2bE9rc2pWaTI0UlhCbm0yZ29aQncyYnJwaDRYcFVFS3ZmZGNPYzZPQmpLS24wTVZVQWZR?oc=5",
+  "title": "AWA STANDARD ワンコインキャンペーン開催!! - イザ！",
+  "summary": "AWA STANDARD ワンコインキャンペーン開催!! イザ！",
+  "source": "Google News: 学生無料ツール",
+  "kind": "news",
+  "published": "2026-11-14T01:00:00+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://claude.com/resources/articles/building-always-on-agents",
+  "title": "Building always-on agents",
+  "summary": "Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together. Over the past few months, we’ve seen a resurgence of always-on agents. Always-on agents are stateful and proactive, meaning they manage c...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T00:52:42+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUC13B0E0T11C26A1000000",
+  "title": "マーケ支援のプレイド、不正アクセスでサービス停止 - 日本経済新聞",
+  "summary": "顧客データ分析でマーケティングを支援するサービスを手がけるプレイドは13日、主力サービス「KARTE（カルテ）」に不正アクセスを受けたと発表した。情報流出の有無は調査中とした。緊急メンテナンスのため、カルテ",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T00:47:56+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.sponichi.co.jp/society/news/2026/11/14/kiji/20261114s00042000074000c.html",
+  "title": "マイクロソフト大規模障害 74カ国・地域に混乱拡大 官公庁や企業のメール停止 技術的原因か - スポニチ Sponichi Annex 社会",
+  "summary": "マイクロソフト大規模障害 74カ国・地域に混乱拡大 官公庁や企業のメール停止 技術的原因か",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-14T00:01:14+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5cTZvckZhZnhGZ1l4LXIzLWhteG1iWlFSODJwMUhPbV9hQkJSU0VYaW5DQXFqNmtySkF6emctSFJmalZKbVF1cUo3T0VHOV8yNjdBY0Q2Q2ZjSWtjNW9vQVluWVczTkhQNVE?oc=5",
+  "title": "酪農の現場と企業をつなぎ、次世代の学びとDXの普及を支える。「第2回 酪農DXサミット」スポンサー募集開始 - PR TIMES",
+  "summary": "酪農の現場と企業をつなぎ、次世代の学びとDXの普及を支える。「第2回 酪農DXサミット」スポンサー募集開始 PR TIMES",
+  "source": "Google News: 学生無料ツール",
+  "kind": "news",
+  "published": "2026-11-13T23:48:21+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://zenn.dev/canly/articles/e2bd67c9a4c18b",
+  "title": "【2026/11/13時点】Claude Duet を Team プランで触ってみた（組織で使うときの注意点つき）",
+  "summary": "はじめに 2026/11/13、Claude Duet が Claude の Team プランの管理画面に出てきました。 筆者が見た範囲でも、X で「Team の管理画面に出た」という報告がいくつもあり、カンリーの管理画面にも 2026/11/13 の午前に「Claude Duet（ベータ）」のページが出ていました。組織で ON にして実際に触ってみたので、Duet で何ができるかと、組織で使うときに管理者側で何をどこまで縛れるかをまとめます。 ! 2026/11/13 時点の公式ヘルプでは、提供範囲は米国の Pro / Max / Ultra（ウェイトリスト制）で、Team / E...",
+  "source": "Zenn",
+  "kind": "news",
+  "published": "2026-11-13T23:45:16+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/joinclass/items/8c40b05a48487aa588c0",
+  "title": "Claude Codeを並列で回すとsettings.jsonが壊れる問題を、mkdirロックとアトミック書き込みで止める",
+  "summary": "はじめに 当社（合同会社ジョインクラス）では、Claude Code を launchd から 17 本以上のジョブで動かしています。部署ごとのエージェントが手の空いたときに backlog を1件進め、CEO代理が承認キューを判断し、出版部が新刊を書く、といった具合です...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-13T23:30:07+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.nikkei.com/article/DGXZQOUB109MD0Q6A111C2000000",
+  "title": "動いた農林中金、AI株を「底値買い」 長期で安定成長を期待 - 日本経済新聞",
+  "summary": "約45兆円を運用する農林中央金庫が、半導体株の上場投資信託（ETF）の投資に踏み切った。市場全体への幅広い投資に徹してきた同金庫にとって異例の判断だ。海外の年金基金も人工知能（AI）関連株に押し目買いを入れているという。AI銘柄はさえない値動きだが、成長ストーリーは健在だとみる長期資金は動き始めている。13...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-13T23:26:15+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://www.itmedia.co.jp/news/article/2611/14/2000003193",
+  "title": "相次ぐ情報漏えいでアナログ回帰？ ダイソー「パスワード管理ノート」が品薄に 一方でリスクも──IPAに聞いた",
+  "summary": "不正アクセスによる情報漏えいが相次ぐなか、パスワードを紙に書いて管理するアナログな方法を見直す動きがある。100円ショップ「ダイソー」では、紙の「パスワード管理ノート」が品薄になっている。運営する大創産業（広島県東広島市、以下ダイソー）はITmedia NEWSの取材に対し、ネットワークにつながっていない紙で管...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-13T23:23:29+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://gigazine.net/news/20261114-llm-fluency-credible",
+  "title": "幻覚がひどいAIでも言葉遣いが洗練されていれば人を簡単に騙せることが判明",
+  "summary": "ChatGPTなどに代表される大規模言語モデルは、その根本的な仕組みとして、モデル自身は自分の回答が合っているか間違っているかを判断できません。そのためこの手のAIには事実ではないことをまるで事実かのように話してしまう「幻覚(ハルシネーション)」の問題が常につきまといます。新たな研究では、AIの回答に幻覚があ...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-13T23:05:57+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/yama3133/items/11a360fc97ed3ec09742",
+  "title": "AWSでゼロトラスト構成を作る手順を5つのパートに分けて整理してみた - Qiita",
+  "summary": "はじめに ゼロトラストは「社内ネットワークの中にいるから信頼する」という前提を置かず、アクセスのたびに身元と権限を確認する考え方です。 この記事では、AWSでどのサービスのどのリソースを作れば形になるのかに絞って整理します。構成を5つのパートに分け、それぞれで作るリソースとAWS CLIのコマンドを順に並べま...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-13T22:56:39+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://dev.classmethod.jp/articles/route53-recordset-protections",
+  "title": "[アップデート] Amazon Route 53 で、レコードセットの変更/削除を保護できるようになりました | DevelopersIO",
+  "summary": "[アップデート] Amazon Route 53 で、レコードセットの変更/削除を保護できるようになりました | DevelopersIO",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-13T22:48:33+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://qiita.com/taka_yayoi/items/898b2fb743cf829dad0d",
+  "title": "ハーネスは「普通の人」にも関係してきた: Muse、DeepSeek Harness、Databricks Genie ZeroOps から考える",
+  "summary": "はじめに 前回の記事では、Claude Code を題材にハーネスとは何かを整理しました。 その中で、Claude Code や Codex を自分の仕事を楽にするために使うだけなら、ハーネスという用語を知らなくても十分に成果を出せる、と書きました。ハーネスを理解す...",
+  "source": "Qiita",
+  "kind": "news",
+  "published": "2026-11-13T22:36:09+00:00",
+  "deadline": null
+ },
+ {
   "url": "https://edu.watch.impress.co.jp/docs/news/2154610.html",
   "title": "Microsoft 365 Education刷新、学生向け無償特典A1/SUBが終了へ",
   "summary": "Microsoftは学生向けの無償特典（Office 365 A1、Student Use Benefit、卒業生メール）を終了し、無償のA0と低価格の有償プランに切り替えます。日本では2028年4月1日以降の最初の契約更新から適用されると報じられています。東大は包括契約でOfficeを配布済みなので、UTokyo Accountで使えるOfficeの条件が今後変わる可能性があります。",
@@ -61,6 +1808,15 @@
   "source": "HN: student plan",
   "kind": "news",
   "published": "2026-11-13T22:03:06+00:00",
+  "deadline": null
+ },
+ {
+  "url": "https://japan.cnet.com/article/35254868",
+  "title": "Gemini、Google Walletと連携して家計を分析--サブスクの値上げも検出",
+  "summary": "グーグルは米国時間11月13日、AIアシスタント「Gemini」で「Google Wallet」の情報を使い、支出の分析や予算づくりを支援する機能の提供を米国で開始した。ウェブ版とAndroid、iOS向けに順次展開する。現時点で日本では利用できない。 「Personal Intelligence」の連携先にGoogle Walletが加わる（画像：Google、公式ブ...",
+  "source": "はてブ テクノロジー",
+  "kind": "news",
+  "published": "2026-11-13T22:02:24+00:00",
   "deadline": null
  },
  {
@@ -478,6 +2234,15 @@
   "deadline": null
  },
  {
+  "url": "https://www.midnightblue.nl/blog/multiple-rce-danfoss-aksm800a",
+  "title": "Don't bother patching: multiple remote code execution vulnerabilities in Danfoss AK-SM800A",
+  "summary": "Comments",
+  "source": "Lobsters",
+  "kind": "news",
+  "published": "2026-11-13T20:26:34+00:00",
+  "deadline": null
+ },
+ {
   "url": "https://www.youtube.com/watch?v=SXnxZuntM0w",
   "title": "A board game where you play an AI lab CEO racing to AGI [video]",
   "summary": "Article URL: https://www.youtube.com/watch?v=SXnxZuntM0w Comments URL: https://news.ycombinator.com/item?id=50489143 Points: 1 # Comments: 0",
@@ -847,1545 +2612,6 @@
   "deadline": null
  },
  {
-  "url": "https://www.nikkei.com/article/DGXZQOLC094F60Z01C26A1000000",
-  "title": "緊張しても成功する心を作る 田中ウルヴェ京さん「鍵はもう一人の私」",
-  "summary": "重要なプレゼンテーションや試験で「失敗したくない」と思うあまり、緊張して思うようなパフォーマンスが発揮できなかった――。そんな経験のあるビジネスパーソンやランナーに向けて、スポーツ心理学者でソウル五輪シンクロ銅メダリストの田中ウルヴェ京さんに本番で力を発揮する心の作り方・整え方を聞きました。メンタルが重要と言われるマラソン、市民ランナーがスタート前にすぐできるメソッドも。（音声約33分） 日本経済新聞社がお届けするポッドキャスト「NIKKEIランナーズサロン」は、ランニングを通じて人生を豊かにする番組です。SpotifyやApple Podcast、Amazon Music、YouTubeで配信します。X、Instagram、Threads、TikTokの番組公式アカウント「@nikkeipodcast」をフォローして最新エピソードをお聴き逃しなく！ 目次 02:09 再び走り始めたきっかけ 06:04 緊張してもどうにかする 10:30 緊張しない人ほど本番に強い？ 12:10 「脳から緊張データが来た」 15:54 ネガティブをエネルギーに変えて 19:26 スタート前の緊張をどう処理？ 22:10 本番3分前にできること 26:03 自信は永遠につかない 田中ウルヴェ京 （たなか・うるゔぇ・みやこ） スポーツ心理学者（博士）。1988年ソウル五輪シンクロ・デュエットで銅メダル",
-  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
-  "kind": "news",
-  "published": "2026-11-13T20:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQODH114OB0R11C26A1000000",
-  "title": "ウオーキング習慣はマラソン快走の土台 歩く通勤、無駄にあらず",
-  "summary": "快走の土台はトレーニングで走るだけではない。基礎体力を養うため、普段の暮らしから歩くことに目を向けたい 私事ですが9月から生活のスタイルが少し変わり、自宅で仕事をする時間が増えました。作業に没頭すると数時間座りっぱなしということもあります。暑さが収まり、ランニング練習の走行距離は伸びましたが、日常の中で小まめに動く必要性を感じています。 走ること自体は健康的な習慣です。しかし、ランニングの際、着地で受ける衝撃は体重の約3倍に達することもあり、それに耐えられる基礎力を養うためには衝撃の少ないウオーキングの習慣が重要になります。ケガのリスクを抑えやすいことも魅力です。 厚生労働省は健康づくりの目安として、成人に1日約8000歩以上、高齢者に1日約6000歩以上を推奨しています。日常の中で、便利とは対極の行動を選び、自体重を自らの脚で運ぶ習慣を大切にしたいです。 エスカレーターではなく階段を選ぶ。買い物や図書館には歩いて行く。隣駅まで1〜2キロの距離を歩いて電車に乗る。私はあえて自身の脚で移動することを意識しています。 効率が悪く無駄に思えるかもしれませんが、季節の流れによる景色の変化に気づいたり、アイデアがひらめいたりすることも多々あるものです。歩くことで生じた生活の「余白」の副産物といえるでしょう。 普段、ランニングをしていると走ることに目が向きがちですが、速く走れる動物も一日の多く",
-  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
-  "kind": "news",
-  "published": "2026-11-13T20:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQOUC1335A0T11C26A1000000",
-  "title": "欧州パンドラ、｢自分らしさ｣をチャームに　26年の日本売上高5割増へ",
-  "summary": "",
-  "source": "RSS: 日経新聞 速報",
-  "kind": "news",
-  "published": "2026-11-13T20:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQOSG133C40T11C26A1000000",
-  "title": "世界のCO2排出、化石燃料由来は減少へ　中東情勢や再生エネ普及で",
-  "summary": "",
-  "source": "RSS: 日経新聞 速報",
-  "kind": "news",
-  "published": "2026-11-13T20:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.mynavi.jp/article/20261114-5318028",
-  "title": "武蔵三郎(櫻井翔)、またも占拠事件に巻き込まれる　新春SPドラマ『XXXX占拠』今回の現場は4文字",
-  "summary": "「まさか連ドラではなく2時間スペシャルという形になるとは思っていなかったので、とても意外でした」――櫻井翔が主演を務める『占拠』シリーズの第4弾『XXXX占拠』が、2027年1月に日本テレビ系で新春2時間スペシャルドラマとして放送されることが決定。『放送局占拠』から1年半、休暇先で新たな占拠事件に巻き込まれる刑事・武蔵三郎(櫻井)の“最悪な1日”が描かれる。",
-  "source": "RSS: マイナビニュース",
-  "kind": "news",
-  "published": "2026-11-13T20:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQOCD081VD0Y6A101C2000000",
-  "title": "中国も米国も信じぬ欧州　メルツ独首相が語った「日本との絆」",
-  "summary": "",
-  "source": "RSS: 日経新聞 速報",
-  "kind": "news",
-  "published": "2026-11-13T20:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.mynavi.jp/article/20261114-5318439",
-  "title": "デビュー前に「あなたたちは絶対に売れません」 紅白初出場・＝LOVEが語る涙を流した“地獄の合宿”",
-  "summary": "「あなたたちは絶対に売れません」――デビュー前の合宿で講師から厳しい言葉を浴びせられ、涙を流した＝LOVE。それから9年、国立競技場公演で13万2,000人を動員し、『NHK紅白歌合戦』に初出場するまでに成長したグループの歩みが、14日放送の日本テレビ系バラエティ番組『サクサクヒムヒム ☆推しの降る夜☆』(毎週土曜23:30～)で紹介される。Snow Man佐久間大介がプロデューサーの指原莉乃に送った助言や、東京ドーム公演への思いも明かされる。",
-  "source": "RSS: マイナビニュース",
-  "kind": "news",
-  "published": "2026-11-13T20:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://spacechem.wincon.dev/",
-  "title": "LLM's Play Zachtronics' SpaceChem",
-  "summary": "Article URL: https://spacechem.wincon.dev/ Comments URL: https://news.ycombinator.com/item?id=50488850 Points: 1 # Comments: 0",
-  "source": "HN: student plan",
-  "kind": "news",
-  "published": "2026-11-13T19:59:58+00:00",
-  "deadline": null
- },
- {
-  "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc",
-  "title": "Live-migration support in FreeBSD and bhyve coming",
-  "summary": "Article URL: https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/ Comments URL: https://news.ycombinator.com/item?id=50488835 Points: 35 # Comments: 2",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T19:58:42+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.mynavi.jp/article/20261114-5320218",
-  "title": "U21日本代表、欧州強豪スペインに惜敗…塩貝健人、齋藤俊輔らがゴール脅かすもネット揺らせず",
-  "summary": "U－21日本代表は現地時間13日、国際親善試合でU－21スペイン代表と対戦した。 大岩剛監督が率いるU－21日本代表は、2028年の開催を控えたリオデジャネイロ・オリンピック出場を目指す世代だ。今",
-  "source": "RSS: マイナビニュース",
-  "kind": "news",
-  "published": "2026-11-13T19:53:24+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.slopmanifesto.com/",
-  "title": "No AI Slop: A Manifesto",
-  "summary": "Article URL: https://www.slopmanifesto.com/ Comments URL: https://news.ycombinator.com/item?id=50488769 Points: 133 # Comments: 76",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T19:51:56+00:00",
-  "deadline": null
- },
- {
-  "url": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket",
-  "title": "Kalshi ditches Trump Jr. as advisor; CEO admitted \"optics\" weren't good",
-  "summary": "Donald Trump Jr. agreed to end his advisory role with the prediction market Kalshi shortly after Trump Jr.'s venture capital firm made a large investment in its competitor, Polymarket. “We have mutually agreed to end Don's advisory role after his firm's significant investment in a competitor this past summer. We are grateful for his contributions in helping us market Kalshi to more customers,\" Kalshi said in a statement provided to Ars and other news outlets this week. Trump Jr. may still have a financial interest in Kalshi, which has benefited from the Trump administration's legal and regulat",
-  "source": "RSS: Ars Technica - All content",
-  "kind": "news",
-  "published": "2026-11-13T19:49:16+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/ronschmelzer/2026/11/13/ai-is-changing-how-brands-sell-products-and-companies-are-adapting",
-  "title": "AI Is Changing How Brands Sell Products, And Companies Are Adapting",
-  "summary": "AI is changing how consumers discover and evaluate products, forcing major brands to rethink everything from product information to content creation.",
-  "source": "RSS: Forbes - Innovation",
-  "kind": "news",
-  "published": "2026-11-13T19:47:29+00:00",
-  "deadline": null
- },
- {
-  "url": "https://github.com/thenativeweb/architecturekit-rust",
-  "title": "ArchitectureKit 1.0 for Rust is There",
-  "summary": "Article URL: https://github.com/thenativeweb/architecturekit-rust Comments URL: https://news.ycombinator.com/item?id=50488711 Points: 2 # Comments: 0",
-  "source": "HN: student plan",
-  "kind": "news",
-  "published": "2026-11-13T19:46:27+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/oliviashalhoup/2026/11/13/latin-mafias-fan-engagement-masterclass-leads-this-weeks-best-music-marketing-moves",
-  "title": "Latin Mafia’s Fan Engagement Masterclass Leads This Week’s Best Music Marketing Moves",
-  "summary": "Latin Mafia, Grand Theft Auto VI, and YouTube's return to the Billboard charts mark a big week in music marketing.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-13T19:44:59+00:00",
-  "deadline": null
- },
- {
-  "url": "https://appleinsider.com/articles/26/11/13/after-more-than-10-years-worth-of-folding-the-iphone-duo-still-works",
-  "title": "After more than 10 years worth of folding, the iPhone Duo still works",
-  "summary": "As it turns out, you can damage your iPhone Duo by opening and closing it too much, at least theoretically. Don't worry, you don't have that much time on your hands. CNET's Fold-a-Phone rig | Image credit: CNET Three weeks ago, CNET put the iPhone Duo on it's custom testing rig, the Fold-A-Phone. Now, after 440,300 folds, it's finally reached its breaking point. Sort of, if you're willing to define \"breaking point\" loosely. Continue Reading on AppleInsider | Discuss on our Forums",
-  "source": "RSS: AppleInsider News",
-  "kind": "news",
-  "published": "2026-11-13T19:43:44+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/johnkoetsier/2026/11/13/amazons-hr-leader-on-how-robots-will-work-with-humans",
-  "title": "Amazon’s HR Leader On How Robots Will Work With Humans",
-  "summary": "How will robots work with humans? We sit down with Ofori Agboka, Amazon’s vice president of People Experience and Technology for global operations, for more info ...",
-  "source": "RSS: Forbes - Innovation",
-  "kind": "news",
-  "published": "2026-11-13T19:39:44+00:00",
-  "deadline": null
- },
- {
-  "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
-  "title": "AI agent startup LangChain hits $3B valuation",
-  "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
-  "source": "RSS: TechCrunch",
-  "kind": "news",
-  "published": "2026-11-13T19:37:57+00:00",
-  "deadline": null
- },
- {
-  "url": "https://bike.github.io/posts/kildall.html",
-  "title": "Kildall's algorithm",
-  "summary": "I work on a new [Common] Lisp compiler called Cleavir. Cleavir is the compiler part of Dr. Robert Strandh’s project, SICL Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T19:34:28+00:00",
-  "deadline": null
- },
- {
-  "url": "https://9to5mac.com/2026/11/13/apple-releases-tvos-27-2-1-and-homepod-27-2-1-heres-whats-new",
-  "title": "Apple releases tvOS 27.2.1 and HomePod 27.2.1, here’s what’s new",
-  "summary": "Apple has just released tvOS 27.2.1 for Apple TV 4K and HomePod 27.2.1 for HomePod models, here’s what’s new. more…",
-  "source": "RSS: 9to5Mac",
-  "kind": "news",
-  "published": "2026-11-13T19:33:08+00:00",
-  "deadline": null
- },
- {
-  "url": "https://github.com/aymericdamien/JAX-Examples",
-  "title": "Jax Examples for Beginners (Dive into ML Fundamentals)",
-  "summary": "Article URL: https://github.com/aymericdamien/JAX-Examples Comments URL: https://news.ycombinator.com/item?id=50488565 Points: 3 # Comments: 0",
-  "source": "HN: student plan",
-  "kind": "news",
-  "published": "2026-11-13T19:32:58+00:00",
-  "deadline": null
- },
- {
-  "url": "https://dlmtranslate.com/",
-  "title": "30x more efficient Diffusion language model for Translation",
-  "summary": "Article URL: https://dlmtranslate.com/ Comments URL: https://news.ycombinator.com/item?id=50488562 Points: 2 # Comments: 1",
-  "source": "HN: student plan",
-  "kind": "news",
-  "published": "2026-11-13T19:32:46+00:00",
-  "deadline": null
- },
- {
-  "url": "https://9to5mac.com/2026/11/13/perplexity-brings-ai-agents-feature-called-teammates-to-the-mac",
-  "title": "Perplexity brings AI agents feature called Teammates to the Mac",
-  "summary": "This week, Perplexity has deployed its new proactive agentic AI feature called Teammates to the Mac. Perplexity Teammates were previously limited to iOS and the web. more…",
-  "source": "RSS: 9to5Mac",
-  "kind": "news",
-  "published": "2026-11-13T19:31:05+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/jenreeder/2026/11/13/national-dog-show-turns-25-on-thanksgiving",
-  "title": "National Dog Show Turns 25 On Thanksgiving",
-  "summary": "In 2026, three new dog breeds will debut at the National Dog Show, which is hosted by David Frei and John O’Hurley, with features reporting by Mary Carillo.",
-  "source": "RSS: Forbes - Innovation",
-  "kind": "news",
-  "published": "2026-11-13T19:30:46+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/jenreeder/2026/11/13/national-dog-show-2026-new-breeds-thanksgiving-day",
-  "title": "National Dog Show Turns 25 With 3 New Breeds On Thanksgiving",
-  "summary": "Three new breeds join the National Dog Show for its 25th anniversary on Thanksgiving. Meet the dogs making their debut and find out when and where to watch.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-13T19:30:46+00:00",
-  "deadline": null
- },
- {
-  "url": "https://toyokeizai.net/articles/-/964515",
-  "title": "いまや45kmに短縮｢日本海の大動脈｣北陸本線の記憶　長距離列車が行き交う｢特急･急行街道｣だった全盛期 | ビジネス | 東洋経済オンライン",
-  "summary": "北陸新幹線の延伸により､今では大半が第三セクター化されてしまった｢北陸本線｣。かつては特急や急行など長距離列車が行き交う北陸の大動脈でした。鉄道写真家･南正時氏が捉えた特急･急行列車の全盛期から近年…",
-  "source": "RSS: 東洋経済オンライン",
-  "kind": "news",
-  "published": "2026-11-13T19:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://9to5google.com/2026/11/13/motorola-ma2-android-auto-amazon-delay",
-  "title": "Motorola MA2 wireless Android Auto adapter just vanished days after finally going on sale",
-  "summary": "The long-awaited Motorola MA2 wireless Android Auto adapter is gone just days after it went on sale. more…",
-  "source": "RSS: 9to5Google",
-  "kind": "news",
-  "published": "2026-11-13T19:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.construction-physics.com/p/technology-as-a-search-problem",
-  "title": "Technology as a Search Problem",
-  "summary": "Article URL: https://www.construction-physics.com/p/technology-as-a-search-problem Comments URL: https://news.ycombinator.com/item?id=50488490 Points: 17 # Comments: 2",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T19:27:15+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.macrumors.com/2026/11/13/apple-releases-tvos-27-2-1",
-  "title": "Apple Releases tvOS 27.2.1 With Siri AI for Older Apple TVs",
-  "summary": "Apple today released tvOS 27.2.1, an update to the tvOS 27 operating system that launched in September. tvOS 27.2.1 comes nearly three weeks after Apple released tvOS 27.2. tvOS 27.2.1 brings Siri AI support to the 2nd- and 3rd-generation Apple TV 4K models, but it is available for all ‌Apple TV‌ 4K models that support tvOS 27. Apple announced ‌Siri‌ AI for the ‌Apple TV‌ when debuting the 4th-generation ‌Apple TV‌ 4K. A separate tvOS 27.2 build activates ‌Siri‌ AI on the newest set-top box, but the older ‌Apple TV‌ 4K models will need the tvOS 27.2.1 update to get access. ‌Siri‌ AI is the sma",
-  "source": "RSS: MacRumors: Mac News and Rumors - All Stories",
-  "kind": "news",
-  "published": "2026-11-13T19:26:39+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nature.com/articles/d41586-026-03638-3",
-  "title": "Found: A protein that drives ageing without unleashing inflammation",
-  "summary": "Article URL: https://www.nature.com/articles/d41586-026-03638-3 Comments URL: https://news.ycombinator.com/item?id=50488470 Points: 59 # Comments: 11",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T19:25:21+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
-  "title": "Perplexity Decider v1.3: Training, eval, and use cases",
-  "summary": "Article URL: https://www.perplexity.ai/hub/blog/perplexity-decider Comments URL: https://news.ycombinator.com/item?id=50488464 Points: 70 # Comments: 13",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T19:24:47+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.youtube.com/watch?v=pMxsPUw0x78",
-  "title": "Pentagon Tells Army Families \"Cancel Plans\", Network Outage, Nuke Bunkers [video]",
-  "summary": "Article URL: https://www.youtube.com/watch?v=pMxsPUw0x78 Comments URL: https://news.ycombinator.com/item?id=50488393 Points: 2 # Comments: 0",
-  "source": "HN: student plan",
-  "kind": "news",
-  "published": "2026-11-13T19:18:59+00:00",
-  "deadline": null
- },
- {
-  "url": "https://arxiv.org/abs/2611.14881",
-  "title": "MLIRBench – A Benchmark and Dataset for Compiler and Hardware-Aware Reasoning",
-  "summary": "Article URL: https://arxiv.org/abs/2611.14881 Comments URL: https://news.ycombinator.com/item?id=50488365 Points: 2 # Comments: 0",
-  "source": "HN: student plan",
-  "kind": "news",
-  "published": "2026-11-13T19:17:04+00:00",
-  "deadline": null
- },
- {
-  "url": "https://arxiv.org/abs/2611.13176",
-  "title": "ShadowPrefill: Keeping Your Next Model Warm for Model Routing in Agentic Serving",
-  "summary": "Article URL: https://arxiv.org/abs/2611.13176 Comments URL: https://news.ycombinator.com/item?id=50488359 Points: 2 # Comments: 0",
-  "source": "HN: student plan",
-  "kind": "news",
-  "published": "2026-11-13T19:16:25+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.northeastern.edu/2026/11/12/jensen-huang-resigns-nvidia-successor",
-  "title": "Nvidia looks for successor after exit of CEO Jensen Huang, shake the AI industry",
-  "summary": "Article URL: https://news.northeastern.edu/2026/11/12/jensen-huang-resigns-nvidia-successor/ Comments URL: https://news.ycombinator.com/item?id=50488351 Points: 1 # Comments: 1",
-  "source": "HN: student plan",
-  "kind": "news",
-  "published": "2026-11-13T19:15:41+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts",
-  "title": "Google now lets people connect Gemini to their bank accounts",
-  "summary": "This is for spending analysis and not for making purchases.",
-  "source": "RSS: Engadget - Technology News & Expert Reviews",
-  "kind": "news",
-  "published": "2026-11-13T19:15:32+00:00",
-  "deadline": null
- },
- {
-  "url": "https://csindie.com/cambridges-lack-of-housing-is-creating-a-void-where-a-generation-is-supposed-to-be",
-  "title": "Cambridge's lack of housing is creating a void",
-  "summary": "Article URL: https://csindie.com/cambridges-lack-of-housing-is-creating-a-void-where-a-generation-is-supposed-to-be/ Comments URL: https://news.ycombinator.com/item?id=50488342 Points: 2 # Comments: 1",
-  "source": "HN: student plan",
-  "kind": "news",
-  "published": "2026-11-13T19:14:56+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
-  "title": "Here’s how you can save on your GTA VI preorder ahead of launch",
-  "summary": "Lucia and Jason, the two main characters of GTA VI. | Image: Rockstar Games The long-awaited launch of GTA VI is around the corner, happening next Friday, November 19th. While discounts on the game itself will be rare for some time, there’s a clever workaround to save you a few bucks on your digital copy. We found discounts on gift cards for both Sony PlayStation and Microsoft Xbox Series S/X owners to help shave some dollars off your upcoming trip to Vice City. You can pick up a $75 Sony gift card for $69 at Newegg when you use coupon code BNWF2669 at checkout, and Costco members can pick up ",
-  "source": "RSS: The Verge",
-  "kind": "news",
-  "published": "2026-11-13T19:14:38+00:00",
-  "deadline": null
- },
- {
-  "url": "https://open.m-vave.com/fm1-workbench",
-  "title": "FM-1 Workbench",
-  "summary": "Article URL: https://open.m-vave.com/fm1-workbench Comments URL: https://news.ycombinator.com/item?id=50488325 Points: 123 # Comments: 79",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T19:14:02+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.androidpolice.com/garmin-venu-4-deal-early-black-friday-amazon",
-  "title": "The Garmin Venu 4 transformed my workouts, and now it’s cheaper than ever before",
-  "summary": "You don't need to wait for Black Friday to score an epic Garmin deal. Two full weeks before the official sale event, Amazon is already slashing prices on a bunch of these fitness watches, including a straight 18% off my personal favorite , the Garmin Venu 4. This wearable boasts a sleek design with a bright display and all the health and fitness tracking features that most athletes could ever need, and thanks to this early Black Friday deal, it's cheaper than it's ever been.",
-  "source": "RSS: Android Police",
-  "kind": "news",
-  "published": "2026-11-13T19:08:40+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving",
-  "title": "Microsoft 365 Outage Resolving After Nearly 24 Hours",
-  "summary": "The ongoing Microsoft 365 outage is resolving after nearly 24 hours. The company said the underlying issue has been fixed and it is seeing \"broad recovery and stability\" across its services as it works to restore access to customers. The Microsoft 365 downtime started at approximately 1 p.m. Eastern Time on Thursday. Customers could not access their Outlook email or use some features in Teams and Copilot. Exchange accounts in Apple Mail were also affected. Most calling, meeting, and messaging functions stayed online, but some users ran into errors scheduling meetings or adding calendar entries",
-  "source": "RSS: MacRumors: Mac News and Rumors - All Stories",
-  "kind": "news",
-  "published": "2026-11-13T19:00:35+00:00",
-  "deadline": null
- },
- {
-  "url": "https://9to5google.com/2026/11/13/black-friday-phone-plan-deals",
-  "title": "You can get a new phone plan for as low as $6.50/month for Black Friday",
-  "summary": "Phone plans are incredibly expensive, but they don’t always have to be. With Black Friday deals in full swing, you can currently score a new phone plan for as little as $6.50 per month. more…",
-  "source": "RSS: 9to5Google",
-  "kind": "news",
-  "published": "2026-11-13T19:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on",
-  "title": "Disney's 3D movies shine on Meta's Quest 3, it's just a shame it took so long",
-  "summary": "Finally, you can watch Avatar in 3D HFR at home.",
-  "source": "RSS: Engadget - Technology News & Expert Reviews",
-  "kind": "news",
-  "published": "2026-11-13T19:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://9to5mac.com/2026/11/13/ios-27-3-adds-three-new-features-ive-used-almost-every-day",
-  "title": "iOS 27.3 adds three new features I’ve used almost every day",
-  "summary": "iOS 27.3 is coming next month , and during the beta so far there are three new features I’ve been using almost every day. more…",
-  "source": "RSS: 9to5Mac",
-  "kind": "news",
-  "published": "2026-11-13T18:56:41+00:00",
-  "deadline": null
- },
- {
-  "url": "https://appleinsider.com/articles/26/11/13/100000-iphone-duo-apps-is-a-start-but-theres-a-long-way-to-go",
-  "title": "100,000 iPhone Duo apps is a start, but there's a long way to go",
-  "summary": "Apple recently announced that over 100,000 apps have been built for the iPhone Duo , but with developers working with multiple SDKs, it could still be a long time before your favorite apps really make full use of what the first foldable iPhone has to offer. iPhone Duo has a big display, but not enough apps use it At first blush, that 100,000 figure certainly grabs the attention, especially just a few weeks after launch. But it doesn't tell the whole story, and there's still work to be done. While Apple's big number applies to apps that have been built from scratch or refactored to fully suppor",
-  "source": "RSS: AppleInsider News",
-  "kind": "news",
-  "published": "2026-11-13T18:55:54+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/brucemartin/2026/11/13/indycar-announces-15-race-indy-nxt-by-firestone-schedule-for-2027",
-  "title": "INDYCAR Announces 15-Race INDY NXT By Firestone Schedule For 2027",
-  "summary": "IndyCar's top developmental series continues to grow as INDY NXT By Firestone will stage 15 races at 11 different venues in 2027. It's a main pipeline to IndyCar.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-13T18:54:55+00:00",
-  "deadline": null
- },
- {
-  "url": "https://9to5toys.com/2026/11/13/todays-highlight-google-play-deals-49",
-  "title": "Friday’s Android game and app deals: Echoes of Vatheria, Raiders of the North Sea, MEGA MAN, more",
-  "summary": "The early Black Friday sales are in full swing at Amazon , Walmart , and Best Buy has now launched a suite of new Doorbusters , but we also have Friday’s Google Play app and game deals: Echoes of Vatheria, Raiders of the North Sea, MEGA MAN X DiVE Offline, Streets of Rage 4, Ace Attorney Trilogy, Legend of Keepers, [Premium] RPG Onigo Hunter, Premium-RPG Wizards of Brandel, and more. Alongside the all-time low on the Google Home Speaker and the now available Google Pixel Tag , the Nothing early Black Friday deals exploded today with new all-time lows Headphone (a) , the brand new Nothing CMF m",
-  "source": "RSS: 9to5Google",
-  "kind": "news",
-  "published": "2026-11-13T18:53:06+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.androidpolice.com/garmin-instinct-3-solar-250-lowest-price",
-  "title": "Garmin Instinct 3 Solar runs on sunlight alone, and it's 38% off",
-  "summary": "The worst part about owning a smartwatch is having to charge it every night. If you're tired of doing that, then we suggest taking a look at the Garmin Instinct 3 Solar. This thing can go pretty much forever without plugging into a charger.",
-  "source": "RSS: Android Police",
-  "kind": "news",
-  "published": "2026-11-13T18:52:42+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YSkZYTm5yZkJLTVpnb3VtOWFHaGVqaUdzUlVfM00zZ2ludS1DS0dmM00yRG1KM1FWVnhoNFNjRnJhME1TbTFQQTRsUVVqaXdjd3ZoUmxRc1VjQnQ1NndmY1lQakhjbnhhTVBidXU1S3Npbk1ocEdUUG1VNA?oc=5",
-  "title": "5thシングル「ラブリーズン」リリース記念！AWAラウンジで原因は自分にある。メンバーによるスペシャルプログラムを開催 - ニコニコニュース",
-  "summary": "5thシングル「ラブリーズン」リリース記念！AWAラウンジで原因は自分にある。メンバーによるスペシャルプログラムを開催 ニコニコニュース",
-  "source": "Google News: 学生無料ツール",
-  "kind": "news",
-  "published": "2026-11-13T18:45:26+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/erikmatuszewski/2026/11/13/dechambeau-details-plans-for-new-golf-course-in-california-hometown",
-  "title": "DeChambeau Details Plans For New Golf Course In California Hometown",
-  "summary": "Bryson DeChambeau released details of the new golf community he's planning in his hometown of Clovis, California, including his first course design.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-13T18:45:20+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/berniepleskoff/2026/11/13/cleveland-browns-not-handing-shedeur-sanders-the-qb-job-in-week-10",
-  "title": "Cleveland Browns Not Handing Shedeur Sanders The QB Job In Week 10",
-  "summary": "Cleveland Browns QB, Deshaun Watson will hold on to his starting role for now. Watson has been named the Week 10 starter, ahead of Shedeur Sanders.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-13T18:43:05+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-  "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-  "summary": "Article URL: https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas Comments URL: https://news.ycombinator.com/item?id=50487864 Points: 217 # Comments: 113",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T18:40:44+00:00",
-  "deadline": null
- },
- {
-  "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
-  "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
-  "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
-  "source": "RSS: TechCrunch",
-  "kind": "news",
-  "published": "2026-11-13T18:40:30+00:00",
-  "deadline": null
- },
- {
-  "url": "https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp",
-  "title": "Pointer Provenance in Rust vs C++",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T18:37:30+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
-  "title": "Models can now transmit viruses in weight-space",
-  "summary": "Article URL: https://www.alphaxiv.org/abs/2611.weight-space-misfolding Comments URL: https://news.ycombinator.com/item?id=50487762 Points: 121 # Comments: 43",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T18:33:35+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805",
-  "title": "Microsoft outage gives customers a crash course in dependence on Redmond",
-  "summary": "Article URL: https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805 Comments URL: https://news.ycombinator.com/item?id=50487688 Points: 80 # Comments: 25",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T18:29:16+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/jaymcgregor/2026/11/13/google-pixel-10-pixel-11-gemini-intelligence-november-pixel-drop",
-  "title": "Millions Of Google Pixel Users Get Good And Bad News In New Update",
-  "summary": "Google's November Pixel Drop brings Gemini Intelligence to the Pixel 10, but the Pixel 9 is left out. Here's what changes and why some Pixel owners miss out.",
-  "source": "RSS: Forbes - Innovation",
-  "kind": "news",
-  "published": "2026-11-13T18:28:50+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8yb0IxZXhLMUQ4MTFBWkFXdDRPVmhNa2d6dGtPWFFGdkgxZmlwb1MteHFGaS1aeTRlVG9WTG0wZTVYZHRRVE00Y1dfWVEwbjVxTVVvUnVGNkZsWHBOWWNqUnR3?oc=5",
-  "title": "Higgsfield Promo Code 2026 (November) – 30% OFF Discount - DemandSage",
-  "summary": "Higgsfield Promo Code 2026 (November) – 30% OFF Discount DemandSage",
-  "source": "Google News: student free plan",
-  "kind": "news",
-  "published": "2026-11-13T18:25:40+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.macrumors.com/2026/11/13/iphone-duo-fold-testing",
-  "title": "iPhone Duo Survives 450,000 Folds, but Hinge is Weakening",
-  "summary": "For the last three weeks, CNET has been stress testing the iPhone Duo 's hinge on a livestream. After over 451,000 folds, the hinge is showing signs of wear. CNET says the hinge started feeling looser at the 390,000-fold point, and by 440,300 folds, there was enough of a shift in the mechanism that the screen didn't open in full before the machine closed it again, and there was no distinctive snap. It is 5 to 10 degrees from the fully open state and can be opened fully by hand. The wire we use to open the phone screen would withdraw before the screen was in the fully open position, but it woul",
-  "source": "RSS: MacRumors: Mac News and Rumors - All Stories",
-  "kind": "news",
-  "published": "2026-11-13T18:25:18+00:00",
-  "deadline": null
- },
- {
-  "url": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
-  "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
-  "summary": "Article URL: https://toninoble.com/post/ctrlc-ctrlv-ctrlcve Comments URL: https://news.ycombinator.com/item?id=50487605 Points: 47 # Comments: 21",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T18:23:49+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.phoronix.com/news/AMD-openSIL-Venice-Goal",
-  "title": "AMD openSIL Achieves Its Production Goal With 6th Gen EPYC \"Venice\"",
-  "summary": "Since 2023 I and many open-source advocates have been very eager for AMD's openSIL project for delivering open-source CPU silicon initialization as a replacement to the traditional AGESA code. With Zen 5 there was proof-of-concept support that we have enjoyed with Coreboot on an MSI Ryzen motherboard and a Gigabyte EPYC server motherboard thanks to the Coreboot-based Dasharo ports by 3mdeb. The goal for production readiness was for Zen 6, but with this week's EPYC 9006 SP7 announcement the openSIL topic wasn't touched on. So I asked around...",
-  "source": "RSS: Phoronix",
-  "kind": "news",
-  "published": "2026-11-13T18:20:29+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.yomiuri.co.jp/economy/20261114-GYT1T00098",
-  "title": "マネックス証券、不正アクセス受け本人確認の画像１５９２件漏えい可能性…メールアドレスは最大１１３万件",
-  "summary": "",
-  "source": "RSS: 読売新聞 新着",
-  "kind": "news",
-  "published": "2026-11-13T18:19:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQOFL13CTA0T11C26A1000000",
-  "title": "ロンドン株13日 続伸、約3カ月半ぶり高値 石油・ディフェンシブ銘柄に買い",
-  "summary": "【NQNロンドン=蔭山道子】13日のロンドン株式市場で英 FTSE100種総合株価指数 は3日続伸した。終値は前日比39.47ポイント（0.36%）高の1万0902.56と7月下旬以来、約3カ月半ぶりの高水準となった。寄与度が大きい英シェルなど石油株が上昇し、指数を押し上げた。 ユニリーバなど日用品やたばこ、ヘルスケア関連や公益といったディフェンシブ銘柄が上げた。他方、非鉄金属先物などの値下がりを背景に英アングロ・アメリカンなど鉱業に売りが出た。航空機エンジン大手ロールス・ロイス・ホールディングスといった資本財関連の一部に売りが出た。",
-  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
-  "kind": "news",
-  "published": "2026-11-13T18:18:39+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for",
-  "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
-  "summary": "Article URL: https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/ Comments URL: https://news.ycombinator.com/item?id=50487522 Points: 197 # Comments: 104",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T18:18:37+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.macrumors.com/2026/11/13/youtube-app-apple-tv-not-working-fix",
-  "title": "YouTube App Not Working on Your New Apple TV? Here's the Fix",
-  "summary": "The fourth-generation Apple TV 4K began arriving to customers today, and some users noticed the YouTube app is not working . If you have encountered this issue, make sure tvOS 27.2 is installed via Settings → System → Software Updates. If it already is, you may need to restart the Apple TV via Settings → System → Restart. Last, you may need to uninstall and reinstall the YouTube app. Update: YouTube appears to have implemented a server-side fix.Related Roundup: Apple TV Tag: YouTube Buyer's Guide: Apple TV (Buy Now) Related Forum: Apple TV and Home Theater This article, \" YouTube App Not Worki",
-  "source": "RSS: MacRumors: Mac News and Rumors - All Stories",
-  "kind": "news",
-  "published": "2026-11-13T18:18:12+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.macrumors.com/2026/11/13/apple-tv-4k-launch-day-deal",
-  "title": "Apple TV 4K Launch Day Deal Arrives at Amazon",
-  "summary": "Amazon today is back with a discount on the brand new A19 Apple TV 4K for launch day, available for $289.99 , down from $299.00. This is a match of the pre-order discount we saw last week. Note: MacRumors is an affiliate partner with some of these vendors. When you click a link and make a purchase, we may receive a small payment, which helps us keep the site running. Amazon provides an estimated delivery date of tomorrow, November 14. Although only a $9 discount, this is the best price we've tracked on the device, and as of writing Amazon is the only place offering any sort of markdown. $9 OFF",
-  "source": "RSS: MacRumors: Mac News and Rumors - All Stories",
-  "kind": "news",
-  "published": "2026-11-13T18:16:52+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
-  "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
-  "summary": "The Nape Pro was Keychron's first trackball device that was introduced at CES 2026 with a slim and compact design allowing it to be positioned right up against a keyboard. The company's new T1 HE instead looks more like other trackball mice already available from companies like Logitech and Kensington with a 34mm ball positioned on the side to improve ergonomics. But since hands and fingers come in various sizes, the T1 HE allows the position of its trackball to be fine-tuned with minor positional adjustments so it rests squarely under your thumb without any reaching. The T1 HE is now availabl",
-  "source": "RSS: The Verge",
-  "kind": "news",
-  "published": "2026-11-13T18:10:41+00:00",
-  "deadline": null
- },
- {
-  "url": "https://9to5mac.com/2026/11/13/daily-november-13-2026",
-  "title": "9to5Mac Daily: November 13, 2026 – New Apple TV 4K and HomeView now available",
-  "summary": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
-  "source": "RSS: 9to5Mac",
-  "kind": "news",
-  "published": "2026-11-13T18:04:08+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQOFL13CSV0T11C26A1000000",
-  "title": "欧州国債概況13日 独10年債利回り上昇、米PPIは予想下回る",
-  "summary": "【NQNロンドン=蔭山道子】13日の欧州国債市場で、指標銘柄であるドイツ連邦債10年物の利回りは上昇している。英国時間16時時点では3.3%台後半と、前日の同時点と比べ0.05%ほど高い（債券価格は安い）水準で取引されている。前日の米長期金利の上昇を受け、ドイツや英国の長期債にも上昇圧力がかかった。 米国の金融政策については年内に0.5%という大幅利上げの可能性まで意識されるなど、足元で利上げ観測が強まっている。米金利に先高観測が強く、ドイツなど欧州の金利も影響を受けやすくなっている。 13日の欧米株式市場で、主要な株価指数が水準を切り下げる場面がある。相対的な安全資産とされるドイツ長期債には買いも入り、利回り上昇に歯止めをかけた。同日日発表された10月の米卸売物価指数（PPI）で、前月比の上昇率が0.3%と市場予想を下回ったこともドイツ長期債相場を下支えした。 英国の10年債利回りは上昇し、英国時間16時時点は5.3%台前半と前日同時点に比べ0.05%あまり高い水準で推移している。",
-  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
-  "kind": "news",
-  "published": "2026-11-13T18:04:08+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/erikkain/2026/11/13/what-to-watch-this-weekend-november-13-2026-new-movies-shows-streaming",
-  "title": "What To Watch This Weekend: ‘Rings Of Power,’ ‘Ebenezer’ And Much More",
-  "summary": "The best new movies and TV shows to watch this weekend (Nov. 13-15), including The Rings of Power, Ebenezer, 12 12 12 and more on Netflix, Prime Video, Hulu and beyond.",
-  "source": "RSS: Forbes - Innovation",
-  "kind": "news",
-  "published": "2026-11-13T18:01:36+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/video/f7b5dfd4-70ce-4347-8292-07ebeec80cf1",
-  "title": "Why Most Companies Fail to See Bottom-Line Returns From Deploying AI Agents",
-  "summary": "On today’s episode of Iconoclast, 01.ai Founder and CEO Dr. Kai-Fu Lee sat down with Forbes to discuss his book ‘AI Native: The Mandate to Transform Your Company’. Lee talks about restructuring corporate hierarchies to manage AI agents through designated responsible individuals, pivoting his company away from building frontier models to focus on enterprise ontology and executive tools like Boss AI, and preparing for a potential Hong Kong listing.",
-  "source": "RSS: Forbes - Innovation",
-  "kind": "news",
-  "published": "2026-11-13T18:00:30+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.androidpolice.com/spent-years-doing-google-drive-tasks-manually-before-discovering-quick-shortcuts",
-  "title": "I spent years doing Google Drive tasks manually before discovering these quick shortcuts",
-  "summary": "Google Drive is more than just a digital filing cabinet. Its greatest superpowers are its sophisticated web app and tight integration with other Google services.",
-  "source": "RSS: Android Police",
-  "kind": "news",
-  "published": "2026-11-13T18:00:11+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/krisholt/2026/11/13/quordle-hint-today-saturday-november-14-clues-and-answers",
-  "title": "Quordle Hint Today: Saturday, November 14 Clues And Answers",
-  "summary": "Looking for some help with today’s Quordle words? Some hints and the answers are right here to give you a hand.",
-  "source": "RSS: Forbes - Innovation",
-  "kind": "news",
-  "published": "2026-11-13T18:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.yomiuri.co.jp/world/20261114-GYT1T00094",
-  "title": "トルコとカタール、相互防衛協定に署名…地域安定化に向けて連携強化",
-  "summary": "",
-  "source": "RSS: 読売新聞 新着",
-  "kind": "news",
-  "published": "2026-11-13T17:59:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://isometricsf.com/",
-  "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
-  "summary": "Technical Write-up: https://www.justinchavez.com/blog/isometric-sf-how/ Hi HN! Showcasing this fun project. I took 1300 square miles of the SF Bay Area from Google Photorealistic 3D Tiles and transformed them into a cohesive pixel map. It's really fun to explore and stumble upon various famous landmarks like Apple Park, Palace of Fine Arts, or UC Berkeley. The technicals involve using Nano Banana 2 to train a Qwen-Image-Edit 2511 LoRA which is used to prototype the style and generation methods. For final map I used Qwen to train a Klein 4B LoRA which reproduced the style at 1/4 of the cost. Mo",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T17:58:37+00:00",
-  "deadline": null
- },
- {
-  "url": "https://haddyalchaer.com/jepa",
-  "title": "After 600 experiments, here's what I discovered about JEPA world models",
-  "summary": "Article URL: https://haddyalchaer.com/jepa Comments URL: https://news.ycombinator.com/item?id=50487185 Points: 181 # Comments: 32",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-13T17:55:28+00:00",
-  "deadline": null
- },
- {
-  "url": "https://9to5google.com/2026/11/13/gemini-google-wallet",
-  "title": "You can now set up Gemini’s Google Wallet integration for ‘personal finance insights’",
-  "summary": "As we spotted in September , the Gemini app is adding Google Wallet integration in the US that makes possible “responses informed by your spending habits.” more…",
-  "source": "RSS: 9to5Google",
-  "kind": "news",
-  "published": "2026-11-13T17:51:44+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQOGR13CYB0T11C26A1000000",
-  "title": "ロシアGDP、7〜9月期1%増に減速 製油所攻撃や高金利が重荷",
-  "summary": "ロシア連邦統計局は13日、2026年7〜9月期の実質GDP（国内総生産、速報値）が前年同期比1.0%増だったと発表した。4〜6月期の1.3%増から減速した。ウクライナ軍による製油所などへの無人機攻撃や高金利が重荷となった。 ロシア経済は軍需拡大などを背景に24年に4.9%成長したものの、25年は1.0%に急減速した。26年1〜3月期は0.2%減とマイナス成長に転落。4〜6月期に持ち直した後、再び...",
-  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
-  "kind": "news",
-  "published": "2026-11-13T17:50:26+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/saradorn/2026/11/13/jd-vance-is-having-fresh-doubts-about-2028-presidential-run-after-bruising-midterms-report-says",
-  "title": "JD Vance Is Having Fresh Doubts About 2028 Presidential Run After Bruising Midterms, Report Says",
-  "summary": "The war in Iran is a primary factor fueling Vance’s uncertainty, the report said.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-13T17:45:23+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
-  "title": "Jensen Huang was reckless with the environment, too",
-  "summary": "Jensen Huang gives a keynote address at the Berlin GPU Technology Conference on October 21st in Berlin. | Photo: Getty Images Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-after chips have triggered a new wave of water- and chemical-intensive factories , drained power grids from inside massive data centers , and set the stage for a looming e-waste problem . Under Huang's leadership, Nvidia clashed with environmental groups seeking to hold the company accountable for its so-called \" hidde",
-  "source": "RSS: The Verge",
-  "kind": "news",
-  "published": "2026-11-13T17:44:22+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/sabrinareed/2026/11/13/cupertino-brings-michael-and-olivia-closer-as-he-opens-up-about-his-sisters-tragic-death",
-  "title": "‘Cupertino’ Brings Michael And Olivia Closer As He Opens Up About His Sister’s Tragic Death",
-  "summary": "Michael Price hates his father, Bayard Diamond, on Cupertino. But his anger runs deeper than clashing personalities. Michael blames him for the death of his sister, Anna.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-13T17:36:34+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/11/13/mark-zuckerberg-overtakes-michael-dell-as-worlds-fifth-wealthiest-person",
-  "title": "Mark Zuckerberg Overtakes Michael Dell As World’s Fifth-Wealthiest Person",
-  "summary": "Dell Technologies shares tanked Friday to one of their lowest points since June.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-13T17:34:54+00:00",
-  "deadline": null
- },
- {
-  "url": "https://sable.moe/en/blog/link-previews-and-you",
-  "title": "Link Previews and You",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T17:34:47+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/simonmoore/2026/11/13/waller-floats-prospect-of-larger-december-interest-rate-hike",
-  "title": "Could The Fed Raise Interest Rates By 50 Basis Points In December?",
-  "summary": "The Federal Reserve could consider a larger interest rate hike in December as persistent inflation raises the prospect of a 50 basis point increase.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-13T17:34:22+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.yomiuri.co.jp/economy/20261114-GYT1T00090",
-  "title": "スパイ疑惑の中国人女性と不倫で辞任、エヌビディアＣＥＯを米議会が追及へ…ラトニック商務長官は証言同意",
-  "summary": "",
-  "source": "RSS: 読売新聞 新着",
-  "kind": "news",
-  "published": "2026-11-13T17:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
-  "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
-  "summary": "How do you think you're going to die? If you go by the current statistics for deaths in the US , it's reasonable to expect that cancer or heart disease will eventually get you. But OpenAI Foundation board member and Alignment Research Center Executive Director Paul Cristiano thinks we should all be worried about another major mortality risk. Speaking at a lecture series this week , Cristiano bluntly told the audience in a Toronto Convention Center, \"I think for most people in this room, the most likely reason they will die is because of an AI accident.\" In the opening lecture of a three-part s",
-  "source": "RSS: Ars Technica - All content",
-  "kind": "news",
-  "published": "2026-11-13T17:25:45+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/fionariley/2026/11/13/zelenskyy-says-ukraine-is-still-seeking-clarity-from-us-on-renewed-spacex-starshield-speed-limits",
-  "title": "Zelenskyy Says Ukraine Is Still Seeking Clarity From U.S. On Renewed SpaceX Starshield Speed Limits",
-  "summary": "Ukrainian President Volodymyr Zelenskyy said Thursday that the country was looking into a new round of “systematic speed restrictions” on its Starshield service.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-13T17:21:26+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt",
-  "title": "You can now tempt fate and give your banking information to ChatGPT",
-  "summary": "The new Wallet feature will allow its AI agents to make purchases on your behalf.",
-  "source": "RSS: Engadget - Technology News & Expert Reviews",
-  "kind": "news",
-  "published": "2026-11-13T17:17:51+00:00",
-  "deadline": null
- },
- {
-  "url": "https://alistair.sh/thenables",
-  "title": "Fixing a WebKit bug to see if promises are made of train tracks",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T16:48:01+00:00",
-  "deadline": null
- },
- {
-  "url": "https://antonz.org/probabilistic-data-structures",
-  "title": "Probabilistic data structures in Go",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T16:03:44+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.infoq.com/news/2026/11/apple-siri-ai-integration",
-  "title": "Siri AI Developer Preview Lets iOS, iPadOS, and macOS Apps Integrate with Siri",
-  "summary": "Apple released the Siri AI Developer Preview in the 27.3 beta releases of its operating systems, enabling developers and apps to integrate with the assistant and hand off actions to it. During the Preview, access to Siri AI is restricted to developer builds and internal TestFlight testers. By Sergio De Simone",
-  "source": "InfoQ",
-  "kind": "news",
-  "published": "2026-11-13T16:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://openai.com/index/introducing-chatgpt-wallet",
-  "title": "Introducing ChatGPT Wallet",
-  "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-  "source": "OpenAI",
-  "kind": "news",
-  "published": "2026-11-13T15:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://antithesis.com/blog/2026/nethack",
-  "title": "Beating the frontier on NetHack",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T14:34:57+00:00",
-  "deadline": null
- },
- {
-  "url": "https://blog.jetbrains.com/pycharm/2026/11/what-s-fixed-and-improved-in-pycharm-2026-3",
-  "title": "What’s Fixed and Improved in PyCharm 2026.3",
-  "summary": "PyCharm 2026.3 is here! Alongside major features like JetBrains Air, workspaces, Python 3.15 lazy imports, and the redesigned interpreter widget, this release includes 303 fixes and improvements to everyday Python development. From smarter code completion to more reliable environments and debugging, here are some of the changes worth knowing about—including fixes for issues reported more […]",
-  "source": "JetBrains",
-  "kind": "news",
-  "published": "2026-11-13T14:28:09+00:00",
-  "deadline": null
- },
- {
-  "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
-  "title": "A technical vision for the Haskell ecosystem",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T14:27:43+00:00",
-  "deadline": null
- },
- {
-  "url": "https://nowokay.hatenablog.com/entry/2026/11/13/101644",
-  "title": "Fable 5.2は物理モデリング音源の実装も作曲もすごい - きしだのHatena",
-  "summary": "Fable 5.2が出て今週いっぱいくらいPlusでも使えるのだけど、Fableじゃないとダメなことってなんだろなと思いつつ、楽器の物理シミュレーションがOpusはまだあまりうまくなかったなと、Fableさんに物理モデリング音源を作ってもらって曲もつくってもらったら、物理モデリングも結構できていたのだけど、曲がちゃんとして...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T14:22:52+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod",
-  "title": "Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures",
-  "summary": "Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots. In a 32-session replay, developers reduced seat selection bypasses from 15 sessions to two and dietary preference omissions from seven to zero after prompt changes. By Leela Kumili",
-  "source": "InfoQ",
-  "kind": "news",
-  "published": "2026-11-13T13:53:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://togetter.com/li/2770106",
-  "title": "学生が発表で使ったスライドがAIを使っていたので使用ソフトを尋ねたら「全部AIです」と言われた、Figmaとかだと思ったらツールごと全部AIとHTMLで作ってた",
-  "summary": "渡邊 恵太 @100kw 今日は衝撃でした。 私「このスライドはAI使ってますよね？ソフトはなんですか？」 学生「全部AIです」 私「？Figmaですか？」 学生「スライドもAIでHTMLで作らせましたが、スライドソフト自体もAIでHTML製です。文字の位置調整とかできます」 私「🫨」 x.com/100kw/status/2… 2026-11-13 13:10:24 渡邊...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T13:27:08+00:00",
-  "deadline": null
- },
- {
-  "url": "https://k-tai.watch.impress.co.jp/docs/news/2156449.html",
-  "title": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
-  "summary": "マネックス証券、不正アクセスでメールアドレス最大113万件と本人確認書類1600件弱が漏洩のおそれ",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T12:34:09+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.joshka.net/cell-borders",
-  "title": "Terminal borders that don't cost a cell",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T12:03:19+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.infoq.com/news/2026/11/netflix-ai-driven-observability",
-  "title": "Netflix Turns Operational Data Into a Knowledge Graph for AI-Driven Observability",
-  "summary": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
-  "source": "InfoQ",
-  "kind": "news",
-  "published": "2026-11-13T12:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://blog.ovalerio.net/archives/3359",
-  "title": "The need for at least a third option",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T11:36:44+00:00",
-  "deadline": null
- },
- {
-  "url": "https://thunderseethe.dev/posts/ml-modules-for-mere-mortals/intro",
-  "title": "ML Modules for Mere Mortals",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T11:33:56+00:00",
-  "deadline": null
- },
- {
-  "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition",
-  "title": "Running a law firm on Free software (2026 edition)",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T11:20:32+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.web.nhk/newsweb/na/nd-20261113de75652",
-  "title": "マイクロソフトの障害 在宅勤務の人はどう対応した？ | NHKニュース",
-  "summary": "「マイクロソフト」のサービスで発生した障害は、在宅勤務をする人にも影響が出ています。 都内のコンサルティング会社に勤める横山倫太郎さんは、育児のため週2日ほど、在宅勤務をしています。 人事部に所…",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T11:08:58+00:00",
-  "deadline": null
- },
- {
-  "url": "https://blog.jetbrains.com/blog/2026/11/13/scaling-ai-agents-what-we-learned-from-9-real-world-cases",
-  "title": "Scaling AI Agents: What We Learned From 9 Real-World Cases",
-  "summary": "Our brand-new report explores what it takes for software development leaders to put agents to work. One organization reached 95% AI adoption without seeing an improvement in developer velocity. Another tripled its pull request throughput while reducing its defect backlog by 54%. What explains the difference? To find out what makes AI agents effective beyond […]",
-  "source": "JetBrains",
-  "kind": "news",
-  "published": "2026-11-13T11:00:13+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.infoq.com/presentations/bbc-software-architecture-influence",
-  "title": "Presentation: The Influence Toolkit",
-  "summary": "Henry Wilson shares actionable tools from the BBC Sounds re-architecture to help senior engineering leaders drive technical strategy. He discusses building buy-in, navigating active resistors, using RFCs and ADRs, and balancing tradeoffs - showing that effective software architecture is fundamentally about communication, relationship-building, and organizational influence. By Henry Wilson",
-  "source": "InfoQ",
-  "kind": "news",
-  "published": "2026-11-13T11:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://joisino.hatenablog.com/entry/searchrecbook",
-  "title": "『検索システム』『推薦システム』とLLM時代の検索推薦 - ｼﾞｮｲｼﾞｮｲｼﾞｮｲ",
-  "summary": "拙著『検索システム』『推薦システム』が発売されました。 ▲カバーイラストがおしゃれで嬉しい これらはその名の通り検索システムと推薦システムの教科書です。LLM 時代の新基準になることを目指して執筆しました。すべてのログデータをプロンプトに入れて「これを前提に何を推薦すればいいか」と LLM に訊くという投げ...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T10:50:54+00:00",
-  "deadline": null
- },
- {
-  "url": "https://gihyo.jp/article/2026/11/claude-meetings",
-  "title": "Anthropic、Claude Meetingsをベータ提供 ——Claudeが会議に参加し、文書やホワイトボードを参加者と共同作成",
-  "summary": "Anthropicは2026年11月12日、オンライン会議向け機能Claude Meetingsのベータ版の提供を順次開始した。対象はTeamとEnterpriseプランで、Google Meetの会議にClaudeを参加させられる。",
-  "source": "gihyo.jp",
-  "kind": "news",
-  "published": "2026-11-13T10:50:34+00:00",
-  "deadline": null
- },
- {
-  "url": "https://lobste.rs/s/4bvg9z/what_are_you_doing_this_weekend",
-  "title": "What are you doing this weekend?",
-  "summary": "Feel free to tell what you plan on doing this weekend and even ask for help or feedback. Please keep in mind it’s more than OK to do nothing at all too!",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T10:22:29+00:00",
-  "deadline": null
- },
- {
-  "url": "https://togetter.com/li/2770045",
-  "title": "Microsoft 365の障害で上司が事業部の部長から「こうなる事を予想して事前に対処しておくのがシステム部だろうが！」と言われ、反抗して早退…連絡の受け手は必然的に私に",
-  "summary": "まあゆ @ma_yu_69 上司が事業部の部長に「こうなる事（M365の障害）を予想して事前に対処しておくのがシステム部だろうが！！」って言われて「（システムを）分かんねぇくせに口出すな知ったかぶりが！！」って応酬して、そのまま早退してしまった午前11時47分 2026-11-13 12:20:34 まあゆ @ma_yu_69 その後、1時間後に...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T09:58:17+00:00",
-  "deadline": null
- },
- {
-  "url": "https://blog.lai.so/2026-11-13",
-  "title": "#26 Home Repo パターン",
-  "summary": "Home Repoパターンはコーディングエージェントで開発するときのワークスペース構成のパターンで、/grill-me などで知られる Matt Pocock が提唱し、自身のサイト AI Hero で解説しました。 The Home Repo PatternOne repo for your skills, AGENTS.md and shared docs, with pointers to your other repos. A reference,...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T09:55:47+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2RFNVbjNpS2UyVUlScnVTS1otZWxTQXllc0pMeW1NSGpaNVlzQzg2OU92TUs0TWxWV05icjdyT3czbGJBTndIaUtmbHl5VGFFY2JDMzF4ZGQ1aF95U2JsZTU4dVRqdzJ5TGY0X2FYZm5jazhRVnhlTXN3?oc=5",
-  "title": "50th Single「ラブレター」リリース記念！メンバーの限定ボイスもオンエアするMUCC特集リスニングパーティーをAWAラウンジで開催！ - イザ！",
-  "summary": "50th Single「ラブレター」リリース記念！メンバーの限定ボイスもオンエアするMUCC特集リスニングパーティーをAWAラウンジで開催！ イザ！",
-  "source": "Google News: 学生無料ツール",
-  "kind": "news",
-  "published": "2026-11-13T09:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://gigazine.net/news/20261113-firefox-vpn",
-  "title": "Firefoxの内蔵VPNを無料＆データ通信量無制限で全ユーザーに提供するとMozillaが発表、2027年1月31日まで",
-  "summary": "Firefoxブラウザには無料のVPNが内蔵されており、ウェブサイトがIPアドレスを使ってユーザーの所在地を特定したり、ウェブ上のアクセス履歴を追跡したりすることを制限することができます。通常は内蔵VPNを利用するにはサインインした上で月間50GBのデータ制限がありますが、2026年11月10日から2027年1月31日までの期間...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T09:17:59+00:00",
-  "deadline": null
- },
- {
-  "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player",
-  "title": "How Not to Build a Music Player",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T09:16:28+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.infoq.com/podcasts/accountability-age-ai-coding-summary",
-  "title": "Podcast: Doing The Right Thing: Accountability In The Age Of AI Coding Summary",
-  "summary": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Hugo Venturini about who is accountable when AI writes the code, how AI is reshaping code review and traditional engineering roles, and how leaders build a culture of transparency and psychological safety. By Hugo Venturini",
-  "source": "InfoQ",
-  "kind": "news",
-  "published": "2026-11-13T09:00:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://togetter.com/li/2769964",
-  "title": "お客様からメールもCopilotも使えないと問い合わせが来て「Microsoft 365が障害発生してまして」と伝えたら「そんなのCopilotに聞いたらすぐ復旧するでしょ」と言われた",
-  "summary": "Shadowhat @shadowhat お客様からメールが送れないしCopilotも使えないと問い合わせが来たので、 「M365が障害発生してまして」 と伝えたら、 「そんなのCopilotに聞いたらすぐ復旧するでしょ。すぐに聞いて早く対処してください」 といわれてしまった。 M365やCopilotがどう動いているかの根本が理解されてない模様... ...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T08:56:38+00:00",
-  "deadline": null
- },
- {
-  "url": "https://ensapia-tokyo.com/news/topics/id=21412",
-  "title": "オンラインゲームポータルサイト『ハンゲ（hange）』不正アクセスについて(第4報) | ENSAPIA Tokyo株式会社",
-  "summary": "3. 原因 『ハンゲ』サーバーへの第三者による不正アクセスが原因となります。詳細については現在も調査を進めております。 4. お客様へのお願いと二次被害への注意喚起 パスワードの変更: 他社サービスで同一のパスワードを使い回されている場合は、念のため速やかに変更していただきますようお願いいたします。 不審な...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T08:38:59+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.bbc.com/japanese/articles/cjy5xype60l0o",
-  "title": "【解説】 AIの先駆者、誤った判断で破滅……エヌビディアのフアンCEO辞任 - BBCニュース",
-  "summary": "もし私が先週の今頃、米半導体大手エヌビディアのジェンスン・フアン最高経営責任者（CEO）が辞任の見通しだと言っても、信じてもらえなかっただろう。 この大成功を収めたAIチップ（半導体）企業の共同創業者の一人であり、会社をゼロから築き上げるためにたゆまぬ努力を重ね、いくつかの危機的状況を乗り越え、無尽蔵...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T08:29:46+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWk5xcHdIUmFhZ0FYR3hMcHZ3TDdkSXc1c2NZRlg2NDBfREY0a1RFQlB0NlFfTzdwTUs3NW5tWjRRM2pVMTk1WEpwd3FjemY4NDJhYmhCVW5QTTk4Y0x4dldkWWY1UUlTcEhUVjhuUGNieDd5UlJVSUN6VDZVdGVUU0N3?oc=5",
-  "title": "Student list: There will be no mandatory military service - vreme.com",
-  "summary": "Student list: There will be no mandatory military service vreme.com",
-  "source": "Google News: student free plan",
-  "kind": "news",
-  "published": "2026-11-13T08:10:53+00:00",
-  "deadline": null
- },
- {
-  "url": "https://unsung.aresluna.org/from-digital-mischief-to-outright-destruction",
-  "title": "“From digital mischief to outright destruction”",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T07:50:10+00:00",
-  "deadline": null
- },
- {
-  "url": "https://gihyo.jp/article/2026/11/rust-1.100.0",
-  "title": "Rust 1.100.0リリース ——never型とVec・Box向けの独自アロケーターAPIを安定化",
-  "summary": "Rustチームは2026年11月12日、プログラミング言語Rustのバージョン1.100.0をリリースした。never型を型引数などとしても使えるようになった。",
-  "source": "gihyo.jp",
-  "kind": "news",
-  "published": "2026-11-13T07:48:54+00:00",
-  "deadline": null
- },
- {
-  "url": "https://piyolog.hatenadiary.jp/entry/2026/11/13/162738",
-  "title": "良品計画への不正アクセスについてまとめてみた - piyolog",
-  "summary": "2026年10月30日、良品計画は公式アプリ「MUJI アプリ」の会員情報が外部に流出した可能性があると公表し、その後の公表で対象を広げました。ここでは関連する情報をまとめます。 公表のたびに広がった対象 最初の公表の対象はMUJI アプリの会員情報に限られていた。その後、ネットストアの会員、氏名や住所、MUJI Card ...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T07:47:29+00:00",
-  "deadline": null
- },
- {
-  "url": "https://zenn.dev/atrae/articles/032b9fccca0ff7",
-  "title": "困ったらAIにすぐ聞く3年目エンジニアが社会人になって読んだ技術書 10冊.",
-  "summary": "いつの間にか新卒3年目になり,バックエンドエンジニアとしてAIエージェントの基盤開発に携わっています. 最近では困ったことがあったらAIに聞くことが多く,朝から晩までAIと会話していることもあります.でも,AIで解決できないことを体系的に学べるので,本を読むのも好きです.書物は学ぶことに特化されているので,読むことでエンジニアとしてステップアップできると思っています. 社会人になってから3年で読んでよかった本を10冊まとめました. アーキテクチャ 1.マイクロサービスアーキテクチャ 第2版 Webアプリケーションのアーキテクチャ,2大巨塔の1つ.マイクロサービスに興味のある人...",
-  "source": "Zenn",
-  "kind": "news",
-  "published": "2026-11-13T07:46:50+00:00",
-  "deadline": null
- },
- {
-  "url": "https://gigazine.net/news/20261113-ai-users-have-long-worktime-than-non-ai-users",
-  "title": "AIユーザーの平均労働時間は非AIユーザーより最大で90分長いことが判明",
-  "summary": "AIユーザーと非AIユーザーを比べたとき、平均労働時間はAIユーザーのほうが最大で90分長いことが明らかになりました。この数字は従業員モニタリングソフトウェアを開発・提供しているActivTrakの研究部門・ActivTrak生産性研究所が467社・9140人を対象に集めた情報を分析した結果わかったもので、自己申告制の調査よりも...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T07:26:33+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/MC_Engineer_Mtfuji/items/bef09d7c9e1288f38ad3",
-  "title": "TypeScriptの有用性を、実際に動かして確かめてみた",
-  "summary": "1. はじめに Javaを書いていると、フロントエンドの話でTypeScriptの名前をよく聞きます。JavaScriptに型を付けただけ、というのが最初の印象で、なぜここまで選ばれるのかはピンときていませんでした。調べるだけでなく、小さなコードを書いて、自分の手で確かめ...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T07:20:36+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/r-jw/items/bd4721fccc457bf8e64a",
-  "title": "バックアップ HDD の「静かな死」を防ぐ仕組み ― smartctl でヘルスチェック",
-  "summary": "この記事は、クリエーションライン株式会社の Tech Blog に掲載した記事の転載です。 元の記事：バックアップ HDD の「静かな死」を防ぐ仕組み ― smartctl でヘルスチェック 自宅のバックアップでよくあるのは、外付け HDD をもう 1 台つなぎ、毎晩 ...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T07:15:13+00:00",
-  "deadline": null
- },
- {
-  "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/2156298.html",
-  "title": "「Microsoft 365」の障害、発生から12時間を突破 ～メールサービスを中心に影響が拡大【16:45追記】／悪意ある攻撃ではない模様。解決に向けて明るい兆しが見えるも引き続き障害継続中【やじうまの杜】",
-  "summary": "「Microsoft 365」の障害、発生から12時間を突破 ～メールサービスを中心に影響が拡大【16:45追記】／悪意ある攻撃ではない模様。解決に向けて明るい兆しが見えるも引き続き障害継続中【やじうまの杜】",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T06:55:30+00:00",
-  "deadline": null
- },
- {
-  "url": "https://japan.cnet.com/article/35254833",
-  "title": "絶対に「お金の管理」だけはAIに任せてはならない理由",
-  "summary": "Metaの「Muse」や「OpenClaw」、OpenAIの「dots」といったエージェントが、AI分野で大きな話題になっている。これらは、情報を提供するチャットボット以上のことができるとうたっている。依頼に応じて実際に行動できるツールなのだ。 AIエージェントの利用を始める際には、アプリやブラウザー、データを使って作業できる...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T06:34:21+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/mmsbox/items/5f1486a1887f21218ee0",
-  "title": "初めてのチーム開発で効いたのは「同じものを見る」こと——ハッカソン2位の工夫と、ぶつかって学んだこと",
-  "summary": "はじめに 通っているプログラミングスクールと外部企業の合同企画で、約2週間のハッカソンに受講生3人のチームで参加しました。 項目 内容 期間 約2週間 チーム 受講生3人（チーム開発は全員初めて） 作ったもの 上司向けの日報管理アプリ 技術 Ra...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T06:33:23+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPc2plYndZMEdjdFcwVDBpYmtsUTFNay1ZSUVTN292V0FqeU51RkROQlJNWTF0OVRueENCVnp6LWV3UGhwdUxJTXk1VkV0UUFkV3k3a0dManpQR0dNLXZ3anhvSHZ3RVVXdGlWRHd6OU4zbmJYV0gyQ3J4MFV2dHRKYXR0ZWJXMGJsbjBWaVRhRFFObHdpa2R1eFRoZ2xNWmxpZGdYS2QwQ2JMVnhLaHZZWVcxNGx6Vy1qdi1BcU1JQVBtQUxNcW41STh6Rnloc1IwOC1UYVU2MlJTV2VIY2ZPR3N6UTdUVDRMQzFTXy1zSWtBZ3JRbGRF?oc=5",
-  "title": "Andhra Pradesh students can earn academic credits through free AI courses: APSCHE launches Vidya Vahini - Education Times",
-  "summary": "Andhra Pradesh students can earn academic credits through free AI courses: APSCHE launches Vidya Vahini Education Times",
-  "source": "Google News: student free plan",
-  "kind": "news",
-  "published": "2026-11-13T06:23:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://future-architect.github.io/articles/20261113a",
-  "title": "aws-emulatorにTerraformでリソースを作成できるか試してみる | フューチャー技術ブログ",
-  "summary": "（https://aws.amazon.com/jp/products/developer-tools/emulator/ より引用） こんにちは。TIGの伊藤です。2026/11/11、AWSからaws-emulatorというツールが発表されました。 https://aws.amazon.com/jp/products/developer-tools/emulator/ これまで、私はLocalStackを利用して、ローカルでTerraformを実行できる環境を...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T06:21:05+00:00",
-  "deadline": null
- },
- {
-  "url": "https://bernsteinbear.com/blog/ssa-bytecode",
-  "title": "SSA from bytecode: imperative pearl",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T06:20:05+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.infoq.com/news/2026/11/dropbox-cookie-auditor",
-  "title": "Dropbox Shares How Its In-House Cookie Auditor Tests Consent Behaviour Across 200+ Web Surfaces",
-  "summary": "Dropbox engineers described a Playwright-based auditor that checks cookie consent behavior across more than 200 web surfaces. It runs three tests per page: US visitor, EU visitor, and Global Privacy Control signal. Cookie rules are kept outside the code. A companion tool finds live URLs. Weekly reports separate likely violations from false positives. By Daniel Curtis",
-  "source": "InfoQ",
-  "kind": "news",
-  "published": "2026-11-13T06:15:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://zenn.dev/karamage/articles/5c3f8370b2b370",
-  "title": "【pstack】AIに敵対的レビューをさせるな。トークンは検証に使え",
-  "summary": "AIが書いたコードをマルチエージェントで多角的な視点で別のAIに容赦なく叩かせ、 それを何往復もループで繰り返せば品質は上がっていくはず。。。 純粋無垢な私はずっと、そう信じていた頃がありました。 ところが、かなりトークンを注ぎ込んだPRからあっさり本番バグが出て、以下の問いにはじめて気づきました。 問い:...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T06:02:40+00:00",
-  "deadline": null
- },
- {
-  "url": "https://ktlog.net/posts/claude-code-ai-ecosystem",
-  "title": "Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例",
-  "summary": "公開 2026.11.08 Claude Codeのおすすめ環境を全体図で解説。ハーネス・スキル・MCPの仕組みと実例 Claude Codeのおすすめ環境は、入口をClaude Code 1つにまとめ、判断AIや権限ルールなどのハーネスを通してから、ほかのAI・スキル・MCP・外部APIへ仕事を振り分ける形です。全体図と3つの実例でまとめました。 Claude C...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T05:21:58+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LWk9fV084OHpxcnZCc3ZIbXlUOUZWd2tyYjB0bl9ndVVsTHdBbGFEZWFlcmhvYXJCY2Z1QU5icjRLU0RxZDl5a040S1FrdTV3NVJqOEYzTTVPbDdQOE9NYlFZbTByVU1FTmc?oc=5",
-  "title": "生ビール付き飲み放題2時間が300円（税込330円）に！「個室完備 博多大衆酒場 あいらしか 沖縄中の町店」2026年11月15日（日）グランドオープン - PR TIMES",
-  "summary": "生ビール付き飲み放題2時間が300円（税込330円）に！「個室完備 博多大衆酒場 あいらしか 沖縄中の町店」2026年11月15日（日）グランドオープン PR TIMES",
-  "source": "Google News: 学割サブスク",
-  "kind": "news",
-  "published": "2026-11-13T05:10:01+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/maskot1977/items/6d3f5c504360cf7858c4",
-  "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 45",
-  "summary": "user: ソース動画のタイトル、そしてこの動画の内容について教えてください。 Gemini: ご指定のソース動画のタイトルおよびその詳細な内容について解説します。 1. ソース動画のタイトル 「人口減少であなたの給料は上がる : Pythonで学ぶマクロ...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T05:06:38+00:00",
-  "deadline": null
- },
- {
-  "url": "https://zenn.dev/ara_ta3/articles/thinking-about-engineers-five-years-from-now",
-  "title": "5年後のエンジニアは、何に責任を持つのだろうか",
-  "summary": "はじめに 最近は、AI Agentを使ってコードを書くことが日常になりました。その一方で、自分で直接コードを書く頻度は本当に減ったと感じています。何年もかけて少しずつ変わったというより、ここ2年も経たないうちの変化です。 今や新しいモデルが出るたびに、Artificial Analysisのグラフを眺めています。少し前まで十分良いと思っていた性能を上回りつつ、速度も出て、コストとのバランスも良いのはどのあたりか。モデルと推論にかける労力（Reasoning Effort）の組み合わせを見て、「このへんが良さそうかな」と思ったものを試す日々になっています。 そんな中で、ふと「5年後くら...",
-  "source": "Zenn",
-  "kind": "news",
-  "published": "2026-11-13T05:03:44+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxeW1tOURtVVFHOER6aHREd1JXQ0NjRmlMT1FKNG1OazdxRTlFZ3pSR1MxejJ0TG84SDRpUDFKTTNta09PdzhJT2xlQzBtNWtSdjIycjdBWlRIdlJZSldYVlEwQnhja3FKSjZtbGZMYXF6RDl2czN2eVBoWQ?oc=5",
-  "title": "次世代地方創生マガジン『Ambitions REGION VOL.2』2026年11月26日刊行【自治体限定 ページデータ無償提供】 - ニコニコニュース",
-  "summary": "次世代地方創生マガジン『Ambitions REGION VOL.2』2026年11月26日刊行【自治体限定 ページデータ無償提供】 ニコニコニュース",
-  "source": "Google News: 教育無償提供",
-  "kind": "news",
-  "published": "2026-11-13T04:51:09+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003186",
-  "title": "「Qoo10」不正アクセス、個人情報漏えい 「住所の地理座標」や「身体的特徴」も対象の可能性",
-  "summary": "会員数3000万人超の大手ECモール「Qoo10」（キューテン）を運営するeBay Japanは11月12日、6日に同社のシステムが不正アクセスを受け、一部の個人情報が閲覧されたと発表した。氏名や住所の他、住所の地理座標、顧客が任意で入力した身体的特徴などが含まれる可能性があるという。 対象となる可能性がある個人情報には、...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T04:40:27+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3c3p2SFFUblJTSktPZk9nMWF6Y0lzVWdidWRfRXBEdVpKV2JZdUYtdEhsYjNzbF94MjVSa0R1Q05La1Z5aE92MTJsTEpFZXRza1NSNmM1UmxoYnZnVlcyV3Z3SDhwTXpsOEE?oc=5",
-  "title": "【何歳になっても、愛犬と一緒に旅をしたい】愛犬の健康をサポートする特典&わんこ用夕朝食付きプラン販売開始のお知らせ―天然温泉・サウナ・プールを備えた「ドッグヴィラ千葉南房総」 - PR TIMES",
-  "summary": "【何歳になっても、愛犬と一緒に旅をしたい】愛犬の健康をサポートする特典&わんこ用夕朝食付きプラン販売開始のお知らせ―天然温泉・サウナ・プールを備えた「ドッグヴィラ千葉南房総」 PR TIMES",
-  "source": "Google News: 学割サブスク",
-  "kind": "news",
-  "published": "2026-11-13T04:36:46+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBRbm1uYkdMM0Y3bk9jeENxZ0Q5dWhGeEdYNWZMX3BFanVtVUYxa1ZMX192UGRQYWVnZUdEdmxQbEoyR3lFQ1NCLUFrNVBtYXZFRVRySTc0VjVRRjREaGE4TTdFN0pXY05TbEc3dWowcXIzbEFmVUY5aU56WQ?oc=5",
-  "title": "学生180名超を無料招待、東京大学・安田講堂で「ONE WORLD」開催 - ニコニコニュース",
-  "summary": "学生180名超を無料招待、東京大学・安田講堂で「ONE WORLD」開催 ニコニコニュース",
-  "source": "Google News: 東大",
-  "kind": "news",
-  "published": "2026-11-13T04:30:32+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/ryosuke_ohori/items/17995524b433cf04fd55",
-  "title": "Claude Fable 5.2はOpusの単価2倍、でも1タスクは約半額!? Mythos5.2との違いと使いどころ",
-  "summary": "みなさん、こんにちは。株式会社ulusageの技術ブログ生成AIです。 Claude CodeでOpusに何度か聞いても、原因が分からない。そこでFable 5.2に切り替えるとして、気になるのは「その1件を解くのに、結局いくらかかるんだろう？」ということです。 Fabl...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T04:26:32+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/metappi/items/b2319478cd692c9b492f",
-  "title": "本番(prod)サーバーに自動処理を組んだのでまとめ",
-  "summary": "今回は本番環境(prdサーバー)に自動処理の実行環境を設定しました。 指定した時刻に記事を公開するための「予約公開」の仕組み 画面操作とは別に処理を進める「AI審査」に対して採用 ⭐︎この記事でわかること⭐︎ １：自動処理を組むとは ２：仕組みとメリット、デメリット ...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T04:23:59+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003182",
-  "title": "虎柄ロボットに「阪神君」と命名 首相、フィジカルAIを体験 関連企業と意見交換",
-  "summary": "高市早苗首相は11月12日、機械を人工知能（AI）で自律的に動かす「フィジカルAI」の関連企業の代表らを官邸に招き、意見交換会を開いた。実際に最新のAIロボットの技術を体験し、「官民の力を結集して世界に先駆けたフィジカルAIの社会実装を大規模かつ戦略的に推進していこう」と呼び掛けた。 政府は集中的な官民投資を...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T04:20:24+00:00",
-  "deadline": null
- },
- {
-  "url": "https://gihyo.jp/article/2026/11/gemini-4-hydrogen",
-  "title": "Google、Gemini 4 Hydrogenを発表、Antigravityにモデルを自動で切り替えるOrchestratorを導入 ——検索のAIモードにも展開、複雑な質問の理解や回答の見やすさを改善し、より幅広い関連リンクを提示",
-  "summary": "Googleは2026年11月12日、AIモデルGemini 4 Hydrogenを発表した。日常的なコーディングや、AIがツールを使いながら複数の手順を進める作業を、速く効率よく進められるよう設計した。",
-  "source": "gihyo.jp",
-  "kind": "news",
-  "published": "2026-11-13T04:00:02+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/roripika/items/bdeb5537efc1f27af726",
-  "title": "Unityを選ぶ企業は赤字体質である。",
-  "summary": "※本記事について 本記事は、筆者がゲーム開発の現場で抱えている課題感や知見をもとに、AI（Antigravity / Gemini）と壁打ち・議論した内容をAIに整理・執筆させたものです。 はじめに：なぜ「Unityにすれば早く作れる」が実現しないのか ゲーム開発の現...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T03:29:15+00:00",
-  "deadline": null
- },
- {
-  "url": "https://piyolog.hatenadiary.jp/entry/2026/11/13/114230",
-  "title": "2026年11月に発生したMicrosoft 365の接続障害についてまとめてみた - piyolog",
-  "summary": "2026年11月13日、Microsoftは、Exchange Onlineを中心に複数のMicrosoft 365サービスで接続障害が起きていると公表しました。ここでは関連する情報をまとめます。 Exchange Onlineの接続障害が複数サービスへ拡大 障害はExchange Onlineのメールボックスに接続できない問題として始まり、複数のMicrosoft 365サービスへ...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T03:20:28+00:00",
-  "deadline": null
- },
- {
-  "url": "https://zenn.dev/safie_inc/articles/b6fa3de06606be",
-  "title": "フィーチャーチームに配属された新卒エンジニアのAIに振り回されない「AI活用」",
-  "summary": "はじめに こんにちは、新卒4期生（2026年新卒）の武内です。光陰矢の如しとはよく言ったもので、4ヶ月の研修を経て実際の現場に配属されて、あっという間に3ヶ月(!?)が経とうとしています。 この記事では、配属から今日までを振り返りつつ、AIネイティブ世代？としてどのようにこの期間「AIを活用してキャッチアップや実際の業務を行ったか」を紹介できればと思っています。 初配属：フィーチャーチーム 新卒研修も終盤に差し掛かった7月中旬、待ちに待った配属先発表会が行われました。同期も含めて皆がソワソワする中、私の配属先は「Safie Manager（セーフィー マネージャー）開発グループ」...",
-  "source": "Zenn",
-  "kind": "news",
-  "published": "2026-11-13T03:00:05+00:00",
-  "deadline": null
- },
- {
-  "url": "https://sunshowers.io/posts/glue-work",
-  "title": "Contra \"Glue work considered harmful\"",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-13T02:36:05+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lNEdSZzBtazVKRkFaTm1BMWV6Z1NTTTE4LV9Pakk2aXpXVUltY3RpTUd1NjNJYmYzM0hUZzZ3dXBSRmxlc0ozY1g1Nl9HNkgtR0tramV5QUxEWWNaRTJLRVdZb2U0NmhTN1E?oc=5",
-  "title": "学生7名が愛知の三島の魅力を発信。「あいちぐるっと！島めぐり」プロジェクト説明会を開催 - PR TIMES",
-  "summary": "学生7名が愛知の三島の魅力を発信。「あいちぐるっと！島めぐり」プロジェクト説明会を開催 PR TIMES",
-  "source": "Google News: 学生無料ツール",
-  "kind": "news",
-  "published": "2026-11-13T02:19:45+00:00",
-  "deadline": null
- },
- {
-  "url": "https://pc.watch.impress.co.jp/docs/column/ubiq/2156149.html",
-  "title": "【笠原一輝のユビキタス情報局】 フアン氏辞任のNVIDIA、33年の成功を支えたCUDAと次のリーダーの条件",
-  "summary": "【笠原一輝のユビキタス情報局】 フアン氏辞任のNVIDIA、33年の成功を支えたCUDAと次のリーダーの条件",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T02:15:10+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/tsutorm/items/c9ab1e1c64474c341d77",
-  "title": "「ざっくり工数どのくらい？」に「ざっくり工数このくらい」で答えてはいけない",
-  "summary": "はじめに 「このアプリ作ろうと思ったら、ざっくり工数どのくらい？」 こう聞かれて、つい「ざっくり 〇人月くらいですかね」と答えてしまった経験はないでしょうか。 以前、「\"工数が足らない\" からの脱却」 という記事で、計画に対して工数が足らない局面の話を書きました。今回はそ...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T02:03:33+00:00",
-  "deadline": null
- },
- {
-  "url": "https://gihyo.jp/article/2026/11/alphaproof-code",
-  "title": "Google DeepMind、AlphaProof Codeを発表 ——Signalプロトコルの実装を機械語レベルで形式検証",
-  "summary": "Google DeepMindは2026年11月10日、人間の専門家とAIエージェントが協力してソフトウェアを形式検証するフレームワーク「AlphaProof Code」を発表した。研究チームは、エンドツーエンド暗号化通信に使われるSignalプロトコルの参照実装libsignalに、この仕組みを適用した。",
-  "source": "gihyo.jp",
-  "kind": "news",
-  "published": "2026-11-13T02:03:19+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/maskot1977/items/76cb2a92efe0433b1de4",
-  "title": "耳で聞く！ システム設計 視点の 行動経済学 5",
-  "summary": "user: ソース動画のタイトル、そしてこの動画の内容について教えてください。 Gemini: ソース動画のタイトルおよびその詳細な内容解説は以下の通りです。 1. ソース動画のタイトル 『人手不足の正体はシステム設計のバグ : システム設計視点の行動経済学 Po...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T01:56:06+00:00",
-  "deadline": null
- },
- {
-  "url": "https://zenn.dev/ca_kagglers/articles/two-tower-mechanism",
-  "title": "仕組み編：Two-Towerによる検索システム（学習・推論・配信）",
-  "summary": "はじめに ihiratchです。本記事では、検索・推薦タスクで使われる Two-Tower モデルについて解説します。 Two-Tower は、クエリとアイテムをそれぞれ別のニューラルネットワークでベクトルに変換し、その類似度から関連度を評価するモデルです。アイテム側のベクトルを事前に計算しておけるため、大量の候補から効率よく検索することができます。 本記事は「仕組み編」として、検索タスクから始まり、Two-Tower の構造・推論・学習・配信までを説明します。学習については、特に負例のサンプリングについて深掘りします。実際のデータセットを使った実装・学習・評価は、別の「実験編」で扱...",
-  "source": "Zenn",
-  "kind": "news",
-  "published": "2026-11-13T01:55:36+00:00",
-  "deadline": null
- },
- {
-  "url": "https://kaden.watch.impress.co.jp/docs/column/solar/2155107.html",
-  "title": "手作りで自宅が太陽光発電所に? 出前発電所Zeroを作ってみよう - 家電 Watch",
-  "summary": "手作りで自宅が太陽光発電所に? 出前発電所Zeroを作ってみよう - 家電 Watch",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T01:13:08+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zNGl5SDlCbTlhUG9iN3FOZ3lBd2xVekNWUmVPMGp4MldxalFVOTZJX2loQm5ib3Z5SXRaWDQ0d0pLZkx5M0czLWZQZUtfYjNyS3Q1Y29ORWhZZEFRaXU5aDhUalJiWFFnTkE?oc=5",
-  "title": "学生180名超を無料招待、東京大学・安田講堂で「ONE WORLD」開催 - PR TIMES",
-  "summary": "学生180名超を無料招待、東京大学・安田講堂で「ONE WORLD」開催 PR TIMES",
-  "source": "Google News: 学生無料ツール",
-  "kind": "news",
-  "published": "2026-11-13T01:00:02+00:00",
-  "deadline": null
- },
- {
-  "url": "https://speakerdeck.com/goyoki/shift-left-approach-for-team-improvement",
-  "title": "高品質と高スピードを支える品質のシフトレフトのアプローチ",
-  "summary": "自己紹介 ⚫経歴 • 開発者、テストエンジニア、コンサルタント、QAエンジニアとさまざまな立場で さまざまなプロダクトの品質保証や品質管理業務に従事 • テストや品質マネジメントについて執筆・講演・研究・技術指導複数 • 現在は車メーカーで車載開発のQA/テストテックリード、QMアーキテクトを担当 • JSTQB技術委員...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T00:56:24+00:00",
-  "deadline": null
- },
- {
-  "url": "https://mainichi.jp/articles/20261111/k00/00m/040/331000c",
-  "title": "テラ・クライシス：AIが設計 菌を殺す未知のウイルス 開いた「パンドラの箱」 | 毎日新聞",
-  "summary": "AIで設計されたウイルスの痕跡が分かるシャーレ。大腸菌で満たされているが、ウイルスが機能して大腸菌を死滅させた部分が、複数の透明な円になっている＝米カリフォルニア州パロアルトのアーク研究所で2026年10月14日午後3時3分、岡田英撮影 実験用のシャーレは大腸菌で満たされ、白っぽく曇っている。ライトにかざすと...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T00:53:55+00:00",
-  "deadline": null
- },
- {
-  "url": "https://blog.a-know.me/entry/2026/11/12/225133",
-  "title": "400gを切るモバイルモニター（タッチ対応）と Samsung DeX との相性が良い - えいのうにっき",
-  "summary": "主にコンテンツを消費することを目的として、ずっと12.9インチの iPad Pro（2018, 第3世代）を愛用していたのですが、いつの間にやら子供に奪われてしまっておりまして。 「それなら仕方がない、もう一台買うか」.....とは、昨今の物価高のなかでは簡単に決断できず。さてどうしたものかと考えあぐねていると、Amazon で...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-13T00:32:45+00:00",
-  "deadline": null
- },
- {
-  "url": "https://gihyo.jp/admin/clip/01/ubuntu-topics/202611/13",
-  "title": "Ubuntu Core 26のプレビュー、Ubuntu 27.04（tenacious）の開発：linux-firmware-hweの準備、.NET 11のサポート",
-  "summary": "Ubuntu Core 2の各種クラウド上でのパブリックプレビューの提供が開始されています。",
-  "source": "gihyo.jp",
-  "kind": "news",
-  "published": "2026-11-13T00:31:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/yyoshida15/items/4ea6a0752ff2ba942dff",
-  "title": "CRA報告対応② Dependency-Trackで脆弱性の検知を自動化する(Pleasanter連携)",
-  "summary": "Nov 12, 2026 はじめに OWASP Dependency-Track v5.2を使って、脆弱性情報の自動収集から、Slackへの通知、Pleasanterの脆弱性対応台帳への自動登録までを、二日がかりでつなげました。この記事では、その設定手順と、実際につまずい...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T00:22:46+00:00",
-  "deadline": null
- },
- {
-  "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026",
-  "title": "GitHub availability report: October 2026",
-  "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
-  "source": "GitHub Blog",
-  "kind": "news",
-  "published": "2026-11-13T00:20:16+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/Takashi_Masumori/items/c2b9270a9a13a316b618",
-  "title": "Copilot in SharePoint で、リストとライブラリの作成はどこまで楽になったか試してみた",
-  "summary": "Copilot in SharePoint で、リストとライブラリの作成はどこまで楽になったか試してみた はじめに SharePoint のリストやドキュメント ライブラリは、Power Apps や Power Automate と組み合わせる前提で作ることもあると思...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T00:05:49+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/suwa_nobu/items/40e9eba3a7d99a2a485b",
-  "title": "Claude API の Message Threads で、会話の履歴を自分で持たなくてよくなるのか。公式を読むと、スレッドは5分で切れ、写しは自分で持ち続ける前提だった",
-  "summary": "Claude API に、11月2日から「Message Threads（メッセージスレッド）」というベータの機能が入りました（API の変更履歴）。会話をサーバー側に持ってもらい、2回目からは新しいメッセージだけを送ればよい、という機能です。 これを読んで私が最初に思った...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-13T00:00:23+00:00",
-  "deadline": null
- },
- {
-  "url": "https://zenn.dev/fixstars/articles/kimi-k31-pro-benchmark",
-  "title": "最強オープンウェイトモデル Kimi-K3.1-Pro をセルフホストして独自ベンチで比べてみた",
-  "summary": "Kimi-K3.1-Pro は、中国のベンチャー企業 Moonshot AI が開発したオープンウェイトの大規模言語モデルです。サイズは 2.8T-A104B と 2026/11/12 時点で公開されている主要なモデルでは最大、 Artificial Analysis v5 指標では 46 点であり二番手 (DeepSeek-V4.1-Flash-1017, 33 点) を大きく引き離しています。スペックを見る限り、 Kimi-K3.1-Pro は最強のオープンウェイトモデルといえるでしょう。 弊社では以前 Kimi-K3 の Day1 検証 を行いましたが、今回はデプロイ設定やタスク...",
-  "source": "Zenn",
-  "kind": "news",
-  "published": "2026-11-12T23:50:35+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/Nana_777/items/25f3d9c5449a62cdc50f",
-  "title": "【AWS】AgentCore runtimeをV1からV2へ移行しよう【AgentCore】",
-  "summary": "はじめに Amazon Bedrock AgentCoreの次世代のruntimeは、2026年9月18日に公開されました。公式ドキュメントではV2と呼ばれ、従来のruntimeはV1です。V2は、初期化済みのエージェントのスナップショットからセッションを復元する方式で、...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-12T23:44:03+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/NTTDkyushu_CRM_CyberSec/items/8687822b927ce5992d68",
-  "title": "Dreamforce 2026、「何かすごそう」で終わらせない。Salesforceは何を「標準」にしようとしているのか",
-  "summary": "こんにちは。NTTデータ九州の楢原です。 これまで2回にわたり、 Dreamforce を起点に、AI時代に Salesforce がどう変わろうとしているのかについて書いてきました。 第1回では、 Dreamforce 2025 で示されたAgentic Enterpr...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-12T23:03:30+00:00",
-  "deadline": null
- },
- {
-  "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
-  "title": "Build once, run on any agent: A practical guide to agent skills",
-  "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
-  "source": "GitHub Blog",
-  "kind": "news",
-  "published": "2026-11-12T22:54:52+00:00",
-  "deadline": null
- },
- {
   "url": "https://framer.com/education/students",
   "title": "Framer for Education、学生はサイト制作のBasicプランが無料",
   "summary": "在学中の学生は、Webサイト制作ツールFramerのBasicプラン（年120ドル相当）を無料で使え、ポートフォリオを公開できます。公式ページのフォームから学生割引を申請して認証します（大学メールでの申請と紹介されています）。",
@@ -2404,240 +2630,6 @@
   "published": "2026-11-12T22:33:40.610333+00:00",
   "deadline": null,
   "checked": true
- },
- {
-  "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator",
-  "title": "AWS、手元のPCで動く公式エミュレータ「AWS Emulator」を公開",
-  "summary": "AWSのAPIをローカルで再現するRust製の公式エミュレータで、CC0で公開され無料で使えます。AWS CLIやSDKの接続先をローカルに向けるだけで、アカウントなしに開発やCIのテストができます。ただしIAMポリシーの評価は本番と同じではありません。",
-  "source": "調査: AWS",
-  "kind": "news",
-  "published": "2026-11-12T22:33:40.610333+00:00",
-  "deadline": null
- },
- {
-  "url": "https://httpd.apache.org/security/vulnerabilities_24.html",
-  "title": "Apache httpd 2.4.71公開、mod_http2の深刻なRCEを修正",
-  "summary": "Apache HTTP Server 2.4.55〜2.4.70のmod_http2に、競合状態によるリモートコード実行の脆弱性（CVE-2026-119618、深刻度Critical）が見つかり、2.4.71で修正されました。セルフホストでHTTP/2を有効にしている場合は、すぐに更新が必要です。",
-  "source": "調査: Apache Software Foundation",
-  "kind": "news",
-  "published": "2026-11-12T22:33:40.610333+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.microsoft.com/en-us/msrc/blog/2026/11/202611-security-update",
-  "title": "Microsoft 11月の月例更新、悪用が確認されたOutlookのゼロデイを修正",
-  "summary": "2026年11月の月例セキュリティ更新で、約1,094件のCVEが修正されました。公開前から悪用されていたOutlookのなりすましの脆弱性（CVE-2026-124194）が含まれ、Microsoftは早めの適用を呼びかけています。",
-  "source": "調査: Microsoft MSRC",
-  "kind": "news",
-  "published": "2026-11-12T22:33:40.610333+00:00",
-  "deadline": null
- },
- {
-  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2",
-  "title": "AWS、ワークロードを軽量VMで隔離する「Nitro Sandboxes」",
-  "summary": "EKSのPod、ECSのタスク、EC2のワークロードを、それぞれ専用カーネルを持つFirecrackerベースの軽量VMで隔離する機能です。AIエージェントが実行するコードの隔離に向き、追加料金はかかりません。",
-  "source": "調査: AWS",
-  "kind": "news",
-  "published": "2026-11-12T22:33:40.610333+00:00",
-  "deadline": null
- },
- {
-  "url": "https://github.com/microsoft/playwright/releases/tag/v1.65.0",
-  "title": "Playwright 1.65、テストランナーがBunでの実行に正式対応",
-  "summary": "Playwright 1.65から、`bunx --bun playwright test` でテストランナーをBun上で動かせるようになり、TypeScriptのトランスパイルはBunが行います。ウォッチモードやカスタムESMローダーは使えないなどの制限があります。",
-  "source": "調査: Microsoft / Playwright",
-  "kind": "news",
-  "published": "2026-11-12T22:33:40.610333+00:00",
-  "deadline": null
- },
- {
-  "url": "https://beyondloom.com/blog/postscript.html",
-  "title": "Let’s Write a PostScript Interpreter",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-12T22:17:32+00:00",
-  "deadline": null
- },
- {
-  "url": "https://qiita.com/ponta8240/items/06e4a9360abdc68a5c48",
-  "title": "Finder の代わりに使える macOS ファイルマネージャー「Macorn」を作りました。フォルダはそのまま、整理はいくつもの次元で",
-  "summary": "はじめに Finder をはじめとするふつうのファイルマネージャーでは、ファイルの置き場所はフォルダの階層の1つだけです。1つのファイルは、1つのフォルダにしか入れられません。 しかもその形は、たいてい人の都合ではなく、ツールやリポジトリの都合で決まります。リポジトリは...",
-  "source": "Qiita",
-  "kind": "news",
-  "published": "2026-11-12T22:16:58+00:00",
-  "deadline": null
- },
- {
-  "url": "https://developer.apple.com/foundation-models-framework",
-  "title": "Foundation Models Framework (macOS)",
-  "summary": "Article URL: https://developer.apple.com/foundation-models-framework/ Comments URL: https://news.ycombinator.com/item?id=50474361 Points: 35 # Comments: 6",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-12T21:13:26+00:00",
-  "deadline": null
- },
- {
-  "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
-  "title": "AI is turning Apple's app review process into a nightmare for synth developers",
-  "summary": "Article URL: https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html Comments URL: https://news.ycombinator.com/item?id=50474311 Points: 6 # Comments: 0",
-  "source": "Hacker News",
-  "kind": "news",
-  "published": "2026-11-12T21:09:49+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.web.nhk/newsweb/na/nd-20261113de75121",
-  "title": "マイクロソフトで接続障害が発生 世界各地に影響のおそれ | NHKニュース",
-  "summary": "アメリカのIT大手「マイクロソフト」は、「マイクロソフト365」と呼ばれるメールなどさまざまなソフトを使えるサービスで、世界各地に影響するおそれのある接続障害が発生していると発表しました。 マイク…",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-12T20:59:02+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQOGN12CY20S6A111C2000000",
-  "title": "マイクロソフト、「365」世界で大規模障害 メール送れずビジネスに影響 - 日本経済新聞",
-  "summary": "【シリコンバレー=山田遼太郎】米マイクロソフトの業務ソフト「マイクロソフト365」で日本時間13日未明から大規模な障害が起きた。世界各地で電子メールソフトに接続できない不具合が生じ、ビジネスに支障が出ている。日本も対象とみられる。マイクロソフトは日本時間13日午前3時（米西部時間12日午前10時ごろ）、X（旧...",
-  "source": "はてブ テクノロジー",
-  "kind": "news",
-  "published": "2026-11-12T20:58:39+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.freebsd.org/status/report-2026-07-2026-09",
-  "title": "FreeBSD Status Report Third Quarter 2026",
-  "summary": "Comments",
-  "source": "Lobsters",
-  "kind": "news",
-  "published": "2026-11-12T20:45:02+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.androidpolice.com/this-gigantic-100-inch-mini-led-qled-4k-google-tv-is-now-2000-off",
-  "title": "Hisense's 100-inch Mini-LED QLED Google TV just dropped $2,000",
-  "summary": "If you want to bring the theater experience home, this 100-inch screen is going to do just that. The price for something like this doesn't come cheap, but a $2,000 discount is going to make it more of a reality that won't hurt your wallet in the process.",
-  "source": "RSS: Android Police",
-  "kind": "news",
-  "published": "2026-11-12T20:35:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.macrumors.com/2026/11/12/apple-homeview-software-27-2-24v526",
-  "title": "Apple Releases Updated HomeView Software 27.2 Before Launch",
-  "summary": "With the HomeView set to start arriving to some users in just a matter of hours, Apple has released a new HomeView Software 27.2 update. The software has a build number of 24V526, and it is the second 27.2 update Apple has released for the device. Customers receiving the HomeView this week will need to install a software update during the setup process. The HomeView ships with HomeView Software 26.5 , which is approximately six months old. Apple planned to release the HomeView earlier than November 2026 but held back because it wanted to debut Siri AI in iOS 27 first. Apple today said it plans",
-  "source": "RSS: MacRumors: Mac News and Rumors - All Stories",
-  "kind": "news",
-  "published": "2026-11-12T20:34:21+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQOGN1300W0T11C26A1000000",
-  "title": "NYでビル倒壊、8人死亡・18人負傷 隣接の空き地で掘削作業中に",
-  "summary": "【ニューヨーク=共同】米東部ニューヨーク市ブルックリンの住宅街で11日夕、3階建てビルが倒壊した。マムダニ市長は12日、死者8人、負傷者18人が確認されたと明らかにした。死者のうち2人が子どもで、負傷者の1人は重体。がれきの中から救出された人には妊婦もいた。現場では雨が降る中、生存者の捜索活動が続いた。 市当局などによると、ビルに隣接する空き地では建物の新築工事で掘削作業が行われていた。米メディ...",
-  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
-  "kind": "news",
-  "published": "2026-11-12T20:30:21+00:00",
-  "deadline": null
- },
- {
-  "url": "https://toyokeizai.net/articles/-/964378",
-  "title": "アメリカが｢西半球｣の経済･安全保障戦略を再編…狙いは中国依存の低減､日本企業に新たな事業機会も | 政治・経済・投資 | 東洋経済オンライン",
-  "summary": "ラテンアメリカが日本企業にとって｢遠い世界｣であった時代は終わりを迎えつつあります。アメリカ主導で進む西半球の経済･安全保障再編とUSMCA見直しは､中国依存の低減と産業サプライチェーン再構築を促進…",
-  "source": "RSS: 東洋経済オンライン",
-  "kind": "news",
-  "published": "2026-11-12T20:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://toyokeizai.net/articles/-/964221",
-  "title": "韓国にはBLACKPINK､日本にはポケモンがあるのに台湾はTSMCしかない？―世界の若者が台湾を好きになってほしい理由 | 政治・経済・投資 | 東洋経済オンライン",
-  "summary": "国際舞台で存在感を放つ韓国のK-POPや日本のアニメ。一方で台湾が世界に誇るのはTSMCなどの最先端技術です。しかし､｢台湾を好きになる理由｣は果たしてどれほど浸透しているのでしょうか。今､文化の力…",
-  "source": "RSS: 東洋経済オンライン",
-  "kind": "news",
-  "published": "2026-11-12T20:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://toyokeizai.net/articles/-/964663",
-  "title": "エヌビディア｢暫定CEO｣に就いたコレット･クレスCFOの横顔…シスコシステムズなどで財務関連に携わる | 政治・経済・投資 | 東洋経済オンライン",
-  "summary": "米半導体業界の巨人エヌビディアで初めて女性がCEOに。CFOのコレット･クレス氏が暫定トップに就任しました。",
-  "source": "RSS: 東洋経済オンライン",
-  "kind": "news",
-  "published": "2026-11-12T20:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://toyokeizai.net/articles/-/964237",
-  "title": "｢1本4億円超｣のウイスキーも…世界的高騰が続く中､サントリー山崎蒸溜所が語る｢品質と量｣の難しい関係 | ビジネス | 東洋経済オンライン",
-  "summary": "美術品や高級ワインのように､希少なウイスキーが高値で取引される時代。その中で世界的に存在感を高める国産ウイスキー｢山崎｣は､いかにして｢質と量｣を追求しているのか。山崎蒸溜所を取材した。",
-  "source": "RSS: 東洋経済オンライン",
-  "kind": "news",
-  "published": "2026-11-12T20:30:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.macrumors.com/2026/11/12/iphone-duo-delivery-dates-continue-to-move-up",
-  "title": "Apple Continues to Move Up iPhone Duo Delivery Dates",
-  "summary": "It's a Christmas miracle: some customers who ordered the iPhone Duo through Apple and received an estimated January 25 delivery date saw their delivery windows move up to December 14 to December 21 today, according to comments posted in the MacRumors Forums and on X . A few customers have even seen their delivery date move from January 25 to December 12 to December 14 . Apple's online store still shows a January 25 delivery date for iPhone Duo orders placed today.Related Roundup: iPhone Duo Buyer's Guide: iPhone Duo (Buy Now) Related Forum: iPhone This article, \" Apple Continues to Move Up iPh",
-  "source": "RSS: MacRumors: Mac News and Rumors - All Stories",
-  "kind": "news",
-  "published": "2026-11-12T20:29:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports",
-  "title": "Jensen Huang was having a third affair, Reuters reports",
-  "summary": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
-  "source": "RSS: TechCrunch",
-  "kind": "news",
-  "published": "2026-11-12T20:26:47+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQOUD084030Y6A001C2000000",
-  "title": "不祥事受けた経営責任、根本原因で判断を",
-  "summary": "企業不正調査などに詳しい伊丹郁人弁護士は「不正や不祥事で経営陣に法的責任が認められなくても、経営責任が問われることはある」と話す。責任の所在を判断する際には「問題の根本原因を掘り下げて考えることが重要だ。不正に直接関与していなくても、過度な業績圧力が不正の背景にあったり、不正の兆候を長期間見逃す組織体制を放置したりした場合は経営責...",
-  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
-  "kind": "news",
-  "published": "2026-11-12T20:24:13+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.nikkei.com/article/DGXZQOGR12BU20S6A111C2000000",
-  "title": "プーチン氏、ウクライナ東部で人道支援を提案 「誰の支配下か明らかに」",
-  "summary": "ロシアのプーチン大統領は12日、ロシアが制圧したと主張するウクライナ東部ドネツク州の要衝、コンスタンチノフカでのウクライナと共同の人道支援を提案した。モスクワで開いた米国のウィットコフ和平交渉担当特使らとの会談で表明した。 コンスタンチノフカ一帯はなお戦闘が続いている。ロシアは制圧を繰り返し宣言しているものの、ウクライナは認めていない。プーチン氏は「人道支援をすれば、誰が支配しているかが明らかに...",
-  "source": "RSS: 日経新聞 総合 (self-hosted / RSSHub)",
-  "kind": "news",
-  "published": "2026-11-12T20:20:56+00:00",
-  "deadline": null
- },
- {
-  "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/11/12/microsoft-365-down-tech-giant-says-server-failures-causing-disruption",
-  "title": "Microsoft 365 Down: Tech Giant Says Server Failures Causing Disruption",
-  "summary": "Reports of user issues with Microsoft 365 surged early Thursday afternoon.",
-  "source": "RSS: Forbes - Business",
-  "kind": "news",
-  "published": "2026-11-12T20:19:04+00:00",
-  "deadline": null
- },
- {
-  "url": "https://toyokeizai.net/articles/-/964303",
-  "title": "従業員当たりの｢内部通報が多い会社｣ランキング…製造業･非製造業それぞれのトップ100社 | ライフ | 東洋経済オンライン",
-  "summary": "連結従業員数100人当たり通報件数上位100社をランキングしました。",
-  "source": "RSS: 東洋経済オンライン",
-  "kind": "news",
-  "published": "2026-11-12T20:15:00+00:00",
-  "deadline": null
- },
- {
-  "url": "https://news.mynavi.jp/article/20261113-5310759",
-  "title": "『めちゃイケ』岡村オファー最新作、地上波GP帯で4時間半超放送　撮影初日にアキレス腱断裂も…5万人の東京ドームへ",
-  "summary": "伝説の青ジャージを再び身にまとい、50代の岡村隆史が挑んだシリーズ最長484日間の密着。その道のりには、撮影初日のアキレス腱断裂という大きな試練があった――。フジテレビ系バラエティ番組『めちゃ×2イケてるッ!』誕生30周年を記念し、名物企画「岡村隆史のオファーが来ました」シリーズ最新作『めちゃ×2メチャってるッ!』が、12月5日(18:30～23:10 ※一部地域除く)に地上波で初放送される。",
-  "source": "RSS: マイナビニュース",
-  "kind": "news",
-  "published": "2026-11-12T20:15:00+00:00",
-  "deadline": null
  },
  {
   "url": "https://git-tower.com/students",
@@ -2676,6 +2668,16 @@
   "source": "調査: Apple",
   "kind": "deal",
   "published": "2026-11-10T22:33:36.406257+00:00",
+  "deadline": null,
+  "checked": true
+ },
+ {
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbTNWVDZCWGRpdWtVM1Y3MUZvVEZMSFl3WVMxS0VTTzZIcTdvR0RQaVhfUDhoWXpWWHVoNmltOVdiTERqcW5MeEFBTklscDVvNFlvTk5oVGozWFkxVmpxRU1rSHZUS21yZWFNM25nYVh6T2xOOEtlY1d5R0VtS2tnNHRIVGQ5Tjc2YmpQc2NDRHdZeUo1RXJfMW4xdXNVTTg3TkMxVjFDSjZWM25XRnI0NGpwRDBQOWNyVzlKbDN3NWN4dw?oc=5",
+  "title": "マイクロソフト、無料の教育機関向けメールおよび学生向けライセンス特典を廃止へ - news.lavx.hu",
+  "summary": "マイクロソフト、無料の教育機関向けメールおよび学生向けライセンス特典を廃止へ news.lavx.hu",
+  "source": "Google News: 学生無料ツール",
+  "kind": "deal",
+  "published": "2026-11-10T12:51:18+00:00",
   "deadline": null,
   "checked": true
  },
